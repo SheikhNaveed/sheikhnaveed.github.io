@@ -143,7 +143,7 @@ section.section.section-parallax {
 
 section.custom-timeline .timeline-box .experience-description.spacing {
 	padding: 40px 0; 
-	margin: 0 60px;
+	margin: 0 4%;
 }
 
 .pl30{
@@ -155,9 +155,7 @@ section.custom-timeline .timeline-box .experience-description.spacing {
 }
 
 section.custom-timeline {
-    /* width: calc(100% - 30px); */
     margin: 0 10px 0 10px;
-    /* padding: 0; */
     width: 100%;
 }
 
@@ -172,11 +170,54 @@ section.custom-timeline .timeline-box.right:before {display:none;}
 }
 
 .modal-backdrop {
-    /* position: relative; */
-    /* top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1040;
-    background-color: #000; */
+}
+
+section.custom-timeline {
+    margin: 0;
+}
+
+section.timeline .timeline-box.right {
+
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.max-height-300 {
+	max-height: 300px;
+}
+
+.max-height-150 {
+	max-height: 150px;
+}
+
+.height-150 {
+	height: 150px;
+}
+
+.height-250 {
+	height: 250px;
+}
+
+.ofh {
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+.grid {
+	background: #EE1B2D;
+color: white;
+padding: 20px;
+border: 20px solid white;
+border-top: none;
+}
+
+
+.grid h4 {
+	color: white !important;
+}
+
+img.vam {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }

@@ -1,0 +1,86 @@
+// ==========================================================================
+// eForm Admin Form Builder Container
+// ==========================================================================
+#ipt_fsqm_form {
+	margin: 10px 250px 10px 0px;
+	max-width: 1600px;
+
+	@media screen and ( max-width: $screen-xs-max ) {
+		margin-right: 0;
+	}
+
+	#ipt_fsqm_form_builder {
+
+		#ipt-eform-builder-droppables-container {
+			width: 250px;
+			position: fixed;
+			right: 13px;
+			top: 109px;
+			bottom: 64px;
+			background-color: $preset-bg;
+			height: auto;
+			@include material__box-shadow-subtle();
+			margin: 0;
+			padding: 0 0 64px 0;
+
+			@media screen and ( max-width: $screen-xs-max ) {
+				position: relative;
+				margin-top: 14px;
+				height: 500px;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				width: 100%;
+				.ipt_uif_droppable_elements_parent {
+					float: left;
+					width: 50%;
+					min-width: 250px;
+				}
+				.ipt_uif_droppable_element {
+					float: left;
+					width: 250px;
+				}
+			}
+
+			// Heading
+			.droppable-container-heading {
+				@include material__box-shadow-subtle();
+				font-size: 16px;
+				text-transform: uppercase;
+				color: $primary-color-text;
+				background-color: $primary-color;
+				border-bottom: 5px solid $primary-color-dark;
+				margin: 0;
+				padding: 10px 14px;
+			}
+
+			// Adder
+			#ipt-eform-builder-container-adder-wrap {
+				position: absolute;
+				height: 45px;
+				width: 100%;
+				bottom: 0;
+				left: 0;
+				@include material__box-shadow-bottom();
+				.ipt_uif_button_container {
+					margin: 0;
+					padding: 0;
+					.ipt_uif_button {
+						width: 100%;
+						background-color: $builder-adder-background;
+
+						&:hover {
+							background-color: $builder-adder-background-hover;
+						}
+						.button-icon {
+							position: relative;
+							top: 1px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
