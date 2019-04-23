@@ -242,3 +242,10 @@ img.vam {
     top: -10px;
     z-index: 100000000000;
 }
+
+.carousel-indicators {
+    position: FIXED;
+ 
+	top: 60px !important;
+	bottom: auto;
+}
