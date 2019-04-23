@@ -239,7 +239,7 @@ img.vam {
 
 .carousel-indicators {
 
-    top: -10px;
+    /* top: -10px; */
     z-index: 100000000000;
 }
 
@@ -249,3 +249,11 @@ img.vam {
 	top: 60px !important;
 	bottom: auto;
 }
+
+.thumb-info {
+
+    width: 100%;
+}
+
+.pl35 {padding-left:35px;}
+.pr35 {padding-right:35px;}
