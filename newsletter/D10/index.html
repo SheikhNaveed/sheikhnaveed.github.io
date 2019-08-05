@@ -138,27 +138,17 @@
 			
 		});
 
-		
+	
 
-		// $(".test").click(function () {
-		// 	$(this).closest('div.active').removeClass('active');
+		$(".test").click(function () {
+			$(this).closest('div.active').removeClass('active');
 
-		// 	var value = $(this).attr('href');
-		// 	alert(value);
+			var value = $(this).attr('href');
+			alert(value);
 
-		// 	$('value').closest('div.carousel-item').addClass('active');
+			$([id=value]).closest('div.carousel-item').addClass('active');
 
-		// });
-
-		// $(".test").click(function () {
-		// 	$(this).closest('div.active').removeClass('active');
-
-		// 	var value = $(this).attr('href');
-		// 	alert(value);
-
-		// 	$([id=value]).closest('div.carousel-item').addClass('active');
-
-		// });
+		});
 
 		
 	</script>
