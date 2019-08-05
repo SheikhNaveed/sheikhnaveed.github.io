@@ -133,7 +133,15 @@
 			$("#e").load("e.html");
 			$("#f").load("f.html");
 			$("#g").load("g.html");
+			// $(this).closest(".aComment").removeClass("playing");
+			// $(this).closest('div.playing').removeClass('playing')
 		});
+
+		$('.test').on('click', function() {
+			// $(this).closest('div.active').removeClass('active');
+			// $(this).closest('div.active').remove();
+			$(this).parents('div.active').remove();
+  });
 	</script>
 
 </body>
