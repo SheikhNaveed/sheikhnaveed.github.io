@@ -29248,3 +29248,12 @@ img.vam {
 	top: 0;
 }
 
+.height-80 {height:80px;}
+
+.mt20 {
+    margin-top: 20px !important;
+}
+
+.mb5 {margin-bottom: 5px !important;}
+
+.fr {float:right;}
