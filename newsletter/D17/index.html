@@ -58,7 +58,7 @@
 
 		
 		<!-- Modal -->
-		<div class="modal fade" id="modal-02" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		<!-- <div class="modal fade" id="modal-02" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
 			aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
@@ -76,9 +76,9 @@
 
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- Modal -->
-		<div class="modal fade" id="modal-03" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		<!-- <div class="modal fade" id="modal-03" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
 			aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
@@ -96,9 +96,9 @@
 
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- Modal -->
-		<div class="modal fade" id="modal-04" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		<!-- <div class="modal fade" id="modal-04" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
 			aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
@@ -115,7 +115,7 @@
 
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<!-- Modal -->
 		<div class="modal fade" id="modal-05" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
@@ -180,18 +180,18 @@
 
 		<div id="demo" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
 			<ol class="carousel-indicators pt10">
-				<li data-target="#demo" data-slide-to="0" class="active"></li>
-				<li data-target="#demo" data-slide-to="1"></li>
-				<li data-target="#demo" data-slide-to="2"></li>
-				<li data-target="#demo" data-slide-to="3"></li>
-				<li data-target="#demo" data-slide-to="4"></li>
-				<li data-target="#demo" data-slide-to="5"></li>
-				<li data-target="#demo" data-slide-to="6"></li>
-				<li data-target="#demo" data-slide-to="7"></li>
-				<li data-target="#demo" data-slide-to="8"></li>
-				<li data-target="#demo" data-slide-to="9"></li>
+				<li data-target="#demo" data-slide-to="0" class="active" data-toggle="tooltip" title="Profile"></li>
+				<li data-target="#demo" data-slide-to="1" data-toggle="tooltip" title="5 Things You Need to Know About Virtuoso Wanderlist"></li>
+				<li data-target="#demo" data-slide-to="2" data-toggle="tooltip" title="A Chat with"></li>
+				<li data-target="#demo" data-slide-to="3" data-toggle="tooltip" title="The Grid"></li>
+				<li data-target="#demo" data-slide-to="4" data-toggle="tooltip" title="Radar Recommendations"></li>
+				<li data-target="#demo" data-slide-to="5" data-toggle="tooltip" title="Some Details"></li>
+				<li data-target="#demo" data-slide-to="6" data-toggle="tooltip" title="Staff Milestones"></li>
+				<li data-target="#demo" data-slide-to="7" data-toggle="tooltip" title="Video"></li>
+				<li data-target="#demo" data-slide-to="8" data-toggle="tooltip" title="Newsletter Archive"></li>
+				<!-- <li data-target="#demo" data-slide-to="9"></li>
 				<li data-target="#demo" data-slide-to="10"></li>
-				<li data-target="#demo" data-slide-to="11"></li>
+				<li data-target="#demo" data-slide-to="11"></li> -->
 
 
 			</ol>
@@ -218,10 +218,10 @@
 
 
 				
-				<div class="carousel-item" data-interval="100000">
-					<div id="b"></div>
+				<div class="carousel-item active" data-interval="100000">
+					<div id="profile"></div>
 				</div>
-				<div class="carousel-item" data-interval="1000000000000">
+				<!-- <div class="carousel-item" data-interval="1000000000000">
 					<div id="b2"></div>
 				</div>
 				<div class="carousel-item" data-interval="1000000000000">
@@ -229,30 +229,30 @@
 				</div>
 				<div class="carousel-item" data-interval="1000000000000">
 					<div id="b4"></div>
+				</div> -->
+				<div class="carousel-item" data-interval="1000000000000">
+					<div id="fiveThings"></div>
 				</div>
 				<div class="carousel-item" data-interval="1000000000000">
-					<div id="d"></div>
-				</div>
-				<div class="carousel-item" data-interval="1000000000000">
-					<div id="g"></div>
+					<div id="chat"></div>
 				</div>
 				<!-- <div class="carousel-item" data-interval="1000000000000">
 					<div id="gOne"></div>
 				</div> -->
 				<div class="carousel-item" data-interval="1000000000000">
-					<div id="c"></div>
+					<div id="theGrid"></div>
 				</div>
-				<div class="carousel-item active" data-interval="1000000000000">
+				<div class="carousel-item" data-interval="1000000000000">
 					<div id="radarRecommendations"></div>
 				</div>
 				<div class="carousel-item" data-interval="1000000000000">
-					<div id="a"></div>
+					<div id="textPage"></div>
 				</div>
 				<div class="carousel-item" data-interval="1000000000000">
-					<div id="e"></div>
+					<div id="milestones"></div>
 				</div>
 				<div class="carousel-item" data-interval="1000000000000">
-					<div id="h"></div>
+					<div id="video"></div>
 				</div>
 				<div class="carousel-item " data-interval="100000">
 					<div id="toc"></div>
@@ -272,19 +272,19 @@
 		$(function () {
 			// $("#header").load("header.html");
 			
-			$("#b").load("b.html");
-			$("#b2").load("b2.html");
-			$("#b3").load("b3.html");
-			$("#b3").load("b3.html");
-			$("#b4").load("b4.html");
-			$("#d").load("d.html");
-			$("#g").load("g.html");
+			$("#profile").load("profile.html");
+			// $("#b2").load("b2.html");
+			// $("#b3").load("b3.html");
+			// $("#b3").load("b3.html");
+			// $("#b4").load("b4.html");
+			$("#fiveThings").load("fiveThings.html");
+			$("#chat").load("chat.html");
 			// $("#gOne").load("gOne.html");
-			$("#c").load("c.html");
+			$("#theGrid").load("theGrid.html");
 			$("#radarRecommendations").load("radarRecommendations.html");
-			$("#a").load("a.html");
-			$("#e").load("e.html");
-			$("#h").load("h.html");
+			$("#textPage").load("textPage.html");
+			$("#milestones").load("milestones.html");
+			$("#video").load("video.html");
 			$("#toc").load("toc.html");
 
 		});
@@ -308,6 +308,10 @@
 			//This strange selector seems to work universally
 			$("html, body").animate({ scrollTop: 0 }, 1000);
 		});
+
+		$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
 
 
 	</script>
