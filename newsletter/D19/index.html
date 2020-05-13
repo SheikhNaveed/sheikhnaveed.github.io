@@ -156,7 +156,7 @@
 
 
 
-				<div class="carousel-item" data-interval="100000">
+				<div class="carousel-item active" data-interval="100000">
 					<div id="profile"></div>
 				</div>
 
@@ -182,7 +182,7 @@
 				<div class="carousel-item" data-interval="1000000000000">
 					<div id="video"></div>
 				</div>
-				<div class="carousel-item active " data-interval="100000">
+				<div class="carousel-item" data-interval="100000">
 					<div id="archive"></div>
 				</div>
 
@@ -195,6 +195,7 @@
 
 	<!-- Vendor -->
 	<script src="js/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script>
 		
@@ -239,26 +240,6 @@
 		});
 
 
-		function recp(id) {
-
-			$('#profiles .detail-page').load(id + '.html');
-
-			//   $('#profiles').append('<input action="action" onclick="window.history.go(-1); return false;" type="submit" value="Cancel"/>')
-			//   $('#myStyle').load('data.php?id=' id );
-		}
-		
-		// function chatdetail(id) {
-		// 	$('#Chat .go-back-button').show();
-		// 	$('#Chat .table-of-content').hide();
-		// 	$('#Chat .detail-page').load(id + '.html');
-		// 	$('#Chat .detail-page:hidden').show();
-		// }
-
-		// function breadscrumb() {
-		// 	$('#Chat .go-back-button').hide();
-		// 	$('#Chat .table-of-content').show();
-		// 	$('#Chat .detail-page').hide();
-		// }
 
 		function chatdetail(id) {
 			$('.go-back-button').show();
