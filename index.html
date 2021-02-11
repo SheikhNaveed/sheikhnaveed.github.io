@@ -1,1 +1,95 @@
-<h1>package</h1>
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="css/img/favicon.ico">
+
+    <title></title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/style-lg.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+  </head>
+
+  <body>
+      <div class="wrapper">
+      <div class="loginBox clearfix animated bounceIn">
+            <div id="login-alert" class="alert alert-error" style="display:none;">
+            </div>
+            <div>
+
+                <a href="#" id="login-linkedIn" class="mb10 linkedInLogin wow zoomInDown" data-wow-delay="3s"><img src="css/img/linkedin_login.png" /></a>
+                <div><a href="#" id="register-linkedIn">Register with LinkedIn</a></div>
+            </div>
+            <div>
+                <form class="form-horizontal loginForm">
+                    <h6 class="mt40">Or use your account</h6>
+                    <div class="control-group">
+                        <div class="controls">
+                            <input type="text" id="username" placeholder="Username" class="wow fadeInDown" data-wow-delay="0.5s">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="controls">
+                            <input type="password" id="password" placeholder="Password" class="wow fadeInDown" data-wow-delay="1s">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="controls">
+                            <button type="submit" class="btn style1 wow fadeInDown" id="loginButton" data-wow-delay="1.5s">Sign in</button>
+                        </div>
+                    </div>
+
+                </form>
+                <div class="col-xs-4 tal pn wow fadeInLeft" data-wow-delay="2s"><a href="#" id="register">Register</a></div>
+                <div class="col-xs-8 tar pn wow fadeInRight" data-wow-delay="2.5s"><a href="#" id="resetPassword">Reset Password</a></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script type="text/javascript">
+//     $('a,button').hover(
+//         function(){ $(this).toggleClass('fadeIn');},
+//         function(){$(this).toggleClass('fadeOut');}
+// );
+
+// $('a,button').hover(
+//         function(){ $(this).addClass('fadeIn').removeClass('fadeOut');},
+//         function(){$(this).addClass('fadeOut').removeClass('fadeIn');}
+// );
+$('button, a').hover(
+    function () {$(this).fadeTo('fast', 0.5);},
+    function () {$(this).fadeTo('slow', 1);}
+    );
+new WOW().init();
+
+$('<div class="loaderWrap"><div class="loader"><article class="spinnerLogo two">LOGO</article><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div></div>').prependTo('body');
+
+$(window).load(function() {
+    $('.loaderWrap').fadeOut(1000);
+    $('body').fadeIn(1000);
+});
+
+</script>
+
+
+</body>
+
+</html>

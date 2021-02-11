@@ -1,0 +1,17 @@
+/* Only for medium devices*/
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+} /* Ending Only for medium devices*/
+
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+.loginBox {
+    width: 40%;
+    padding: 50px 5%;
+}
+
+} /* Ending Medium devices (desktops, 992px and up) */
