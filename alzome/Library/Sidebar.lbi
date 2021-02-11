@@ -1,0 +1,47 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div class="inner-bg sidebar">
+			<div class="col3">
+				<h3>Featured Jobs</h3>
+				<ul class="jobs">
+					<li>
+						<span class="date">14 July</span>
+						<a href="#" class="job-title">Frontend PHP Developer</a>
+						<a href="#" class="company">Icelolly Marketing </a>
+						<a href="#" class="job-location">Bradford, UK</a>
+					</li>
+					<li>
+						<span class="date">14 July</span>
+						<a href="#" class="job-title">Frontend PHP Developer</a>
+						<a href="#" class="company">Icelolly Marketing </a>
+						<a href="#" class="job-location">Bradford, UK</a>
+					</li>
+				</ul>
+			</div>
+            <br /><br /><br />
+			
+			<div class="col3">
+				<h3>Latest Jobs</h3>
+				<ul class="jobs">
+					<li>
+						<span class="date">14 July</span>
+						<a href="#" class="job-title">Frontend PHP Developer</a>
+						<a href="#" class="company">Icelolly Marketing </a>
+						<a href="#" class="job-location">Bradford, UK</a>
+					</li>
+					<li>
+						<span class="date">14 July</span>
+						<a href="#" class="job-title">Frontend PHP Developer</a>
+						<a href="#" class="company">Icelolly Marketing </a>
+						<a href="#" class="job-location">Bradford, UK</a>
+					</li>
+				</ul>
+			</div>
+			<br /><br /><br />
+			<div class="col3">
+				<h3>Client Testimonials</h3>
+				<div class="testimonial">
+					<p>RealMatch’s Total Talent Reach program has helped us increase our recruitment advertising revenue by approximately 500%.</p>
+					<span>Greg Jones, President and CEO</span>
+					<a href="#"></a>
+				</div>
+			</div>
+		</div>

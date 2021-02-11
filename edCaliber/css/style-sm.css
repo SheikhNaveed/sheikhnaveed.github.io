@@ -1,0 +1,145 @@
+/* Only for small devices*/
+@media (min-width: 768px) and (max-width: 991px) { 
+
+.pl0-sm-o { padding-left: 0; }
+
+#primary-nav .nav.navbar-nav { margin-top: 10px;}
+
+div.materials > div {
+    margin-bottom: 0px;
+}
+
+.agenda .time bdi {
+    margin-top: 5px !important;
+}
+
+
+
+} /* Ending Only for small devices*/
+
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .tar-sm {text-align: right;}
+.pl0-sm { padding-left: 0; }
+.pr0-sm { padding-right: 0; }
+
+.ln .activeLesson a:after {
+    border-left-width: 14px;
+    border-right-width: 14px;
+}
+
+.mr10-sm {margin-right:10px;}
+.ml10-sm {margin-left:10px;}
+
+.leftBreadscrumb .selected a:after {
+    border-left-width: 17px;
+    border-right-width: 17px;
+}
+
+.ln.moduleUnit li.expanded {
+    width: 42%;
+}
+
+.ln li.expanded {
+    width: 38%;
+    text-align: left;
+}
+
+
+div.primary-nav {
+    padding-top: 10px;}
+    
+    #secondaryNav .dropdown > a {
+    margin-right: 10px;
+}
+
+.user {
+    float: right;
+}
+    
+.level-name {
+font-size:39px;
+}
+
+.london header h1 {
+    margin-bottom:0px
+}
+
+
+ul.viewStyles .disabled a {
+    cursor: not-allowed;
+}
+
+.books img {
+    margin-bottom: 0px;
+}
+
+#footer ul {
+    margin-top: 0px;
+}
+
+.agenda ol span {
+    margin-bottom: 0;
+}
+
+div.materials > div {
+    margin-bottom: 0;
+}
+
+.books img {
+    margin-top: 0;
+}
+
+.lesson-nav {
+    padding-right: 7%;
+}
+
+.mod .expanded li {
+    width: 50% !important;
+}
+
+.lesson-nav {
+    padding-right: 6%;
+}
+  
+.lesson-nav .expander {
+    right: -6%;
+}
+
+.lesson-nav i {
+    display: none;
+}
+
+.lesson-nav b {
+    display: inline-block !important;
+}
+
+.lesson-nav li {
+    padding: 0 10px;
+}
+
+.material .options {
+    left:0;
+}
+
+.material .options .icon,.material .options .fa {
+width: 40%;
+display:inline-block;
+}
+
+@media (min-width:1024px) {
+    .material .options .icon,.material .options .fa {
+        width: auto;
+        display:block;
+    }
+    
+    .material .options {
+        left:auto;
+    }
+}
+
+} /* Ending Small devices (tablets, 768px and up) */

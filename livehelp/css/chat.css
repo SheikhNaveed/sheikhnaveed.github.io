@@ -1,0 +1,568 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body.popup.Green { background: #638801;}
+
+.lh_popup .lh_cw .cnt .lh_cwtop { padding:0;}
+.lh_popup .lh_cw .cnt .lh_cwtop div { padding-left:10px;}
+.lh_cw { position:absolute; bottom:0; right: 2%; font:12px/18px Arial, Helvetica, sans-serif; width: 96%; height: 100%; width: 480px; height: 400px; right: 29px;}
+
+.lh_cw .lft, .lh_cw .rgt {width:9px; }
+.lh_cw .cnt {position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
+.lh_cw .cnt .lh_cwtop {font-size:14px; font-weight:bold; height:40px; line-height:40px; padding:0 5px; }
+.lh_cw .cnt .lh_cwtop div {}
+.lh_cw .cnt .lh_cwtop .lh_cwtr { width:200px; position: absolute; right: -5px; top: 15px; }
+.lh_popup .lh_cw .cnt .lh_cwtop .lh_cwtr { right: 0; }
+.lh_cw .cnt .lh_cwtop .lh_cwtr a { display:block; float:right; margin-right:10px;}
+.lh_cw .cnt .lh_cwtop .lh_cwtr a.minimize { width:15px; height:10px; background:url( img/icons.png) 0 0; }
+.lh_cw .cnt .lh_cwtop .lh_cwtr a.expand { width:12px; height:12px; background:url( img/icons.png) -25px 0; }
+.lh_cw .cnt .lh_cwtop .lh_cwtr a.exit { width:12px; height:12px; background:url( img/icons.png) -47px 0; }
+.lh_cw .cnt .lh_cwtop .lh_cwtr a.embed { width:12px; height:12px; background:url( img/icons.png) -68px 0; }
+
+.lh_cw .cnt .chatw { background:#fff; overflow-y:scroll; height: auto; bottom: 69px; font-size: 14px;border-radius: 2px; margin-bottom: 1px; position: absolute; top: 123px; overflow-x: hidden;}
+
+
+
+/*.lh_cw .chatw .message { margin:10px; padding-bottom:10px; background: #87BA01; border-radius: 4px; position: relative;}*/
+.lh_cw .chatw .message .name { font-size:14px; clear:both;}
+.lh_cw .chatw .message .name .time { float:right; font-size:11px; color:#aaa;}
+.lh_cw .chatw .message .txt { margin: 0; margin-left: 40px;}
+
+.lh_cw .chatw .message.operator .name { color:#555;}
+.lh_cw .chatw .message.visitor .name { color:#346500;}
+
+.lh_cw .chattext { bottom: 29px; height: 29px; background:#fff; left:0; right:0; border-radius: 2px; padding: 5px 0 5px 10px; position: absolute; padding: 5px 0 5px 1%;}
+.lh_cw .chattext textarea { width:99%; height: 33px; padding: 0; border:0; background:none; resize:none; outline:none; font: 13px/15px Arial, Helvetica, sans-serif; color: black; width: 100%;}
+.lh_cw .btm {position:absolute; bottom:0; height:30px; line-height:30px; left:0; right:0; font-size:11px;}
+.lh_cw .btm .secure { float:left; margin-top: 10px;}
+.lh_cw .btm .pwd { width: 127px; float:right; text-align:right; padding-right: 4px;}
+.lh_cw .btm .pwd a { text-decoration:none;}
+
+
+.lh_cw .cnt .chatw, .lh_cw .chattext, .lh_cw .btm {
+	left: 0; right: 0; 
+}
+.lh_popup .lh_cw .cnt .chatw, .lh_popup .lh_cw .chattext, .lh_popup .lh_cw .btm {
+	left:9px; right:9px; 
+}
+
+.lh_cw .lft {left: -8px;}
+.lh_cw .rgt {right: -9px;}
+.lh_cw .lft, .lh_cw .rgt {position: absolute;  top: 0; bottom: 0;}
+
+/*BLACK*/
+.lh_cw.black .lft {background:url( img/blk.png) 0 0;}
+.lh_cw.black .rgt {background:url( img/blk.png) 0 -1000px;}
+.lh_cw.black .cnt {background:url( img/blk.png) 0 -2000px repeat-x;}
+.lh_cw.black .btm, .lh_cw.black .btm a {color:#888;}
+/*.lh_cw.black .btm .secure { background:url( img/secure.png) 0 center no-repeat;}
+*/.lh_cw.black .cnt .lh_cwtop { color:#fff; text-shadow:1px 1px #000;}
+.lh_popup .lh_cw.black .cnt {background-color:#222;;}
+
+/*WHITE*/
+.lh_cw.white .lft {background:url( img/wht.png) 0 0 }
+.lh_cw.white .rgt {background:url( img/wht.png) 0 -1000px; }
+.lh_cw.white .cnt {background:url( img/wht.png) 0 -2000px repeat-x;}
+.lh_cw.white .btm, .lh_cw.white .btm a {color:#777;}
+.lh_cw.white .btm .secure { background:url( img/secure_wht.png) 0 center no-repeat;}
+.lh_cw.white .cnt .lh_cwtop .lh_cwtr a.minimize { width:15px; height:10px; background:url( img/icons_wht.png) 0 0; }
+.lh_cw.white .cnt .lh_cwtop .lh_cwtr a.expand {background:url( img/icons_wht.png) -25px 0; }
+.lh_cw.white .cnt .lh_cwtop .lh_cwtr a.exit { background:url( img/icons_wht.png) -47px 0; }
+.lh_cw.white .cnt .lh_cwtop .lh_cwtr a.embed { background:url( img/icons_wht.png) -68px 0; }
+.lh_cw.white .cnt .lh_cwtop { color:#222; text-shadow:1px 1px #fff;}
+.lh_popup .lh_cw.white .cnt {background-color:#dddddd;}
+
+/*ORANGE*/
+.lh_cw.orange .lft {background:url( img/orange.png) 0 0 }
+.lh_cw.orange .rgt {background:url( img/orange.png) 0 -1000px; }
+.lh_cw.orange .cnt {background:url( img/orange.png) 0 -2000px repeat-x;}
+.lh_cw.orange .btm, .lh_cw.orange .btm a {color:#fff;}
+/*.lh_cw.orange .btm .secure { background:url( img/secure.png) 0 center no-repeat;}
+*/.lh_cw.orange .cnt .lh_cwtop { color:#fff; text-shadow:1px 1px #000;}
+.lh_popup .lh_cw.orange .cnt {background-color:#ff9100;}
+
+/*RED*/
+.lh_cw.red .lft {background:url( img/red.png) 0 0 }
+.lh_cw.red .rgt {background:url( img/red.png) 0 -1000px; }
+.lh_cw.red .cnt {background:url( img/red.png) 0 -2000px repeat-x;}
+.lh_cw.red .btm, .lh_cw.red .btm a {color:#fff;}
+.secure { background:url( img/secure.png) 0 center no-repeat;}
+.lh_cw.red .cnt .lh_cwtop { color:#fff; text-shadow:1px 1px #000;}
+.lh_popup .lh_cw.red .cnt {background-color:#ca0000;}
+
+/*PINK*/
+.lh_cw.pink .lft {background:url( img/pink.png) 0 0 }
+.lh_cw.pink .rgt {background:url( img/pink.png) 0 -1000px; }
+.lh_cw.pink .cnt {background:url( img/pink.png) 0 -2000px repeat-x;}
+.lh_cw.pink .btm, .lh_cw.pink .btm a {color:#fff;}
+/*.lh_cw.pink .btm .secure { background:url( img/secure.png) 0 center no-repeat;}
+*/.lh_cw.pink .cnt .lh_cwtop { color:#fff; text-shadow:1px 1px #000;}
+.lh_popup .lh_cw.pink .cnt {background-color:#ff1999;}
+
+/*BLUE*/
+.lh_cw.blue .lft {background:url( img/blue.png) 0 0 }
+.lh_cw.blue .rgt {background:url( img/blue.png) 0 -1000px; }
+.lh_cw.blue .cnt {background:url( img/blue.png) 0 -2000px repeat-x;}
+.lh_cw.blue .btm, .lh_cw.blue .btm a {color:#fff;}
+/*.lh_cw.blue .btm .secure { background:url( img/secure.png) 0 center no-repeat;}
+*/.lh_cw.blue .cnt .lh_cwtop { color:#fff; text-shadow:1px 1px #000;}
+.lh_popup .lh_cw.blue .cnt {background-color:#0068c9;}
+
+/*GREEN*/
+.lh_cw.green .lft {background: url(img/green.png) 0 0;  }
+.lh_cw.green .rgt {background: url( img/green.png) 0 -1000px; }
+.lh_cw.green .cnt {background: url( img/green.png) 0 -2000px repeat-x;}
+.lh_cw.green .btm, .lh_cw.green .btm a {color:#fff;}
+.lh_cw.green .btm .secure {
+    color: red;
+}
+.lh_cw.green .cnt .lh_cwtop { color:#fff; text-shadow:1px 1px #000;}
+.lh_popup .lh_cw.green .cnt {background-color:#638701;}
+
+
+.operator .txt:after, .visitor .txt:after {
+    content: "";
+    display: block;
+    background: transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.operator .txt:after{
+    right: -6px;
+	border-left-width:8px;
+	border-left-style:solid;
+}
+
+.green .operator .txt:after{
+    border-left-color:#87BA01;
+}
+
+.visitor .txt:after {
+    left: -7px;
+    border-right: 7px solid #A5A1BD;
+}
+
+
+
+
+
+.green .operator .txt {
+    background: #87BA01;
+    color: white;
+}
+.green .operator .txt:after{
+    border-left-color:#87BA01;
+}
+
+
+.pink .operator .txt {
+    background: #FF33BD;
+    color: white;
+}
+.pink .operator .txt:after{
+    border-left-color:#FF33BD;
+}
+
+
+.white .operator .txt, .black .operator .txt {
+    background: #EEEEEE;
+    color: rgb(101, 106, 117);
+}
+.white .operator .txt:after, .black .operator .txt:after{
+    border-left-color:#EEEEEE;
+}
+
+
+.blue .operator .txt {
+    background: #00AEFF;
+    color: white;
+}
+.blue .operator .txt:after{
+    border-left-color:#00AEFF;
+}
+
+
+.orange .operator .txt {
+    background: #FFD24D;
+    color: white;
+}
+.orange .operator .txt:after{
+    border-left-color:#FFD24D;
+}
+
+
+.red .operator .txt {
+    background: #FC6565;
+    color: white;
+}
+.red .operator .txt:after{
+    border-left-color:#FC6565;
+}
+
+
+.visitor .time {
+    left: 5px;
+}
+.operator .time {
+    right: 10px;
+}
+
+.visitor .time, .operator .time {
+   color:#B2B2B2;
+   font-size: 10px;
+   position: absolute;
+   top: 50%;
+   margin-top: -8px;
+   *margin-top: -18px;
+}
+
+
+.operator .txt {
+    float: right;margin:10px; padding-bottom:10px; border-radius: 4px; position: relative;
+    margin-right: 35px !important;
+}
+
+.visitor .txt {
+    float: left;
+    margin: 5px; padding-bottom:10px; background: white; border-radius: 4px; position: relative; border:1px solid #A5A1BD;
+    color: #4B4765;
+    margin-left: 35px !important;
+}
+
+.operator .txt, .visitor .txt { padding: 5px 1%; line-height: 150%; /* width: 75%; */}
+
+.message:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.message {
+    position: relative;
+    padding: 5px 10px;
+    overflow: hidden;
+}
+
+
+#header {
+    background: #fcfcfc;  -webkit-box-shadow: 0 1px 0 0 rgba(0,0,0,.1);  box-shadow: 0 1px 0 0 rgba(0,0,0,.1);
+      /* Firefox v3.5+ */  
+    /* Safari v3.0+ and by Chrome v0.2+ */  /* Firefox v4.0+ , Safari v5.1+ , Chrome v10.0+, IE v10+ and by Opera v10.5+ */    
+    height: 56px;
+    width: inherit;
+    margin-top: 5px;
+    border-radius: 2px;
+    padding: 10px;
+    margin-bottom: 1px;
+}
+
+
+.chatDes {
+    float: left;  
+    font-size: 14px;    color:rgb(0,45,94);  
+    line-height: 1em;
+}
+
+.chatDes li {
+    display: inline-block;
+    margin-right: 10px;
+}
+ {
+    float: left;
+}
+
+.chatPic li {
+}
+.chatPic b {
+    display: block;
+}
+.chatDes b {
+    display: block;
+    color: #CAC6C9;    font-size: 12px;  
+    font-weight: 300;
+}
+.chatPic img {
+    width: 100%;
+}
+
+.chatLogo img {
+    /* float: right; */
+    vertical-align: middle;
+}
+
+.chatPic {
+    float: left;
+    margin-right: 10px;
+    border-radius: 40px;
+    overflow: hidden;
+    width: 55px;
+    height: 55px;
+     display: none; 
+	
+    display:block\0/;
+}
+.chatDes {
+    float: left;  
+    font-size: 14px;    color:rgb(0,45,94);  
+    line-height: 1em;
+    font-size: 12px;
+}
+.chatLogo {
+    float: right;
+    width: 150px;
+    height: 55px;
+    text-align: right;
+    vertical-align: middle;
+    width: 60px;
+}
+.chatDes li {
+	*float:left;
+    display: inline-block;
+    margin-right: 10px;
+}
+.chatDes ul {
+    float: left;
+}
+.chatDes a {
+    display: block;
+}
+.chatPic li {
+    margin-right: 15px;
+}
+.chatPic b {
+    display: block;
+}
+.chatDes b {
+    display: block;
+    color: #CAC6C9;    font-size: 12px;  
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+.chatPic img {
+    width: 100%;
+}
+.chatLogo:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.chatLogo img {
+    /* float: right; */
+    vertical-align: middle;
+}
+
+
+/* Sprite CSS - Chat window images */
+.chatSprite { background: url(img/chatSprite.png) left top no-repeat; display: block; overflow: hidden; text-indent: -9000em; }
+.chatSprite.secure02 { background-position: -25px -159px; width: 12px; height: 16px; float: left; margin: 5px 5px 0 0; }
+.chatSprite.secure01 { background-position: -12px -159px; width: 12px; height: 16px; float: left; margin: 5px 5px 0 0;}
+.chatSprite.minimize02 { background-position: -0px -146px; width: 15px; height: 10px; }
+.chatSprite.minimize01 { background-position: -0px -133px; width: 14px; height: 10px; }
+.chatSprite.expand02 { background-position: -16px -146px; width: 11px; height: 12px; }
+.chatSprite.expand01 { background-position: -16px -133px; width: 11px; height: 12px; }
+.chatSprite.exit02 { background-position: -28px -146px; width: 11px; height: 12px; }
+.chatSprite.exit01 { background-position: -28px -133px; width: 11px; height: 12px; }
+.chatSprite.condense02 { background-position: -0px -171px; width: 11px; height: 11px; }
+.chatSprite.condense01 { background-position: -0px -159px; width: 11px; height: 11px; }
+
+.red .goodMark:hover { background-position: -0px -120px;   }
+.red .goodMark { background-position: -0px -109px;   }
+ .red .sendChat:hover { background-position: -24px -121px;   }
+ .red .sendChat { background-position: -24px -110px;   }
+ .red .badMark:hover { background-position: -12px -121px;   }
+ .red .badMark { background-position: -12px -110px;   }
+
+.pink .goodMark:hover { background-position: -0px -98px;   }
+.pink .goodMark { background-position: -0px -87px;   }
+ .pink .sendChat:hover { background-position: -24px -99px;   }
+ .pink .sendChat { background-position: -24px -88px;   }
+ .pink .badMark:hover { background-position: -12px -99px;   }
+ .pink .badMark { background-position: -12px -88px;   }
+
+.orange .goodMark:hover { background-position: -0px -76px;   }
+.orange .goodMark { background-position: -0px -65px;   }
+ .orange .sendChat:hover { background-position: -24px -77px;   }
+ .orange .sendChat { background-position: -24px -66px;   }
+ .orange .badMark:hover { background-position: -12px -77px;   }
+ .orange .badMark { background-position: -12px -66px;   }
+
+.white .goodMark:hover, .black .goodMark:hover { background-position: -0px -32px;   }
+ .white .goodMark, .black .goodMark { background-position: -0px -21px;   }
+ .white .sendChat:hover, .black .sendChat:hover { background-position: -24px -33px;   }
+ .white .sendChat, .black .sendChat { background-position: -24px -22px;   }
+ .white .badMark:hover, .black .badMark:hover { background-position: -12px -33px;   }
+ .white .badMark, .black .badMark { background-position: -12px -22px;   }	
+
+.green .goodMark:hover { background-position: -0px -11px;   }
+.green .goodMark { background-position: -0px -0px;   }
+.green .sendChat:hover { background-position: -24px -11px;   }
+.green .sendChat { background-position: -24px -0px;   }
+.green .badMark:hover { background-position: -12px -11px;   }
+.green .badMark { background-position: -12px -0px;   }	
+
+.goodMark, .badMark { width: 11px; height: 11px; }
+.sendChat { width: 12px; height: 11px; }
+
+.blue .goodMark:hover { background-position: -0px -54px;   }
+.blue .goodMark { background-position: -0px -43px;   }
+.blue .sendChat:hover { background-position: -24px -55px;   }
+.blue .sendChat { background-position: -24px -44px;   }
+.blue .badMark:hover { background-position: -12px -55px;   }
+.blue .badMark { background-position: -12px -44px;   }
+
+.secured {
+    float: left;
+    width: 61px !important;
+}
+
+.mark {
+    float: right;
+    width: 92%;
+    color: gray;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.mark {
+    float: left;
+    width: 81%;
+    color: rgb(143, 148, 179);
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 33px;
+}
+
+.mark.bad {
+    color: rgb(255, 137, 137);
+}
+
+.mark.bad {
+    color: rgb(255, 137, 137);
+}
+
+.emailChat {
+    background: white;
+    z-index: 50000;
+    padding: 7px 1%;
+    border-top: 1px solid rgb(0, 204, 255);
+    border-bottom: 1px solid rgb(0, 204, 255);
+    border-radius: 3px;
+    position: absolute;
+    width: 98%;
+    box-shadow: 0 0 5px rgb(2, 204, 255);
+    top: 0px;
+    width: 97%;
+    display: none;
+}
+
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-weight: bold;
+    color: black;
+    background: rgb(249, 249, 255);
+    font-size: 12px;
+    box-shadow: 0 2px 0 rgb(238, 238, 240);
+}
+
+input[type="email"] {
+    border: 1px solid rgb(235, 234, 252);
+    color: black;
+    height: 25px;
+    width: 68%;
+    padding: 0 1%;        
+    margin-right: 1%;
+}
+input[type="button"] {
+    padding: 6px 20px;
+    font-weight: bold;
+    color: gray;
+    background: rgb(249, 249, 255);
+    font-size: 10px;
+    box-shadow: 0 2px 0 rgb(238, 238, 240);
+	cursor:pointer;
+    padding: 6px 2%;
+}
+
+input[type="button"]:hover {
+
+box-shadow: 0 1px 0 rgb(238, 238, 240);
+}
+
+.pull-right {
+    float: right;
+}
+
+form a {
+    margin-top: 8px;
+}
+.lh_cw.green {
+}
+
+.lftImage {
+    background: url(img/green.png);
+    /* width: 9px; */
+    /* height: 600px; */
+    position: absolute;
+    left: 0px;
+    background: url(img/green.png) 0 0 #6A9200;  position: absolute;  left: -9px;  top: 0;
+}
+
+@media (min-width: 300px) {
+    .chatPic {display: block;}
+    .chatLogo {width: 120px;}
+    input[type="email"] {width: 70%;}
+    .emailChat {padding: 7px 2%;}
+    .operator .txt, .visitor .txt {/* width: 83% */}
+    .mark {width: 88%;}
+}
+
+@media (min-width: 400px) {
+    .chatLogo {width: 210px;}
+    input[type="email"] {width: 80%;}
+    .operator .txt, .visitor .txt {/* width: 87% */}
+    .mark {width: 91%;}
+}
+
+@media (min-width: 500px) {
+    .chatLogo {width: 310px;}
+    .operator .txt, .visitor .txt {/* width: 90% */}
+    .mark {width: 97%;}
+}
+
+@media (min-width: 600px) {
+    .emailChat {padding: 7px 1%;width: 98%;}
+    input[type="email"] {width: 88%;}
+    .operator .txt, .visitor .txt {
+/* width: 92%; */
+}
+}
+.popupGreen .lh_cw {
+    left: 1%;
+    right: 1%;
+    width: 98%;
+}
+
+.popup .lh_cw .cnt {
+    background: none !important;
+}
+
+.popup .lh_cw {
+    width: 98%;
+    right: 1%;
+    height: 100%;
+}
+
+body {
+    background: gray;
+}

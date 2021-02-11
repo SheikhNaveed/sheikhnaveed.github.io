@@ -1,0 +1,12 @@
+/* Only for medium devices*/
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+} /* Ending Only for medium devices*/
+
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+} /* Ending Medium devices (desktops, 992px and up) */

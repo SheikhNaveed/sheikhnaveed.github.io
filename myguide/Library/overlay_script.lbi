@@ -1,0 +1,6 @@
+<script> 
+// What is $(document).ready ? See: http://flowplayer.org/tools/documentation/basics.html#document_ready
+$(document).ready(function() {
+$("a[rel]").overlay();
+});
+</script> 

@@ -1,0 +1,52 @@
+@import url(font-awesome.min.css);
+@import url(font-awesome-ie7.min.css);
+@import url("bootstrap.css");
+@import url('style.css');
+@import url("style-sm.css");
+@import url("style-md.css");
+@import url("animate.min.css");
+@import url("hover-min.css");
+@import url("common.css");
+@import url("common-sm.css");
+@import url("common-md.css");
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+
+.logo {
+    margin-top: 20px;
+}
+
+.sideMenu a {
+    padding-left: 135px;
+}
+
+.tar-lg {
+    text-align: right;
+}
+
+li.heading {
+    padding-left: 134px;
+}
+
+.banner {
+    background: url('img/banner03.png') center black;
+}
+
+.banner .form {
+    margin-bottom: 0;
+}
+
+.responsive {
+    margin-top: 0;
+    border: 0;
+}
+
+.steps .form, .steps .paper {
+    margin-top: 0;
+}
+
+.carousel.slide .actions {    top: -28px;    width: 35px;
+}

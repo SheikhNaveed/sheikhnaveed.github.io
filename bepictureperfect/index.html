@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="assets/ico/favicon.png">
+	<!-- InstanceBeginEditable name="doctitle" -->
+		<title>Be Picture Perfect</title>
+		<!-- InstanceEndEditable -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,700' rel='stylesheet' type='text/css'>
+	<!-- LayerSlider styles -->
+	<link rel="stylesheet" href="LayerSlider/layerslider/css/layerslider.css" type="text/css">
+	<!--[if lt IE 9]>
+<script src="LayerSlider/assets/js/html5.js"></script>
+<![endif]-->
+	<!-- Bootstrap core CSS -->
+	<link href="dist/css/bootstrap.css" rel="stylesheet">
+	<link href="dist/css/style.css" rel="stylesheet">
+	<!-- Custom styles for this template -->
+	<link href="dist/css/sticky-footer-navbar.css" rel="stylesheet">
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+<script src="assets/js/html5shiv.js"></script>
+<script src="assets/js/respond.min.js"></script>
+<![endif]-->
+	<script src="Player/build/mediaelement-and-player.min.js"></script>
+	<!-- Audio/Video Player jQuery -->
+	<script src="Player/build/mep-feature-playlist.js"></script>
+	<!-- Playlist JavaSCript -->
+	<link rel="stylesheet" href="Player/css/progression-player.css" />
+	<!-- Default Player Styles -->
+	<link href="Player/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<!-- Player Icons -->
+	<!-- InstanceBeginEditable name="head" -->
+		<!-- Player Icons -->	
+	<!-- InstanceEndEditable -->
+	<!-- InstanceParam name="home" type="text" value="active" -->
+	<!-- InstanceParam name="portfolio" type="text" value="" -->
+	<!-- InstanceParam name="portfolios" type="text" value="" -->
+	<!-- InstanceParam name="howTo" type="text" value="" -->
+	<!-- InstanceParam name="pricing" type="text" value="" -->
+	<!-- InstanceParam name="whyUs" type="text" value="" -->
+	<!-- InstanceParam name="contactUs" type="text" value="" -->
+	<!-- InstanceParam name="myAccount" type="text" value="dropdown" -->
+	<!-- InstanceParam name="myEdit" type="text" value="" -->
+	<!-- InstanceParam name="settings" type="text" value="" -->
+	<!-- InstanceParam name="logOut" type="text" value="" -->
+	</head>
+	
+	<body onload="initialize()">
+		
+		<!-- Wrap all page content here -->
+		<div id="wrap">
+			<aside class="freeCoupon">
+				<section class="container">
+					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+				<a href="signin.html"><span>Get your FREE image edit now</span></a> </section>
+			</aside>
+			
+			<!--  navbar -->
+			<header class="navbar navbar-default navbar-fixed-top">
+				<aside class="container">
+					<aside class="row">
+						<div class="col-xs-12  col-sm-4  col-md-3 col-lg-5 clearfix "  >
+							<a class="navbar-brand" href="#"><h1>Be Picture Perfect</h1></a>
+						</div>
+						<div class="col-xs-12  col-sm-4  col-md-3 col-lg-3 mt20"  >
+							<section data-toggle="dropdown" class="dropdown cart">
+								<a data-toggle="dropdown" href="#" class="actionButton">
+									Cart<img alt="" src="dist/css/img/cart.png">3 Items<span>($19)</span>
+								</a>
+								
+								<div class="dropdown-menu cart" role="menu" aria-labelledby="dLabel">
+									<h1>Shopping Cart</h1>
+									<table class="table-hover table-condensed">
+										<tbody>
+											<tr>
+												<td>Basic</td>
+												<td>$9</td>
+												<td><a class="close" data-dismiss="alert" href="#" aria-hidden="true">&times;</a></td>
+											</tr>
+											<tr>
+												<td>Silver</td>
+												<td>$14.99</td>
+												<td><a class="close" data-dismiss="alert" href="#" aria-hidden="true">&times;</a></td>
+											</tr>
+											<tr class="tableFooter">
+												<td>Total</td>
+												<td>$23.99</td>
+												<td></td>
+											</tr>
+										</tbody>
+									</table>
+									
+									<div><a href=""><img alt="" src="dist/css/img/creditCards.png"> </a>
+										<a href=""><img alt="" src="dist/css/img/paypal.png"> </a>
+									</div>
+								</div>
+								
+							</section>
+						</div>
+					</aside>
+					
+					<!--Navigation Section-->
+					<section class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</section>
+					
+					<section class="collapse navbar-collapse">
+						<aside class="upperNav">
+							<div>Welcome <a href="settings.html">John Doe</a><img alt="" src="dist/css/img/userImage.png"></div>
+							<form action="signin.html">
+							<button>Get your image Edited</button>
+						</form></aside><!-- upperNav -->
+						<ul class="nav navbar-nav">
+							<li class="active" ><a href="index.html">Home</a></li>
+							<li class=""><a href="portfolio.html">Portfolio</a></li>
+							<li class=""><a href="how_to.html">How to</a></li>
+							<li class=""><a href="pricing.html">Pricing</a></li>
+							<li class=""><a href="why_us.html">Why us</a></li>
+							<li class=""><a href="contact_us.html" >Contact us</a></li>
+							<li class="dropdown"  >
+								<a href="signin.html" class="dropdown-toggle" data-toggle="dropdown">My Account<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li class="" ><a href="my_edit.html">My Edits</a></li>
+									<li class=""><a href="settings.html">Settings</a></li>
+									<li class=""><a href="#">Logout</a></li>
+									
+								</ul>
+							</li>
+						</ul>
+					</section><!--/.nav-collapse -->
+				</aside>
+			<!-- InstanceBeginEditable name="Banner" --><aside class="banner">
+					<section class="container">
+						<!--LayerSlider begin-->
+						<div id="layerslider-container">
+							
+							
+							
+							<div id="layerslider2" style="width:100%; height: 392px;">
+								
+								
+								
+								
+								<div class="ls-layer" style="slideDelay : 2000;">
+									
+									<img alt="" class=" ls-s4 " style="left: 85%; " src="dist/css/img/banner2.png" >
+									
+									
+									<h1 class="ls-s1" style="top:60px;">
+										Corporate Photo
+									</h1>
+									<p class="ls-s2" style="top:30px; font-size:1.2em">
+										JUST SEND YOUR IMAGE AND GET A
+									</p>
+									<p class="ls-s3" style="top:95px; ">
+										with
+									</p>
+									
+									
+									<p class="ls-s5" style="top:135px;">
+										• Red Eye Reduction
+										
+									</p>
+									<p class="ls-s6" style="top:166px;">
+										• Studio Lighting Effects
+										
+									</p>
+									<p class="ls-s7" style="top:204px;">
+										• Adjusted tone / exposure
+									</p>
+									
+									<button class="ls-s8" style="top:258px;" >
+										Get your FREE image edit now
+									</button>
+									
+									<p class="ls-s9 expire" style="top:345px;">
+										Your coupon expires in next 01:30 minutes
+									</p>
+									
+								</div>
+								
+								
+								
+								
+								
+								
+								
+								<div class="ls-layer" style="slideDelay : 2000;" >
+									
+									<img alt="" class=" ls-s1" style="left: 75%; height:100%;"  src="dist/css/img/banner3.png" >
+									
+									
+									<h1 class="ls-s1" style="top:65px;">
+										Professional Image
+									</h1>
+									<h1 class="ls-s1" style="top:156px; ">
+										Sell your Skills
+									</h1>
+									<p class="ls-s2" style="top:30px;">
+										Get your
+										
+									</p>
+									<p class="ls-s3" style="top:121px; ">
+										in Just One Day to
+									</p>
+									
+									
+									
+									<p class="ls-s6" style="top:210px; ">
+										Online
+										
+									</p>
+									
+									
+									<button class="ls-s8" style="top:258px;" >
+										Get your FREE image edit now
+									</button>
+									
+									<p class="ls-s9 expire" style="top:345px;">
+										Your coupon expires in next 01:30 minutes
+									</p>
+									
+								</div>
+								
+								
+								
+								
+								<div class="ls-layer" style="slideDelay : 2000;" >
+									
+									<img alt="" class=" ls-s4" style="left: 85%; "  src="dist/css/img/banner1.png" >
+									
+									
+									<h1 class="ls-s1" style="top:124px;">
+										Professional Image
+									</h1>
+									
+									<p class="ls-s2" style="top:84px;">
+										SEE THE MAGIC OF
+										
+									</p>
+									
+									
+									
+									
+									
+									<button class="ls-s8" style="top:197px;" >
+										Get your FREE image edit now
+									</button>
+									
+									<p class="ls-s9 expire" style="top:286px;">
+										Your coupon expires in next 01:30 minutes
+									</p>
+									
+								</div>
+								
+								
+								
+								
+								
+								
+								
+							</div>						
+							
+						</div>
+					</section>
+				</aside><!-- InstanceEndEditable --> </header>
+			
+			<!-- Begin page content -->
+			<aside class="container">
+			
+			<!-- InstanceBeginEditable name="PageContent" -->
+		
+		<!-- Wrap all page content here -->
+	
+			<!-- Begin page content -->
+			
+                <section class="intro clearfix">
+                    <div class="pull-left">
+                        <h1>Improve Your Professional Image</h1>
+                        <p>Have you considered your professional image on LinkedIn, Facebook and Twitter? Isn’t it that first impression that lasts? We help you improve your online image by working to get you the best possible profile picture to maximise that first impression.
+                            
+                            See how recruiters use social media to screen potential candidates - Click here and see for yourself!</p>
+                    </div>
+                    <div class="pull-right">
+                        <h1>How it works</h1>
+                        
+                        
+                        <div class="responsive-wrapper">
+                            <video  class="progression-single progression-skin" controls preload="none">
+                                <source src="Player/media/big_buck_bunny.mp4" type="video/mp4" title="mp4">
+                            </video>
+                        </div><!-- close .responsive-wrapper  -->
+                        
+                        
+                        
+                    </div>
+                </section>
+                <section class="testimonials">
+                    <h1>Clients are happy with us</h1>
+                    
+                    
+                    
+                    
+                    <!--LayerSlider begin-->
+                    <div id="layerslider-container2" class="testimonials">
+                        
+                        
+                        
+                        <div id="layerslider1" style="width:100%; height: 217px;">
+                            
+                            
+                            
+                            <div class="ls-layer" style="slideDelay : 3000;">
+                                
+                                <div style="left: 20%; top: 0;" class="ls-s1 img"><img alt="" class="img-responsive" src="dist/css/img/happyClient3.png" ></div>
+                                
+                                <article class="ls-s2" style="left:63%">“These guys are simply awesome, just provided my professional image within one day. I highly recommend them.”</article>
+                                <section class="ls-s3 name" style="top:130px; left:63%">John Adam</section>
+                                <section class="ls-s4 credential" style="top:180px; left:63%">CEO, <a href="">34Apparels.com</a></section>
+                            </div>
+                            
+                            
+                            
+                            <div class="ls-layer" style="slideDelay : 3000;">
+                                
+                                <div style="left: 20%; top: 0;" class="ls-s1 img"><img alt="" class="img-responsive" src="dist/css/img/happyClient2.png" ></div>
+                                
+                                <article class="ls-s2" style="left:63%">“My CV got pop out after prfessional touch on my profile picture. Thanks you guys.”</article>
+                                <section class="ls-s3 name" style="top:130px; left:63%">Farhan Alam</section>
+                                <section class="ls-s4 credential" style="top:180px; left:63%">Student <a href=""></a></section>
+                            </div>
+                            
+                            
+                            <div class="ls-layer" style="slideDelay : 3000;">
+                                
+                                <div style="left: 20%; top: 0;" class="ls-s1 img">  <img alt="" class="img-responsive" src="dist/css/img/happyClient1.png" ></div>
+                                
+                                <article class="ls-s2" style="left:63%">“Getting even for interview was a big headach for me. A picture is thousand a word. I got my situation better. Happy with my current job”</article>
+                                <section class="ls-s3 name" style="top:130px; left:63%">Shikha Sharma</section>
+                                <section class="ls-s4 credential" style="top:180px; left:63%">Accountant, <a href="">26CeativeAgency</a></section>
+                            </div>
+                            
+                            
+                        </div>						
+                        
+                    </div>
+                </section>
+                <section class="portfolio">
+                    <h1>Work Examples</h1>
+                    <a href="portfolio.html">
+                    <button class="small">See more</button>
+                    </a>
+                    <div>
+                        
+                        
+                        
+                        <!-- Button trigger modal -->
+                        <a data-toggle="modal" href="#myModal" class=""><img alt="" src="dist/css/img/portfolio1.png"></a>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    
+                                    <div class="modal-body">
+                                        <img alt="" src="dist/css/img/portfolio1big.png">
+                                    </div>
+                                    
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
+                        
+                        <!-- Button trigger modal -->
+                        <a data-toggle="modal" href="#myModal2" class=""><img alt="" src="dist/css/img/portfolio2.png"></a>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    
+                                    <div class="modal-body">
+                                        <img alt="" src="dist/css/img/portfolio2big.png">
+                                    </div>
+                                    
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
+                        
+                        <!-- Button trigger modal -->
+                        <a data-toggle="modal" href="#myModal3" class=""><img alt="" src="dist/css/img/portfolio3.png"></a>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    
+                                    <div class="modal-body">
+                                        <img alt="" src="dist/css/img/portfolio3big.png">
+                                    </div>
+                                    
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
+                    </div>
+                    
+                </section>
+              <!-- InstanceEndEditable -->
+                
+                
+                
+                
+                
+                
+                
+            </aside>
+        </div>
+        
+        <footer id="footer">
+            <aside class="form">
+                <section class="container">
+                    <form>
+                        <input type="text" value="Name">
+                        <input type="text" value="Email">
+                        <input type="text" value="Password">
+                        <button>Register</button>
+                    </form>
+                    
+                </section>
+            </aside>
+            <aside class="secondFooter">
+                <section class="container">
+                    <article>Copyright © 2013, <a href="index.html">picturePerfect.com</a>. All rights reserved. &nbsp;&nbsp;&nbsp;&nbsp; <a href="Privacy.html">Privacy Policy</a></article> 
+                  <nav>
+                        <ul class="clearfix">
+                            <li><a href="#" class="youtube">You Tube</a></li>
+                            <li><a href="#" class="linkedin">Linkedin</a></li>
+                            <li><a href="#" class="facebook">Facebook</a></li>
+                            <li><a href="#" class="flickr">Flickr</a></li>
+                            <li><a href="#" class="twitter">Twitter</a></li>
+                            <li><a href="#" class="rss">RSS</a></li>
+                            <li><a href="#" class="googlePlus">Google Plus</a></li>
+                            
+                            
+                        </ul>
+                    </nav>
+                </section>
+            </aside>
+            
+        </footer>
+        
+        
+        <!-- Bootstrap core JavaScript
+================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.js"></script>
+        <script src="dist/js/bootstrap.min.js"></script>
+        
+	<script src="LayerSlider/layerslider/jQuery/jquery-easing-1.3.js" type="text/javascript"></script>
+    <script src="LayerSlider/layerslider/jQuery/jquery-transit-modified.js" type="text/javascript"></script>
+    <script src="LayerSlider/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+        <script src="LayerSlider/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#layerslider2').layerSlider({
+                });
+                $('#layerslider1').layerSlider({
+                });
+            });		
+        </script>
+        
+        <script type="text/javascript">
+            WebFontConfig = {
+                google: { families: [ 'Raleway:400,300,500,700:latin' ] }
+            };
+            (function() {
+                var wf = document.createElement('script');
+                wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+                wf.type = 'text/javascript';
+                wf.async = 'true';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(wf, s);
+            })(); </script> 
+        
+        <script>
+            $('.progression-single').mediaelementplayer({
+                audioWidth: 400, // width of audio player
+                audioHeight:40, // height of audio player
+                startVolume: 0.5, // initial volume when the player starts
+                features: ['playpause','current','progress','duration','tracks','volume','fullscreen']
+            });
+        </script>
+        
+         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script type="text/javascript"   src="dist/js/fresh.js"></script>
+        <script type="text/javascript">
+            function initialize() {
+                var myOptions = {
+                    center: new google.maps.LatLng(48.853499,2.348338),
+                    zoom: 12,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    styles: gmapFreshStyle
+                };
+                var map = new google.maps.Map(document.getElementById("map"), myOptions);
+        
+            }
+        </script>
+    </body>
+<!-- InstanceEnd --></html>

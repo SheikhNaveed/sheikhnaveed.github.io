@@ -1,0 +1,16 @@
+@media (min-width: 320px) {
+
+img {
+    width: 100%;
+}
+
+#login img {
+    width: auto;
+} 
+
+#strips-course h3 {
+    margin-top: 50px;
+}
+
+
+

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="css/img/favicon.ico">
+
+  <title>CriterionMed</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap-lg.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+  <div id="sec">
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand visible-xs" href="#"><h1><img src="css/img/logo.png" alt=""></h1></a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav wow fadeInDown">
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="products.html">Products</a></li>
+                <li><a href="tens.html">TENS</a></li>
+                <li><a href="nmes.html">NMES</a></li>
+                <li><a href="ifc.html">Interferential (IFC)</a></li>
+                <li><a href="hvpc.html">High Volt (HVPC)</a></li>
+                <li><a href="mens.html">Microcurrent (MENS)</a></li>
+                <li><a href="electrotherapy.html">Electrotherapy</a></li>
+
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Patients<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="patientsInformation.html">Patients Information</a></li>
+                <li><a href="pain.html">Pain Management</a></li>
+                <li><a href="rehabilitation.html">Rehabilitation</a></li>
+                <li><a href="patientResults.html">Patient Results</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">For HealthCare<br>Professionals<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="healthCare.html">For HealthCare Professionals</a></li>
+                <li><a href="electrotherapy.html">Electrotherapy</a></li>
+                <li><a href="reimbursement.html">Reimbursement</a></li>
+              </ul>
+            </li>
+            <li class="hidden-xs"><a href="#"><h1><img src="css/img/logo.png" alt=""></h1></a></li>
+            <li><a href="insurance.html">For Insurance<br>Professionals</a></li>
+            <li><a href="contactUs">Contact us</a></li>
+            <li><a href="login.html">Login</a></li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+  <!-- Begin page content -->
+
+  <article class="introductionRow">
+    <aside class="container">
+      <div class="col-sm-8">
+        <h3>Obtain Criterion Products</h3>
+
+        <div class="">In order to obtain a Criterion device, your physician must fill out and submit the RSA1V2A forms to Criterion:</div>
+
+        <div class="download mt20 mb20">
+          <img src="css/img/icon-pdf.png" alt="PDF Icon">
+          <p class="wow fadeInLeft animated" style="visibility: visible;">Required Information</p>
+          <a href="css/img/RSA1V2A.pdf" class="button button-rounded button-flat-primary"><i class="fa fa-cloud-download"></i>Download</a>
+        </div>
+
+
+        <div>RSA1V2A (2 page document) includes all necessary information to obtain a Criterion device: </div>
+        <ol>
+          <li>Letter of Medical Necessity</li>
+          <li>Assignment of Benefits</li>
+          <li>Release of Information and Product</li>
+          <li>Request Forms</li>
+        </ol>
+
+        <form class="form-horizontal mt40">
+          <fieldset>
+            <aside class="row">
+              <aside class="col-lg-6 mb10">
+               <!-- Select Basic -->
+               <div class="control-group">
+                 <label class="control-label" for="productRequest">Product Request:<a href="#" class="tip" data-toggle="tooltip" data-placement="top" title="• Ordering Supplies Direct are for Cash Patients Only. • Insurance Coverage may limit Supply Order Requests.">?</a>
+                 </label>
+                 <div class="controls">
+                  <select id="selectbasic" name="productRequest" class="input-xlarge">
+                    <option>Request Supply Order</option>
+                    <option>Order Supplies Direct</option>
+                    <option>Locate a Physician</option>
+                  </select>
+                </div>
+              </div>
+            </aside>
+            <aside class="col-lg-6 mb10">
+              <!-- Text input-->
+              <div class="control-group">
+                <label class="control-label" for="FirstName">First Name: <i class="req">*</i></label>
+                <div class="controls">
+                  <input id="FirstName" name="FirstName" type="text" placeholder="" class="input-xlarge" required="">
+                </div>
+              </div>
+            </aside>
+          </aside>
+
+          <aside class="row">
+            <aside class="col-lg-6 mb10">
+              <!-- Text input-->
+              <div class="control-group">
+                <label class="control-label" for="LastName">Last Name: <i class="req">*</i></label>
+                <div class="controls">
+                  <input id="LastName" name="LastName" type="text" placeholder="" class="input-xlarge" required="">
+                </div>
+              </div>
+            </aside>
+            <aside class="col-lg-6 mb10">
+              <!-- Text input-->
+              <div class="control-group">
+                <label class="control-label" for="patientID">Patient ID #:</label>
+                <div class="controls">
+                  <input id="Company" name="patientID" type="text" placeholder="" class="input-xlarge">
+                </div>
+              </div>
+            </aside>
+          </aside>
+
+          <aside class="row">
+            <aside class="col-lg-6 mb10">
+              <!-- Text input-->
+              <div class="control-group">
+                <label class="control-label" for="Company">Company / Clinic:</label>
+                <div class="controls">
+                  <input id="Company" name="Company" type="text" placeholder="" class="input-xlarge">
+                </div>
+              </div>
+            </aside>
+            <aside class="col-lg-6 mb10">
+              <!-- Text input-->
+              <div class="control-group">
+                <label class="control-label" for="Address">Address:</label>
+                <div class="controls">
+                  <input id="Address" name="Address" type="text" placeholder="" class="input-xlarge">
+                </div>
+              </div>
+            </aside>
+          </aside>
+
+          <aside class="row">
+            <aside class="col-lg-6 mb10">
+              <!-- Text input-->
+              <div class="control-group">
+                <label class="control-label" for="City">City: <i class="req">*</i></label>
+                <div class="controls">
+                  <input id="City" name="City" type="text" placeholder="" class="input-xlarge" required="">
+                </div>
+              </div>
+            </aside>
+
+            <aside class="col-lg-6 mb10">
+
+              <!-- Select Basic -->
+              <div class="control-group">
+                <label class="control-label" for="selectbasic">State <i class="req">*</i></label>
+                <div class="controls">
+                  <select id="selectbasic" name="selectbasic" class="input-xlarge">
+                    <option>Option one</option>
+                    <option>Option two</option>
+                  </select>
+                </div>
+              </div>
+              <!-- Text input-->
+            </aside>
+          </aside>
+
+          <aside class="row">
+            <aside class="col-lg-6 mb10">
+              <!-- Text input-->
+              <div class="control-group">
+                <label class="control-label" for="ZIP">ZIP: <i class="req">*</i></label>
+                <div class="controls">
+                  <input id="ZIP" name="ZIP" type="text" placeholder="" class="input-xlarge" required="">
+                </div>
+              </div>
+            </aside>
+            <aside class="col-lg-6 mb10">
+              <!-- Text input-->
+              <div class="control-group">
+                <label class="control-label" for="Email">Email: <i class="req">*</i></label>
+                <div class="controls">
+                  <input id="Email" name="Email" type="text" placeholder="" class="input-xlarge" required="">
+                </div>
+              </div>
+            </aside>
+          </aside>
+
+          <aside class="row">
+            <aside class="col-lg-6 mb10">
+              <!-- Text input-->
+              <div class="control-group">
+                <label class="control-label" for="Phone">Phone: <i class="req">*</i></label>
+                <div class="controls">
+                  <input id="Phone" name="Phone" type="text" placeholder="" class="input-xlarge" required="">
+                </div>
+              </div>
+            </aside>
+
+            <aside class="col-lg-6 mb10">
+              <!-- Multiple Checkboxes -->
+              <div class="control-group ">
+                <label class="control-label" for="ContactPreference">Contact Preference:</label>
+                <div class="controls pl20">
+                  <label class="checkbox" for="ContactPreference-0">
+                    <input type="checkbox" name="ContactPreference" id="ContactPreference-0" value="Phone">
+                    Phone
+                  </label>
+                  <label class="checkbox" for="ContactPreference-1">
+                    <input type="checkbox" name="ContactPreference" id="ContactPreference-1" value="Email">
+                    Email
+                  </label>
+                </div>
+              </div>
+            </aside>
+          </aside>
+
+          <!-- Textarea -->
+          <div class="control-group">
+            <label class="control-label" for="Comments">Comments:</label>
+            <div class="">                     
+              <textarea id="Comments" name="Comments"></textarea>
+            </div>
+          </div>
+
+
+          <!-- Button -->
+          <div class="control-group">
+            <a href="" id="Contact" name="Contact" class="button button-rounded button-flat-primary pull-right">Submit</a>
+          </div>
+
+        </fieldset>
+      </form>
+
+
+    </div>
+
+    <div class="clearfix mt40 visible-xs"></div>
+
+    <aside class="col-sm-4">
+      <div class="infoBlue wow flipInX">
+        Criterion products are prescription medical devices that <b>must be purchased through a physician</b> or other licensed medical provider.
+      </div>
+      <div class="download wow flipInX p40 mb20">
+        If you need a prescribing physician, fill out the form and Criterion will locate one for you.
+      </div>
+
+      <div class="infoBlue wow flipInX">
+        Please fill out the form for all other product information requests or call our Customer Care Department (800)-573-0093:
+      </div>
+
+    </aside>
+
+  </div>
+
+
+</div>
+</aside>
+</article>
+
+<footer id="footer">
+  <section class="top">
+    <aside class="container">
+      <div class="col-sm-4 wow fadeInLeft">
+        <h6>ABOUT CRITERIONMED</h6>
+        <p>Criterion is a leading provider of proven, cost-effective, non-invasive medical solutions  for pain management, physical therapy, and orthopedic rehabilitation.</p>
+      </div>
+      <div class="col-sm-3  col-sm-push-1 pages clearfix wow fadeInLeft"  data-wow-delay="0.5s">
+        <h6>PAGES</h6>
+        <ul>
+          <li><a href="aboutUs.html">About Us</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="customerCare.html">Customer Care</a></li>
+
+        </ul>
+      </div>
+      <div class="col-sm-4  col-sm-push-1 contactUs wow fadeInLeft" data-wow-delay="1s">
+        <h6>CONTACT US</h6>
+        <ul>
+          <li><i class="fa fa-home"></i>5190 Neil Road, Suite 430, Reno, Nevada, 89502</li>
+          <li><i class="fa fa-phone"></i>Ph: <a href="tel:800-743-0093">800-743-0093</a></li>
+          <li><i class="fa fa-print"></i>Fax: 800-573-6600</li>
+          <li><i class="fa fa-envelope"></i>Email: <a href="mailto:info@criterionmed.net">info@criterionmed.net</a></li>
+
+        </ul>
+      </div>
+    </aside>
+
+
+  </section>
+  <section class="bottom">
+    <aside class="container">
+      <div class="col-sm-10 wow fadeInRight" data-wow-delay="1.2s">
+        <p class="text-muted">Copyright © 2014, www.criterionmed.com. All rights reserved</p>
+      </div>
+      <div class="col-sm-2 wow fadeInRight" data-wow-delay="1.5s">
+        <div class="share"></div>
+      </div>
+    </aside>
+  </section>
+
+</footer>
+
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/share.min.js"></script>
+        <script src="js/jqBarGraph.1.1.js"></script>
+        <script src="js/jquery.gmap.min.js"></script>
+        <script src="js/custom.js"></script>
+      </body>
+      </html>

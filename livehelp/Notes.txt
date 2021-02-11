@@ -1,0 +1,24 @@
+delete 3 minutes
+1) http://gyazo.com/cdaf2172f32cfe50b8f8f86bf88cda61
+
+2) http://gyazo.com/a78eb0e67d8691fa839548289a1d39ee
+===================================================================
+iv) paste jobs.html's animated footer to everywhere.
+
+===================================================================
+-------------------------------------------------------------
+TESTIMONIALS:
+can you please also update http://dev.livehelp.com/Content/images/testimonials.png
+https://dl.dropboxusercontent.com/u/22558595/oDesk/DmitryS_LiveHelpCom_oDesk/css/img/testimonials.png
+http://cdnec0.fiverrcdn.com/photos/1618125/v2_680/Samantha_Kozuch_Headshot.jpg
+http://www.fiverr.com/yourawesome/record-professional-voice-narration-or-voice-over#
+-------------------------------------------------------------
+HOME:
+i) Add on homepage 'See it on your website section too' as on http://www.helponclick.com/
+
+Add the 'see it on your site' after the big green get livehelp now button
+
+Homepage video button change
+
+Can you make that button hover change for video_preview I made
+-------------------------------------------------------------

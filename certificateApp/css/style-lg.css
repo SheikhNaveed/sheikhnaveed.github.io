@@ -1,0 +1,24 @@
+@import url(font-awesome.min.css);
+@import url(font-awesome-ie7.min.css);
+@import url("bootstrap.css");
+@import url('style.css');
+@import url("style-sm.css");
+@import url("style-md.css");
+@import url("animate.min.css");
+@import url("hover-min.css");
+@import url("common.css");
+@import url("common-sm.css");
+@import url("common-md.css");
+@import url("common-lg.css");
+@import url("bootstrap-table.min.css");
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+} /* Ending Large devices (large desktops, 1200px and up) */
+
+
+.whiteBox3 .header,.whiteBox3 .body,.whiteBox3 .footer {
+    padding: 30px;
+}
+

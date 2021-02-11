@@ -1,0 +1,35 @@
+@import url("simple-line-icons.css");
+@import url("animate.min.css");
+@import url('style.css');
+@import url("style-sm.css");
+@import url("style-md.css");
+@import url("animate.min.css");
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+.banner h1 {
+margin-bottom: 80px;
+    font-size: 51px;
+letter-spacing: -2pt;
+}
+
+.banner h1 b {
+font-size: 73px;
+}
+
+.banner bdi {
+margin: 50px 0;
+}
+
+
+
+} /* Ending Large devices (large desktops, 1200px and up) */
+
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.first:before {
+}

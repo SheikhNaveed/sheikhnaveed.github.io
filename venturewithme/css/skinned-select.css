@@ -1,0 +1,26 @@
+div.skinned-select {
+background: url('../images/dropdown.png') no-repeat scroll 0pt 100%;
+width: 155px;
+height: 29px;
+float: left;
+margin-left: 10px;
+line-height: 29px;
+text-indent: 10px;
+}
+
+
+
+/* non javascript version select */
+
+
+.filter span {
+line-height: 29px;
+float: left;
+}
+
+.filter {
+position: absolute;
+right: 0;
+top: 100px;
+width: 230px;
+}

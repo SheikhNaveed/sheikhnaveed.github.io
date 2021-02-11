@@ -1,0 +1,101 @@
+﻿/* ================ Medium Media Only  =============== */
+@media (min-width:992px) and (max-width:1200px) {
+  
+  
+} /* ================ Medium Media Only =============== */
+
+
+/* ================ Ending Above Medium Media=============== */
+@media (min-width:992px) {
+	#smallNav a{
+padding:0;
+}
+
+#smallNav .pull-left{
+    margin-left:0px
+    }
+
+#smallNav .pull-right{
+    margin-right:0px
+}
+
+.priceBoxes .col1 {
+    padding-bottom:54px;
+    
+}
+
+.pl0-md {
+    padding-left: 0;
+}
+
+.mt0-md {margin-top:0;}
+
+
+.promise li {
+    display:block;
+    border-right:none;
+}
+
+#siteHeader nav span a{
+margin-right: 22px;
+}
+
+img.aboutUsGuys {
+    position: absolute;
+    right: 0;
+    width: 47%;
+    top: 0;
+}
+
+.aboutUs.whiteBox {
+    padding: 20px 0;
+    /* height: 349px; */
+}
+
+ul.team li {
+    width: 24%;
+}
+
+.aboutUs.whiteBox aside {
+    width: 53.33%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navigation > li > a {
+    letter-spacing: 1px;
+}
+
+span.rightArrow:hover {
+    background: #9dc4de;
+}
+
+span.rightArrow:hover:before {
+    border-left-color:white;
+}
+span.rightArrow:hover:after {
+    border-left-color:#9dc4de;
+}
+
+span.leftArrow:hover {
+    background: #9dc4de;
+}
+span.leftArrow:hover:before {
+    border-right-color: white;
+}
+span.leftArrow:hover:after {
+    border-right-color: #9dc4de;
+}
+
+.livehelpheader a{ width:136px; height:34px; background-position:-10px -10px; }
+
+.res-vid .video-js {
+	height: 470px !important;
+}
+
+.inline-image {
+    width: 50%;
+    margin-right: 20px;
+}
+
+}/* ================ Ending Above Medium Media=============== */

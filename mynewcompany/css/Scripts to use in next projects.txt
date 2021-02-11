@@ -1,0 +1,44 @@
+All plugins collected after viewing Ctrl+U ( View Source )
+
+Scripts to be used in next project as used by kriesi http://www.kriesi.at/themes/enfold/
+
+jQuery easing http://easings.net/ http://gsgd.co.uk/sandbox/jquery/easing/
+jquery.transit https://github.com/rstacruz/jquery.transit
+Layer Slider ( Probably he is using EASING and TRANSIT in LAYERSLIDER)
+
+Avia Slider http://aviathemes.com/aviaslider/
+pretty photo https://github.com/scaron/prettyphoto
+Media Element https://github.com/johndyer/mediaelement http://wordpress.org/plugins/media-element-html5-video-and-audio-player/
+jQuery cookie https://github.com/carhartl/jquery-cookie
+
+
+Plugins used by http://demo.tardigradestudio.com/themes/keylight/
+
+Hash Navigation
+jquery.scrollTo https://github.com/flesler/jquery.scrollTo
+
+Page parallax effect
+jQuery-Parallax https://github.com/IanLunn/jQuery-ParallaxjQuery-Parallax
+
+jQuery-Knob https://github.com/aterrien/jQuery-Knob
+
+nav highliting js
+single-page-nav https://github.com/ChrisWojcik/single-page-nav
+
+touch effects
+TouchSwipe-Jquery-Plugin https://github.com/mattbryson/TouchSwipe-Jquery-Plugin
+
+Custom browser scrollbars
+jquery.nicescroll https://github.com/inuyaksa/jquery.nicescroll
+
+A lightweight, easy-to-use jQuery plugin for fluid width video embeds.
+FitVids.js https://github.com/davatron5000/FitVids.js
+
+TextArea AutoSize
+https://github.com/jackmoore/autosize/tree/master
+
+A plugin to fetch data from dribbble
+http://lab.tylergaw.com/jribbble/
+
+jQuery Validation
+http://jqueryvalidation.org/

@@ -1,0 +1,314 @@
+﻿/* ================ Small Media Only =============== */
+@media (min-width:768px) and (max-width:992px) {
+  .pr0-sm-o {padding-right:0}
+  
+.features{ width:89px;  height: 152px !important; background-size:115%}
+/* background-color:rgba(255,0,0,0.3); */
+.featureSave{background-position:-4px -525px; }
+.featureServer{background-position:-10px -130px; }
+.featureUser{background-position: -4px -256px; }
+.featureReports{background-position: -4px -10px; }
+.featureSales{background-position:-4px -393px; }
+.features .text b {
+font-size: 30px;
+margin-bottom: -8px;
+height: 40px;
+}
+
+
+.features .text i {
+font-size: 13px;
+}
+
+.livehelpheader a{ width: 36px; background-position: -158px -10px; }
+
+} /* ================ Ending Small Media Only =============== */
+
+
+
+
+/* ================ Above Small Media=============== */
+@media (min-width:768px) {
+
+
+    .priceBoxes > div {
+   
+    margin-bottom:0px;
+    border-left:0px;
+}
+
+
+
+.priceBoxes li{ line-height: 180%;
+}
+    
+    .priceBoxes b {
+    display: none;
+}
+
+#responses .dropdown-menu {
+    margin-left: -316px;
+}
+
+#responses .topArrow {
+float: right;
+}
+
+#write textarea {
+width: 60%;
+}
+
+#find input {
+width: 60%;
+}
+
+.dropdown-menu.default {
+margin-left: -141px;
+}
+
+.dropdown-menu.default .topArrow {
+left: 50%;
+margin-left: -7px;
+
+}
+
+.rangeSelector .col1, .rangeSelector .col2 {
+    line-height: 71px;
+}
+
+#smallNav .pull-left{
+    margin-left:0
+    }
+
+    #smallNav .pull-right{
+    margin-right:0
+}
+
+#siteHeader nav a:hover .halfCircle, #siteHeader nav a.active .halfCircle{
+visibility:visible;
+display:block;
+}
+
+header h1 {
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+   /* margin-top: 16px;*/
+}
+
+
+.mr10-sm {
+    margin-right: 10px;
+}
+
+.pageHeading h3 {
+font-size: 43px;
+letter-spacing: -1px;
+}
+
+.h3Description {
+  font-size: 15px;
+}
+
+.tal-sm { text-align: left;}
+.tac-sm { text-align: center;}
+.tar-sm { text-align: right;}
+
+.mtn-sm {margin-top: 0;}
+
+.smallNav a {
+/*padding: 10px 0 8px;*/
+}
+
+.hidden-xs-dib {
+    display: inline-block !important;
+}
+
+.priceBoxes li aside{ display:block; position:relative; text-align:center; width:100%;
+}
+
+.centerer {
+  /* position: absolute; */
+  /* /* top: 0; *  /**//
+  /* bottom: 0; */ */
+  left: 0;
+  /* right: 0; */
+}
+
+
+
+.centerer::before {
+    content:"";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  width:1px;
+}
+
+.centered {
+  vertical-align: middle;
+  display: inline-block;
+  width:97%;
+}
+
+.blue .dropdown-menu {
+    top: 28px;
+}
+
+.blue.admin .dropdown-menu {
+top: 30px;
+}
+
+.language.blue .dropdown-menu {
+}
+
+
+
+.settings {
+    margin-top: 6px !important;
+    font-size: 18px;
+    margin-right:10px;
+    width:45px;
+}
+
+#stream b {
+    font-weight:normal;
+    text-align: right;
+}
+
+#stream span.time {
+    font-size:12px;
+}
+
+.pln-sm {
+    padding-left: 0;
+}
+
+.pl0-sm {
+    padding-left: 0;
+}
+
+.mt0-sm {margin-top:0;}
+
+
+footer .navigation {
+    padding-top: 10px;
+     padding-bottom: 0;
+}
+
+.helpSection div > div {
+    border-right: 1px solid #DFDFDF;
+}
+
+ #bodyBg img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+.promise {
+    padding: 0px;
+    margin-top: 50px;
+}
+
+.promise li {
+    margin-bottom: 0px;
+    display:inline-block;
+    border-right:1px solid #dadada;
+    padding:10px 15px
+}
+
+.promise li:last-child {
+    border-right:0;
+}
+
+.worldwide img {
+    width: 100%;
+
+}
+
+ul.team li {
+    width: 32%;
+}
+
+.upperFooter h6 {
+    margin: 0 0 10px;
+}
+
+.careers h1 {
+    margin-top: 0;
+}
+
+.navigation > li > a {
+    text-transform: uppercase;  
+    /* letter-spacing: 1px; */
+    font-size: 14px;
+}
+
+.pr .carouselControl {
+    position: relative;
+    top: inherit;
+}
+
+.pr .carouselControl.right {
+    right: inherit;
+    margin-right: 0;
+}
+
+
+.pr .carouselControl.left {
+    left: inherit;
+    margin-left: auto;
+}
+
+#top-menu {
+    left: inherit;
+}
+
+.navigation .fa {
+    display: block;
+}
+
+.fixed.navigation .fa {
+    display: none;
+}
+
+.carouselControl a {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    left: 50%;
+    margin-left: -20px;
+}
+
+.navWrap li {
+    height:auto !important;
+}
+
+.story .image {
+    width: 25%;
+
+}
+
+.res-vid .video-js {
+	height: 350px !important;
+}
+
+.feature .carouselControl {
+    margin-top: 20%;
+}
+
+.eH {
+    height: 126px;
+}
+
+.fa-cloud+p{height: 70px;}
+
+.fa-bar-chart-o+p{height: 70px;}
+
+.featureUser .text b {
+height: 35px;
+line-height: 27px;
+}
+
+}/* ================ Ending Above Small Media=============== */

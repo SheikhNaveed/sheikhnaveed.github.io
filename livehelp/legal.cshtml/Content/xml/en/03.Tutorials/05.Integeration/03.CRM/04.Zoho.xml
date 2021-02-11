@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<content>
+  <title>Zoho</title>
+  <data>
+    <![CDATA[
+		<h3>Zoho</h3>
+    
+    <p>Our Zoho integration will help your sales and support teams 
+    move any relevant chat data to Zoho with a single click. This will keep your operators updated on 
+    previous communication with new and existing clients.</p>
+    
+    <p>Your agents will also have quick access to the Zoho information in the chat window.</p>
+    <p>Here should be an image with chat window with information from Zoho</p>
+    
+    <h4>Installation</h4>
+    
+    <p>
+      In order to install this integration, go through the following steps:
+    </p>
+    
+    <ol start="1">
+        <li>
+            Make sure you are logged in to Zoho
+        </li>
+    </ol>
+    
+    <ol start="2">
+        <li>
+            In your browser open this url: https://accounts.zoho.com/apiauthtoken/create?SCOPE=ZohoCRM/crmapi or click this <a href="https://accounts.zoho.com/apiauthtoken/create?SCOPE=ZohoCRM/crmapi" target="_blank">link</a>  to generate security token          
+        </li>
+    </ol>
+    
+    <div class="img-border">
+      <img src="/Content/xml/en/images/zoho-security-token-page.png" />
+      <center>Pic. 1 Zoho security token page</center>
+    </div>
+     
+    <p>
+      After this in you zoho account in Active Authtokens section you will see the row with generated key<br/>
+    </p>
+    
+    <div class="img-border">
+      <img src="/Content/xml/en/images/zoho-active-auth-tokens.png" />
+      <center>Pic. 2 Zoho active authtokens page</center>
+    </div>
+          
+    
+    <ol start="3">
+        <li>
+            In LiveHelp integration section fill the required fields
+        </li>
+    </ol>
+    
+    <div class="img-border">
+      <img src="/Content/xml/en/images/zoho-integration-page.png" />
+      <center>Pic. 3 LiveHelp Zoho integration page with filled fields</center>
+    </div>
+          
+    <ol start="4">
+        <li>
+            Press connect button
+        </li>
+    </ol>
+    
+    <p>  
+      After checking you credentials, the information about integration will be saved and you will able to get or save info about contacts in Zoho service.
+    </p>
+	]]>
+  </data>
+</content>

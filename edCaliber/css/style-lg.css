@@ -1,0 +1,64 @@
+@import url(font-awesome.min.css);
+@import url(font-awesome-ie7.min.css);
+@import url("simple-line-icons.css");
+@import url("iconizr-svg-sprite.css");
+@import url("bootstrap.css");
+@import url('style.css');
+@import url("style-sm.css");
+@import url("style-md.css");
+@import url("animate.min.css");
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+.ln .activeLesson a:after {
+    border-left-width: 27px;
+    border-right-width: 27px;
+}
+
+.leftBreadscrumb .selected a:after {
+    border-left-width: 34px;
+    border-right-width: 34px;
+}
+
+.ln.moduleUnit li.expanded {
+    width: 42%;
+}
+
+.ln li.expanded {
+    width: 44.2%;
+}
+
+.mod .expanded li {
+    width: 20% !important;
+}
+
+.lesson-nav .expander {
+width: 14px;
+height: 14px;
+}
+
+.lesson-nav .expander {
+right: -7%;
+top: 0;
+}
+
+.lesson-nav .expander .inner:before,.lesson-nav .expander .minus:before {
+    top: 5px;
+    left: 2px;
+}
+
+.lesson-nav .expander .inner:after {
+    top: 2px;
+    left: 5px;
+}
+
+.lesson-nav {
+    padding-right: 2%;
+}
+  
+.lesson-nav .expander {
+    right: -2%;
+    top: 10px;
+}
+
+} /* Ending Large devices (large desktops, 1200px and up) */

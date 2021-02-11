@@ -1,0 +1,36 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div class="venture">
+          <div class="third">
+            <div class="created">
+              <img src="../images/created.png" title="Created" alt="Created" />Jan 4, 2012, 03:18 PM
+            </div>
+
+            <div class="expires">
+              <img src="../images/expires.png" title="Expires" alt="Expires" />Jan 4, 2012, 11:59 PM
+            </div>
+          </div><!--third-->
+
+          <div class="second w570">
+            <div class="pn venture_name">
+              <a href="../venture_details.html" class="title">Eat thai Food</a>
+            </div>
+
+            <div class="address">
+              <img src="../images/address.png" title="Where" alt="Where" />AMC Empire 25, Lewis 300 Oxford Street California W1A 1EX
+            </div>
+
+            <div class="looking_for fl">
+              <img src="../images/looking_for.png" title="Looking for" alt="Looking for" />1 partner(s)
+            </div>
+
+            <div class="when fl">
+              <img src="../images/when.png" title="When" alt="When" />Today in the Evening
+            </div>
+
+            <div class="category fl">
+              <img src="../images/category.png" title="Category" alt="Category" /><a href="#">Entertainment</a>
+            </div>
+          </div><!--second-->
+
+          <div class="clear"></div>
+        </div><!--venture-->

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<content>
+  <title>Sugar CRM</title>
+  <data>
+    <![CDATA[
+		<h3>Sugar CRM</h3>
+    
+    <p>You can combine your live chat and SugarCRM using this integration. It will allow you to enhance your sales and follow-up activities. With this integration, you will be able to:</p>
+    <ul>
+      <li>Create new accounts and leads</li>
+      <li>Edit existing entries and update them with chat history</li>
+      <li>Grab contact information from information entered in pre-chat surveys</li>
+      <li>Install this integration and simplify your contact management actions.</li>
+    </ul>
+    
+    <h4>Installation</h4>
+    
+    <p>
+      In order to install this integration, go through the following steps:
+    </p>
+    
+    <ol start="1">
+        <li>
+            Login to the Sugar CRM
+        </li>
+    </ol>
+    
+    <ol start="2">
+        <li>
+          Navigate to the Administartion page, by clicking on "Admin" menu item in the user context menu
+        </li>
+    </ol>
+    
+    <div class="img-border">
+      <img src="/Content/xml/en/images/sugarcrm-administartion-section-page.png" />
+      <center>Pic. 1 Sugar CRM Administration page</center>
+    </div>
+     
+    <ol start="3">
+        <li>
+          In System section click on "OAuth Keys" link
+        </li>
+    </ol>
+    
+    <div class="img-border">
+      <img src="/Content/xml/en/images/sugarcrm-oauth-keys.png" />
+      <center>Pic. 2 Sugar CRM OAuth Keys page</center>
+    </div>
+          
+    <ol start="4">
+        <li>
+            In the toolbar in OAuth Keys menu, click on "Create OAuth Key" menu item
+        </li>
+    </ol>
+    
+    <div class="img-border">
+      <img src="/Content/xml/en/images/sugarcrm-create-oauthkey.png" />
+      <center>Pic. 3 Sugar CRM Create OAuth Keys</center>
+    </div>
+    
+    <ol start="5">
+        <li>
+            In the create new OAuth Key page fill the required fields, "OAuth Version" field should be "OAuth 2.0" and "Client Type" field should be "Sugar User". And Press "Save".
+        </li>
+    </ol>
+    
+    <div class="img-border">
+      <img src="/Content/xml/en/images/sugarcrm-create-new-oauthkey.png" />
+      <center>Pic. 4 Sugar CRM Creating new OAuth Key</center>
+    </div>
+    
+    <ol start="6">
+        <li>
+            In Livehelp Sugar CRM integration section fill the required fields
+        </li>
+    </ol>
+    
+    <div class="img-border">
+      <img src="/Content/xml/en/images/sugarcrm-integration-page.png" />
+      <center>Pic. 5 LiveHelp Sugar CRM integration page with filled fields</center>
+    </div>
+          
+    <ol start="7">
+        <li>
+            Press connect button
+        </li>
+    </ol>
+    
+    <p>  
+      After checking you credentials, the information about integration will be saved and you will able to get or save info about contacts, leads and chats in Sugar CRM.
+    </p>
+	]]>
+  </data>
+</content>

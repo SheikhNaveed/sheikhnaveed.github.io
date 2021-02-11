@@ -1,0 +1,123 @@
+
+.tar {
+    text-align: right
+}
+
+.logoHeading {
+/* background: red; */
+    
+margin: 0;
+}
+
+
+.logoHeading a {
+    background: url(../img/logo.png) no-repeat 0 -4px;
+    background-size: 100%;
+    text-indent: -1000px;
+    display: block;
+    width: 100px;
+    height: 40px;
+}
+
+.contactUs {
+    padding-top: 150px !important;
+    padding-bottom: 150px;
+}
+
+.login {
+    padding-top: 160px;
+    padding-bottom: 150px;
+}
+
+/* ================ Sticky Footer by Ryan Fait http://ryanfait.com/ ================ */
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -85px; /* the bottom margin is the negative value of the footer's height */
+}
+.push, .footer {
+	height: 205px; /* .push must be the same height as .footer */
+}
+
+/* ================ Sticky Footer by Ryan Fait http://ryanfait.com/ ================ */
+
+
+
+.hero6 {
+    background: url(../img/hero6.jpg);
+}
+
+.pass:before {
+    margin-top: 10%;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+.push {
+    /* height: 10px !important; */
+}
+
+.push {}
+
+footer.bg-primary.short-2.footer {
+    margin-top: -205px;
+}
+
+@media (min-width:480px) {
+
+	footer.short-2 .contact-action {
+padding: 20px 0 15px;
+}
+
+footer.bg-primary.short-2.footer {
+margin-top: -175px;
+}
+
+.push, .footer {
+height: 175px;
+}
+
+}
+
+.mb20 {
+    margin-bottom: 20px !important;
+    display: inline-block;
+}
+
+.hero5 {
+    background: url(../img/hero5.jpg);
+}
+
+.hero4 {
+    background: url(../img/hero4.jpg);
+}
+
+.hero3 {
+    background: url(../img/hero3.jpg);
+}
+
+.contact:before {
+    margin-top: 10%;
+}
+
+.menuTop {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+}

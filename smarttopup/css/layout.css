@@ -1,0 +1,19 @@
+/* -----------------------------------------
+   Item: Social Sprites
+   Author: I Am Fireworks
+   Description: Social Sprites
+----------------------------------------- */
+
+/* Browser Reset
+================================================== */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;border-collapse:separate;border-spacing:0;font-weight:inherit;font-style:inherit;font-size:100%;text-decoration:none}
+html{height:100%;width:100%;margin:0}
+body{color:#676767;background:url(../images/background.png) center top #f1f1f1;font:12px/17px Helvetica,Arial,sans-serif}
+a{color:#ff7f00;text-decoration:none}
+a:hover,a:active{text-decoration:none;color:#666}
+a img{border:0}
+h2{color:#fff;letter-spacing:0;text-shadow:1px 1px 2px rgba(0,0,0,.5);width:auto;text-align:center;margin-top:5%;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;-ms-transition:all .3s linear;transition:all .3s linear;font:400 100px/110% "Great Vibes",Helvetica,sans-serif}
+h3{width:auto;font:bold 13px "Open Sans",sans-serif;color:#666;text-align:center;margin:4% 0 1%;text-transform:uppercase}
+
+ul.ss,ul.ssm{text-align:center}

@@ -1,0 +1,30 @@
+http://finda.photo/
+npm.js
+
+For unused css. Firefox extentions 'CSS Usage under Firebug' and 'Dust-Me Data' or 'Helium CSS' on github seems good. Also use chrome Audit for checking site's performance
+
+Remove unused css (after taking backup)
+
+https://github.com/IanLunn/Hover
+
+combine all css
+http://www.shrinker.ch/
+
+Extentions:
+PageSpeed Insights (by Google) (after taking backup)
+Validator: Chrome extention 'Validity'
+Emmet LiveStyle
+
+Developer tools:
+Chrome workspace
+
+https://github.com/postcss/autoprefixer
+
+http://simevidas.jsbin.com/gufoko/quiet
+https://github.com/suitcss/suit
+https://github.com/sitespeedio/sitespeed.io
+http://easings.net/
+http://tympanus.net/codrops/category/playground/
+
+
+http://bradfrost.github.io/this-is-responsive/patterns.html

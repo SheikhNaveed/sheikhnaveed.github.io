@@ -1,0 +1,117 @@
+/* Only for small devices*/
+@media (min-width: 768px) and (max-width: 992px) { 
+
+.garments.products .product {
+    padding: 20px 60px;
+}
+} /* Ending Only for small devices*/
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) {
+
+.navbar-default .navbar-nav > li > a {
+text-align: center;
+margin-right: 17px;
+font-size: 15px;
+}
+
+.banner h1 {  margin-bottom: 10px;}
+.banner h6 {
+  margin-bottom: 10px;}
+.banner a { 
+    margin-bottom: 10px;
+}
+
+#sec .banner a { 
+    margin-top: 50px;
+    width: 207px;
+}
+
+.testimonial {
+
+margin-top: 0px;
+}
+
+.navbar-nav > li {
+    float: left;
+  
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+div#sec {
+    background-position: center top;
+    background-size: 180%;
+}
+
+#sec article.banner {
+    background-color: transparent;
+}
+#sec .navbar-nav > li > a {
+    /* color: #93270F; */
+}
+#sec .banner h6 {
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+#sec .banner h1 {
+    color: #406C00;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+#sec article.banner {
+    padding-top: 0;
+}
+
+footer .bottom p {
+    line-height: 35px;
+    margin-bottom: 0;
+}
+
+footer .bottom {
+    height: auto;
+}
+
+footer h6 {margin-top: 0;}
+
+footer section.top .contactUs li {
+    display: inline-block;
+}
+
+.col-sm-4 ul.products li {
+    width: 100%;
+}
+
+.col-sm-4 ul.products .product {
+    padding: 10px 45px;
+}
+
+
+.download img {
+    display: none;
+}
+
+.download p {
+    font-size: 14px;
+    line-height: 3em;
+}
+
+.download .button {
+    position: relative;
+     left: 10px;
+    top: 0px; 
+}
+
+.download {
+padding-bottom: 10px;
+}
+
+
+
+} /* Ending Small devices (tablets, 768px and up) */
+

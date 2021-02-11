@@ -1,0 +1,153 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div id="mies2" class="gallery clearfix simple_overlay"> 
+   	  <div class="pr">
+                      <ul class="tabs"> 
+                      		
+                            <li><a href="#">Comments</a></li> 
+                            <li><a href="#">Media Gallery</a></li> 
+                            <li class="bn"><a href="#">Upload</a></li> 
+        </ul><!-- tab "panes" --> 
+                        <a href="#" class="close"></a>
+        			  <div class="panes clearfix"> 
+                            <div class="comments p15">
+                              <div class="bbb pb10 mb10">
+                                     <div class="grid_1"> <a href="#"><img src="../images/guide_page_pic.jpg" id="guide_page_pic" alt="" /></a>
+                                              
+                                </div><!-- grid_1 -->
+                                    <div >
+                                                <ul class="star fr">
+                                                    <li><a href="#" class="full"></a></li>
+                                                    <li><a href="#"class="full"></a></li>
+                                                    <li><a href="#" class="half"></a></li>
+                                                    <li><a href="#" class="null"></a></li>
+                                                    <li><a href="#" class="null"></a></li>
+                                                </ul> <!-- end star -->
+                                                <a href="#" class="name">Kane</a>
+                                                <span class="date">May 15, 2011 at 2:52 pm</span><!-- date -->
+                                                <div class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div><!-- text -->
+                                                
+                                  </div>
+                              </div><!-- bbb -->
+                              <div class="bbb pb10 mb10">
+                                     <div class="grid_1"> <a href="#"><img src="../images/guide_page_pic.jpg" id="guide_page_pic" alt="" /></a>
+                                              
+                                </div><!-- grid_1 -->
+                                    <div >
+                                                <ul class="star fr">
+                                                    <li><a href="#" class="full"></a></li>
+                                                    <li><a href="#"class="full"></a></li>
+                                                    <li><a href="#" class="half"></a></li>
+                                                    <li><a href="#" class="null"></a></li>
+                                                    <li><a href="#" class="null"></a></li>
+                                                </ul> <!-- end star -->
+                                                <a href="#" class="name">Kane</a>
+                                                <span class="date">May 15, 2011 at 2:52 pm</span><!-- date -->
+                                                <div class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div><!-- text -->
+                                                
+                                  </div>
+                              </div><!-- bbb -->
+                              <div class="bbb pb10 mb10">
+                                     <div class="grid_1"> <a href="#"><img src="../images/guide_page_pic.jpg" id="guide_page_pic" alt="" /></a>
+
+                                              
+                                </div><!-- grid_1 -->
+                                    <div >
+                                                <ul class="star fr">
+                                                    <li><a href="#" class="full"></a></li>
+                                                    <li><a href="#"class="full"></a></li>
+                                                    <li><a href="#" class="half"></a></li>
+                                                    <li><a href="#" class="null"></a></li>
+                                                    <li><a href="#" class="null"></a></li>
+                                                </ul> <!-- end star -->
+                                                <a href="#" class="name">Kane</a>
+                                                <span class="date">May 15, 2011 at 2:52 pm</span><!-- date -->
+                                                <div class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div><!-- text -->
+                                                
+                                  </div>
+                              </div><!-- bbb -->
+
+                              <div class="">
+                                     <div class="grid_1"> <a href="#"><img src="../images/guide_page_pic.jpg" id="guide_page_pic" alt="" /></a>
+                                              
+                                </div><!-- grid_1 -->
+                                    <div >
+                                                <ul class="star fr">
+                                                    <li><a href="#" class="full"></a></li>
+                                                    <li><a href="#"class="full"></a></li>
+                                                    <li><a href="#" class="half"></a></li>
+                                                    <li><a href="#" class="null"></a></li>
+                                                    <li><a href="#" class="null"></a></li>
+                                                </ul> <!-- end star -->
+                                                <a href="#" class="name">Kane</a>
+                                                <span class="date">May 15, 2011 at 2:52 pm</span><!-- date -->
+                                                <div class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div><!-- text -->
+                                                
+                                  </div>
+                              </div><!-- bbb -->
+                              
+                              <div id="action">
+                            	 <ul class="pager">
+                                 <li>Pages</li>
+                                 <li><a href="#"><img src="../images/pager_left.png" alt="" /></a></li>
+                                 <li><a href="#" class="active">1</a></li>
+                                 <li><a href="#">2</a></li>
+                                 <li><a href="#">3</a></li>
+                                 <li><a href="#">4</a></li>
+                                 <li><a href="#">5</a></li>
+                                 <li><a href="#">6</a></li>
+                                 <li><a href="#">7</a></li>
+                                 <li><a href="#"><img src="../images/pager_right.png" alt="" /></a></li>
+                                 
+                                 </ul> <!-- end ul.pager-->
+                               
+                          </div><!-- end #action -->
+                              
+                            
+                            
+                            </div><!-- comments -->
+                            
+                            <div class="media_gallery p15">
+                            
+                            	<img src="../images/media_gallery.png" />
+                            
+                            
+                            
+                            
+                            </div>
+                            
+                            <div class="upload_media p15">
+                            	<h5 class="subHeading mb30">Add Images/Videos</h5>
+                                <input type="file" name="somename" size="chars">
+                                <a href="#" class="btn8">Upload</a>
+                                <div class="file_size">Maximum upload file size: 1GB</div>
+
+                                <h5 class="subHeading mt30">Uploaded Files</h5>
+                                <table  class="basic2 mb20">
+                            <tr>
+                                <td width="5%" ><img src="../images/venue_2_1.jpg" id="venue_2_1" alt=""></th>
+                                <td width="79%">Museum Internal View</th>
+                                <td width="5%" class="remove"><a href="#" ><img src="../images/close.png" /></a>
+                                </td>
+                            </tr>
+                            <tr class="basic_odd">
+                                <td width="5%" ><img src="../images/venue_2_2.jpg" id="venue_2_1" alt=""></th>
+                                <td width="79%">Victoria Video
+</th>
+                                <td width="5%" class="remove"><a href="#" ><img src="../images/close.png" /></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="5%" ><img src="../images/venue_2_3.jpg" id="venue_2_1" alt=""></td>
+                                <td width="79%">Parking Area</td>
+                                <td width="5%" class="remove"><a href="#" ><img src="../images/close.png" /></a>
+                                </td>
+                            </tr>
+                            
+                            
+                            
+                        </table>
+                            
+                            
+                            </div>
+        </div>   <!-- panes -->
+   	  </div><!-- pr -->
+             </div><!-- #mies2 -->

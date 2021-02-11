@@ -1,0 +1,47 @@
+/* Only for medium devices*/
+@media (min-width: 992px) and (max-width: 1200px) { 
+.garments.products .product {
+    padding: 20px 60px;
+} /* Ending Only for medium devices*/
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) {
+
+.navbar-default .navbar-nav > li > a {
+margin-right: 35px;
+}
+
+.banner h1 {  margin-bottom: 30px;}
+
+.banner h6 {
+  margin-bottom: 30px;
+  }
+
+.products li {
+width: 24%;
+}
+
+.download .button {
+    position: absolute;
+     
+    right: 5px;
+    top: 5px; 
+    left: inherit;
+}
+
+.download {
+padding-bottom: 0;
+}
+.col-sm-4 ul.products .product {
+padding: 10px 85px;
+}
+
+.navbar-default .navbar-nav > li > a {
+margin-right: 24px;
+font-size: 16px;
+}
+
+
+
+} /* Ending Medium devices (desktops, 992px and up) */

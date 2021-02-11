@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>
+  <title>Logging In</title>
+  <data>
+    <![CDATA[
+		<h1>Your first time logging in</h1>
+		
+		<div class="img-border">
+            <img src="/content/xml/en/images/gettingstarted-logging-in.png" alt=""/>
+        </div>
+
+        <p>
+			Essential information you will need to use Livehelp:
+            <ul>
+	            <li>
+					The Livehelp login page can be accessed <a href="https://chat.livehelp.com/">here</a>.  You may wish to bookmark this page for faster access.
+	            </li>
+	            <li>
+		            <strong>Username</strong> &ndash; your email address is the username.
+	            </li>
+                <li>
+		            <strong>Password</strong> &ndash; passwords are case sensitive.  Mark the "Stay signed in" checkbox if you wish for the system to remember you on this computer.  We do not recommend staying signed in when using Livehelp on a shared system.
+	            </li>
+	            <li>
+		            <strong>Need Help?</strong>  - You can use this method to retrieve or reset your password.  We will send you an email with the reset instructions.
+	            </li>
+            </ul>
+        </p>
+		
+		
+        <h2>Livehelp Status</h2>
+        
+        <p>
+            When you first login to Livehelp you become online and available to accept chats with your customers.
+			
+			To receive chats from customers, you need to set the status to <strong>Online</strong>.  Simply change your status to <strong>Offline</strong> if you wish not to receive any chats at this time from your customers.
+        </p>
+		<div class="blockquote">
+            <i class="fa fa-exclamation-triangle"></i>
+            <p>When status is online you become available to chat.  Be ready to take chats from your customers.</p>
+        </div>
+        <p>
+			Customers will get a bad impression every time an incoming chat is not answered.  Try to avoid letting your chats being unanswered by making sure your status is set correctly.
+		</p>
+        <p>
+            An offline message is displayed when there are no agents available to accept a chat when a customer visits your site.
+        </p>
+		<p> 
+		    Attempt to keep <strong>Online</strong> status as frequent as possible to receive more chats and making more customers happy.		
+		</p>
+		<div class="blockquote">
+            <i class="fa fa-exclamation-triangle"></i>
+            <p>When you start to work make sure your status is set to <strong>Online</strong>.  Check your availability status if for any reason you notice you are not receiving any chats.</p>
+        </div>	
+	]]>
+  </data>
+</content>

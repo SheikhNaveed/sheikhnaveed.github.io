@@ -1,0 +1,35 @@
+/* Only for medium devices*/
+@media (min-width: 992px) and (max-width: 1200px) { 
+.ml20-md-o {margin-left:20px;}
+
+
+} /* Ending Only for medium devices*/
+
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+.ln .activeLesson a:after {
+    border-left-width: 20px;
+    border-right-width: 20px;
+}
+
+.leftBreadscrumb .selected a:after {
+    border-left-width: 26px;
+    border-right-width: 26px;
+}
+
+.ln.moduleUnit li.expanded {
+    width: 42%;
+}
+
+.ln li.expanded {
+    width: 41%;
+}
+
+.mod .expanded li {
+    width: 33.333% !important;
+}
+
+} /* Ending Medium devices (desktops, 992px and up) */

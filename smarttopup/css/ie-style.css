@@ -1,0 +1,9 @@
+/* -----------------------------------------
+   Item: Social Sprites
+   Note: IE Conditional
+----------------------------------------- */
+body { line-height: 0; }
+.socialbar { margin: 0; }
+
+ul.ss { margin: 0; padding: 0; }
+ul.ss li { margin: 0; }

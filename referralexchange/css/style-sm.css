@@ -1,0 +1,83 @@
+/* Only for small devices*/
+@media (min-width: 768px) and (max-width: 992px) { 
+
+.thirdLayout .freeCopy h1 b {
+
+font-size: 39px;
+}
+
+.thirdLayout .banner h1 b {
+font-size: 60px;
+}
+
+.thirdLayout .header a {
+background-size: 90%;
+}
+
+} /* Ending Only for small devices*/
+
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+.banner h1 {
+    margin-bottom: 40px; 
+    font-size: 37px; 
+    letter-spacing: -1pt;  line-height: 120%;
+}
+
+.banner h1 b {
+    font-size: 71px;
+    line-height: 120%;
+}
+
+.banner div {
+/* margin-bottom: 0; */
+}
+
+.freeCopy h1 {
+font-size: 51px;
+letter-spacing: -2pt;
+}
+
+.freeCopy .control-group {
+margin-top: 0;
+}
+
+footer {
+font-size: 16px;
+}
+
+.thirdLayout>section.clearfix {
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.first,.second,.third {
+    height: 100%;
+}
+
+.thirdLayout img {
+    margin-top: 150px;
+}
+
+.thirdLayout .first {
+    padding-bottom: 0;
+}
+
+.thirdLayout .banner div {
+    margin-bottom: 70px;
+}
+
+.thirdLayout .freeCopy {
+padding-top:40px}
+
+.thirdLayout .header h1 {
+width: 230px;
+}
+
+
+
+} /* Ending Small devices (tablets, 768px and up) */

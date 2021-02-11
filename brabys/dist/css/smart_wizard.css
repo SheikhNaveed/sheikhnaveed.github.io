@@ -1,0 +1,216 @@
+/*   
+  SmartWizard 2.0 plugin 
+  jQuery Wizard control Plugin
+  by Dipu
+  
+  http://www.techlaboratory.net
+  http://tech-laboratory.blogspot.com
+*/
+.swMain {
+}
+.swMain .stepContainer {
+  position: relative;    
+  clear:both;
+  height: auto !important;
+}
+
+.swMain .stepContainer div.content {
+  display:block;                  
+}
+
+.swMain div.actionBar {
+  display:block;
+  position: relative;               
+  z-index:88; 
+
+  margin-top: 20px;
+}
+
+.swMain .stepContainer .StepTitle {
+  display:block;
+  position: relative;
+  margin:0;   
+  border:1px solid #E0E0E0;
+  padding:5px;   
+  font: bold 16px Verdana, Arial, Helvetica, sans-serif; 
+  color:#5A5655;   
+  background-color:#E0E0E0;
+  clear:both;
+  text-align:left; 
+  z-index:88;
+  -webkit-border-radius: 5px;
+  -moz-border-radius  : 5px;    
+}
+.swMain ul.anchor {
+  position: relative;       /*#EEEEEE */
+;
+  margin-bottom: 20px;
+}
+.swMain ul.anchor li{
+    white-space: nowrap;
+  
+}
+/* Anchor Element Style */
+.swMain ul.anchor li a {
+  display:block;
+  outline-style:none;  font-size:16px;  
+  line-height: 63px;  
+  color: rgb(106, 109, 122);  
+  background-color: rgb(247,248,249);    height:72px;
+  padding: 0 20px;
+  margin: 2px 0;
+  border-top: 5px solid transparent;
+}
+.swMain ul.anchor li a .stepNumber{
+    background-color: rgb(219, 221, 230);
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    color: white;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+    text-align: center;
+    margin-right: 10px;
+    font-family: helvetica, arial, sans-serif;
+}
+
+}
+.swMain ul.anchor li a .stepDesc small{
+  font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+}
+.swMain ul.anchor li a.selected{
+  color: white;  /* EA8511 */
+  cursor:text;
+  background-color: rgb(51,183,255);
+  font-weight: 500;
+}
+
+.swMain ul.anchor li a.disabled:hover {       
+  border-top: 5px solid rgb(51,183,255);
+}
+
+.swMain ul.anchor li a.error {
+  color:#6c6c6c !important;  
+  background: #f08f75 !important;
+  border: 1px solid #fb3500 !important;      
+}
+.swMain ul.anchor li a.error:hover {
+  color:#000 !important;       
+}
+
+.swMain .buttonNext {
+  float:right;
+  text-decoration: none;
+  outline-style:none;     
+  background-color: rgb(51,183,255);        
+  font-weight: 400;    color:rgb(255,255,255);  text-align:center;
+  padding: 10px 30px;
+  margin: 0 10px 0 0;
+}
+.swMain .buttonDisabled {
+  cursor:text;                  background-color: rgb(247,248,249);  color: rgb(198,201,216);
+}
+.swMain .buttonPrevious, .swMain .buttonDisabled {
+  display:block;
+  float:right;         text-decoration: none;            font-weight: 400;      text-align: center;  padding: 10px 30px;
+  margin : 0 10px 0 0;
+  background-color: rgb(247,248,249);
+  color: rgb(198,201,216);
+}
+.swMain .buttonFinish {
+  display:block;
+  outline-style:none;       float: right;  text-decoration: none;  
+  font-weight: 600;  text-align: center;  padding: 10px 30px;  margin: 0 10px 0 0;  
+  background-color: red;  
+  color: white;
+}
+
+/* Form Styles */
+
+.txtBox {
+  border:1px solid #CCCCCC;
+  color:#5A5655;
+  font:13px Verdana,Arial,Helvetica,sans-serif;
+  padding:2px;
+  width:430px;
+}
+.txtBox:focus {
+  border:1px solid #EA8511;
+}
+
+.swMain .loader {
+  position:relative;  
+  display:none;
+  float:left;  
+  margin: 2px 0 0 2px;
+  padding:8px 10px 8px 40px;
+  border: 1px solid #FFD700; 
+  font: bold 13px Verdana, Arial, Helvetica, sans-serif; 
+  color:#5A5655;       
+  background: #FFF url(../images/loader.gif) no-repeat 5px;  
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
+  z-index:998;
+}
+.swMain .msgBox {
+  position:relative;  
+  display:none;
+  float:left;
+  margin: 4px 0 0 5px;
+  padding:5px;
+  border: 1px solid #FFD700; 
+  background-color: #FFFFDD;  
+  font: normal 12px Verdana, Arial, Helvetica, sans-serif; 
+  color:#5A5655;         
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
+  z-index:999;
+  min-width:200px;  
+}
+.swMain .msgBox .content {
+  font: normal 12px Verdana,Arial,Helvetica,sans-serif;
+  padding: 0;
+  float:left;
+}
+.swMain .msgBox .close {
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  color: #CCC;
+  display: block;
+  float: right;
+  margin: 0 0 0 5px;
+  outline-style: none;
+  padding: 0 2px 0 2px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+.swMain .msgBox .close:hover{
+  color: #EA8511;
+  border: 1px solid #EA8511;  
+}
+.swMain ul.anchor li a.selected .stepNumber {
+font-weight: 600;
+color: rgb(140,215,0);
+background: white;
+}
+
+@media (max-width:480px){
+    .swMain ul.anchor li a .stepNumber{
+        width: 15px;
+        height: 15px;
+        font-size: 12px;
+        line-height: 15px;
+        margin-right: 1px;
+}
+ .swMain ul.anchor li a {font-size:12px; padding: 10px 8px;line-height: 15px;height: 45px;}   
+.swMain .buttonNext {
+padding: 10px 15px;
+margin: 0 5px 0 0;
+}
+.swMain .buttonPrevious,  .swMain .buttonDisabled {
+padding: 10px 15px;  margin: 0 5px 0 0;
+}
+}

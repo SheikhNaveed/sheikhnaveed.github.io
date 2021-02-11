@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="home" type="text" value="active" -->
+<!-- TemplateParam name="talent" type="text" value="none" -->
+<!-- TemplateParam name="clients" type="text" value="none" -->
+<!-- TemplateParam name="open" type="text" value="none" -->
+<!-- TemplateParam name="submit" type="text" value="none" -->
+<!-- TemplateParam name="breadcrumb" type="text" value="" -->
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Alzome</title>
+<!-- TemplateEndEditable -->
+<meta name="Description" content="." />
+<meta name="keywords" content="" />
+
+<link href="../css/main.css" rel="stylesheet" type="text/css" />
+
+<!--[if IE 7]>
+	<link href="css/ie.css" rel="stylesheet">
+<![endif]-->
+
+<!--[if IE 8]>
+	<link href="css/ie.css" rel="stylesheet">
+<![endif]-->
+
+<!--[if IE 9]>
+	<link href="css/ie.css" rel="stylesheet">
+<![endif]-->
+
+<script type="text/javascript" src="../js/jquery-1.8.2.js"></script>
+<script type="text/javascript" src="../js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="../js/scripts.js"></script>
+</head>
+<body>
+<!--Header Start-->
+<div id="wrap"><!--sticky footer-->
+	<div id="main" class="clearfix"><!--sticky footer-->
+<div id="header">
+	<div class="wrapper">
+		<a href="../index.html" id="logo">Alzome</a>
+		<div class="floatRight"	>
+			<div id="user-area">
+				<a href="#">Register</a>
+				<a href="#">Login</a>
+			</div>
+			<div class="clear"></div>
+			<div id="top-social">
+				<a href="#" class="rss"></a>
+				<a href="@Alzome" class="twitter"></a>
+				<a href="#" class="facebook"></a>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Header End-->
+
+<!--Nav Bar Start-->
+<div id="navbar">
+	<div class="wrapper">
+		<ul>
+			<li><a href="../index.html" class="@@(home)@@">Home</a></li>
+			<li>
+				<a href="../how.html" class="@@(clients)@@">Clients</a>
+				<ul>
+					<li><a href="../how.html">How it works</a></li>
+					<li><a href="../pricing.html">Pricing</a></li>
+					<li><a href="../why_alzome.html">Why Alzome</a></li>
+					<li><a href="../competencies.html">Alzome Competencies</a></li>
+				</ul>
+			</li>
+			<li><a href="../our_commitment.html" class="@@(talent)@@">Talent</a>
+            	<ul>
+					<li><a href="../our_commitment.html">Our Commitment</a></li>
+					<li><a href="../talent_why.html">Why Alzome</a></li>
+				</ul>
+            </li>
+			<li><a href="#" class="@@(open)@@">Open Jobs</a></li>
+			<li><a href="#" class="@@(submit)@@">Submit Resume</a></li>
+		</ul>
+		<form method="post" actio="" class="search">
+			<input type="text" />
+			<button></button>
+		</form>
+	</div>
+</div>
+<!--Nav Bar End-->
+
+<!--Breadcrumb Start-->
+<!-- TemplateBeginEditable name="Breadcrumb" -->
+<div id="breadcrumb" class="">
+  <div class="wrapper"> <a href="../index.html">HOME</a> <span>»</span> <a href="#">CLIENT</a> <span>»</span> <strong>HOW IT WORKS</strong> </div>
+</div>
+<!-- TemplateEndEditable -->
+<!--Breadcrumb End-->
+
+
+<!--Content Start-->
+<div id="content">
+	<div class="wrapper"><!-- TemplateBeginEditable name="content" -->content<!-- TemplateEndEditable -->
+    </div>
+</div>
+<!--Content End-->
+</div><!--sticky footer-->
+</div><!--sticky footer-->
+
+<!--Footer START-->
+<div id="footer">
+	<div class="wrapper">
+		<div class="col links">
+			<h4>NAVIGATION</h4>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="#">Contact us</a></li>
+				<li><a href="#">Talent</a></li>
+				<li><a href="#">Customers</a></li>
+			</ul>
+			
+			<ul>
+				<li><a href="#">About us</a></li>
+				<li><a href="../how.html">Clients </a></li>
+				<li><a href="#">Open Jobs </a></li>
+				<li><a href="#">Support</a></li>
+			</ul>
+		</div>
+		
+		<div class="col about">
+			<h4>ABOUT US</h4>
+			<p>Alzome is a recruiting solutions firm that helps companies quickly identify and hire top talent by developing and managing on-going pipeline talent.</p>
+			<a href="#" class="more">Read more</a>
+		</div>
+		
+		<div class="col candidates">
+			<h4>CANDIDATES</h4>
+			<ul>
+				<li><a href="#">
+					<img src="../images/candidates/tn1.jpg" alt="candidate" />
+					<span></span>
+				</a></li>
+				<li><a href="#">
+					<img src="../images/candidates/tn1.jpg" alt="candidate" />
+					<span></span>
+				</a></li>
+				<li><a href="#">
+					<img src="../images/candidates/tn1.jpg" alt="candidate" />
+					<span></span>
+				</a></li>
+				<li><a href="#">
+					<img src="../images/candidates/tn1.jpg" alt="candidate" />
+					<span></span>
+				</a></li>
+				<li><a href="#">
+					<img src="../images/candidates/tn1.jpg" alt="candidate" />
+					<span></span>
+				</a></li>
+				<li><a href="#">
+					<img src="../images/candidates/tn1.jpg" alt="candidate" />
+					<span></span>
+				</a></li>
+				<li><a href="#">
+					<img src="../images/candidates/tn1.jpg" alt="candidate" />
+					<span></span>
+				</a></li>
+				<li><a href="#">
+					<img src="../images/candidates/tn1.jpg" alt="candidate" />
+					<span></span>
+				</a></li>
+			</ul>
+		</div>
+		
+		<div class="col twitter">
+			<h4>TWITTER</h4>
+			<a href="#">Nicholas M. Taylor</a>
+			<p>Usher has really done a great job reinventing himself as Taio Cruz. Bravo, Mr. Cruz/Usher.</p>
+			<a href="#"> Reply</a> • <a href="#">Retweet</a>
+		</div>
+	</div>
+</div>
+
+<!--fOOTER END-->		
+
+</body>
+
+</html>

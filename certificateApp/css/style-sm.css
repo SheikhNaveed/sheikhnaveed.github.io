@@ -1,0 +1,59 @@
+/* Only for small devices*/
+@media (min-width: 768px) and (max-width: 991px) { 
+
+} /* Ending Only for small devices*/
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+.col-sm-6.tar-sm {
+    text-align: right;
+}    
+
+.tac-sm {
+    text-align: center;
+}
+
+.certData span {
+}
+
+.certificate h1 {
+    font-size: 63px;
+}
+
+
+input[type='text'], select {
+}
+
+.done {  padding-left: 100px;
+  padding-right: 100px;}
+
+footer.whiteBox2 .love {
+    text-align: right;
+}
+
+.siteSettings li.dropdown {
+    /* width: 80%; */
+    display: inline;
+}
+
+
+
+.navbar-nav > li > a {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.navbar-nav > li > a.flag {
+    padding-top: 19px;  
+    padding-bottom: 20px;
+}
+
+header.whiteBox2 nav a {
+    padding: 20px 14px;
+}
+
+.table-ofh {
+    width: auto;
+}

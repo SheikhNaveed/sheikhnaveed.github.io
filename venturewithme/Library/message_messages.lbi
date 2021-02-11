@@ -1,0 +1,17 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div class="venture clearfix">
+  <div class="third">
+    <div class="when"> <img src="../images/when.png" title="When" alt="When" />Today in the Evening </div>
+  </div>
+  
+  <div class="first">
+    <div class="profile_image"><img src="../images/profile_image.png" alt="" /></div>
+  </div>
+  
+  <div class="second w570">
+    <div class="name"><img src="../images/male.png" title="Male" alt="Male" /><a href="../user_info.html" >Joseph Altavista</a></div>
+    <div class="text cl">Some message goes here</div>
+  </div>
+  
+</div>
+<!--venture-->

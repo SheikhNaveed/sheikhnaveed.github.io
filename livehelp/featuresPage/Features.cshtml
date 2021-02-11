@@ -1,0 +1,437 @@
+﻿@using System.Web.Optimization
+@using LiveHelp.Library.Helpers.Extensions
+@using LiveHelp.Public.Models.Enums
+@using LiveHelp.Public.Resources
+
+@{
+    ViewBag.Title = LiveHelp_Public.Features;
+}
+@section scripts {
+    @Scripts.Render("~/Scripts/lh-features-js")
+}
+@section header {
+    @Html.Partial("_HeaderPartial", HeaderItem.Features)
+}
+
+<section class="clearfix">
+
+    <article class="container pageHeading tac clearfix pt40 pb40">
+        <h3>@LiveHelp_Public.FeaturesTitle</h3>
+        <div class="h3Description mt10">
+            <b>
+                @LiveHelp_Public.FeaturesSubtitle
+            </b>
+        </div>
+    </article>
+
+    <article class="container">
+        <aside class="clearfix feature">
+
+            <div>
+                <div class="navWrap">
+                    <!--                                 -->
+                    <ul class="navigation nav equalize" id="top-menu">
+                        <li>
+                            <a href="#fir"><i class="fa fa-heart"></i>@LiveHelp_Public.WhyLivehelp?</a>
+                        </li>
+                        <li>
+                            <a href="#sec"><i class="fa fa-bolt"></i>@LiveHelp_Public.GetStartedFast</a>
+                        </li>
+                        <li>
+                            <a href="#thi"><i class="fa fa-comments"></i>@LiveHelp_Public.ChatLive</a>
+                        </li>
+                        <li>
+                            <a href="#fou"><i class="fa fa-gears"></i>@LiveHelp_Public.Customize</a>
+                        </li>
+                        <li>
+                            <a href="#fiv"><i class="fa fa-puzzle-piece"></i>@LiveHelp_Public.Integrate</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <img src="loading-balls.svg" alt="Loading icon" viewBox="0 0 32 32" width="32" height="32" fill="blue" /> -->
+
+                <div class="scrollSpyContent">
+                    <div id="fir" class="first-child">
+                        <div id="carousel01" class="carousel slide clearfix" data-ride="carousel" data-interval="false">
+                            <h3 class="tac">@LiveHelp_Public.WhyLivehelp</h3>
+                            <!-- Indicators -->
+                            <div class="clearfix tac">
+                                <ul class="carouselSelector carousel-indicators">
+                                    <li data-target="#carousel01" data-slide-to="0" class="active">BOOST SALES</li>
+                                    <li data-target="#carousel01" data-slide-to="1">FEATURED ADD-ONS</li>
+                                    <li data-target="#carousel01" data-slide-to="2">REALTIME MONITORING</li>
+									<li data-target="#carousel01" data-slide-to="3">REPORTS & ANALYTICS</li>
+                                </ul>
+                            </div>
+
+                            <div class="  pr">
+                                <div class="  col-sm-1 carouselControl left">
+                                    <a class="" href="#carousel01" data-slide="prev">
+                                        <span class="leftArrow"></span>
+                                    </a>
+                                </div>
+
+                                <!-- Wrapper for slides -->
+                                <div class=" carousel-inner col-sm-10 ">
+                                    <div class="item active">
+                                        <img src="@Url.StaticImage("feature01.png")" alt="" />
+                                        <div class="carouselDes">
+                                            <div class="col-sm-4"><h3>Increase your bottom line</h3></div>
+                                            <div class="col-sm-8"><p>Talk to your website visitors by using Livehelp chat and see how conversion rate improves.</p><p>Help your customers better by understanding them well to build meaningful relationships, right on your website.</p><p>There are customers waiting on your site today, help them by using Livehelp.</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="item ">
+                                        <img src="@Url.StaticImage("feature02.png")" alt="" />
+                                        <div class="carouselDes">
+                                            <div class="col-sm-4"><h3>Integrations with your favorite products</h3></div>
+                                            <div class="col-sm-8"><p>We have built integrations with popular CRM, Help Desk, CMS, E-Commerce, and many other systems. </p><p>Helping your customers has never felt this seamless.</p></div>
+                                        </div>
+                                    </div>
+									<div class="item ">
+                                        <img src="@Url.StaticImage("feature03.png")" alt="" />
+                                        <div class="carouselDes">
+                                            <div class="col-sm-4"><h3>Know your customers inside and out</h3></div>
+                                            <div class="col-sm-8"><p>Livehelp provides vast amount of real-time information, including the country, browser, click path, etc.</p><p>Integrate with your existing CRM solution to also pull critical data relevant to the visitor.</p></div>
+                                        </div>
+                                    </div>									
+                                    <div class="item ">
+                                        <img src="@Url.StaticImage("feature04.png")" alt="" />
+                                        <div class="carouselDes">
+                                            <div class="col-sm-4"><h3>Gain sophisticated insights with graphs and data</h3></div>
+                                            <div class="col-sm-8"><p>Livehelp provides powerful reports and analytics to help you understand how your site, chat, and agents are collaborating together to help your customers.</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Controls -->
+                                <div class="  col-sm-1 carouselControl right">
+                                    <a class="" href="#carousel01" data-slide="next">
+                                        <span class="rightArrow"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- / #fir-->
+
+                    <div id="sec">
+
+                        <div id="carousel02" class="carousel slide clearfix wow fadeIn" data-ride="carousel" data-interval="false">
+                            <h3 class="tac ">@LiveHelp_Public.GettingStartedFast</h3>
+                            <!-- Indicators -->
+                            <div class="clearfix tac">
+                                <ul class="carouselSelector carousel-indicators">
+                                    <li data-target="#carousel02" data-slide-to="0" class="active">EASY SETUP</li>
+                                    <li data-target="#carousel02" data-slide-to="3">INSTALL</li>
+                                </ul>
+                            </div>
+
+                            <div class="equalHeighter pr">
+                                <div class="left col-sm-1  carouselControl">
+                                    <a class="" href="#carousel02" data-slide="prev">
+                                        <span class="leftArrow"></span>
+                                    </a>
+                                </div>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner col-sm-10  ">
+                                    <div class="item active">
+                                        <img src="@Url.StaticImage("feature03.png")" alt="" />
+                                        <div class="carouselDes">
+                                            <div class="col-sm-4"><h3>Easy setup, Zero Learning Curve</h3></div>
+                                            <div class="col-sm-8"><p>We designed Livehelp to be super simple to use.  So that your choice of live chat solution becomes easy.  Chat console enables reaching your customers as easy as launching a browser!</p><p>You'll gain information including the location, time, and even what they are looking for.</p><p>Agents can setup the numbers of chats they want to receive and get a notification when a new chat arrives.</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="item ">
+                                        <img src="@Url.StaticImage("feature03.png")" alt="" />
+                                        <div class="carouselDes">
+                                            <div class="col-sm-4"><h3>Installing Livehelp Chat</h3></div>
+                                            <div class="col-sm-8"><p>Installing Livehelp Chat requires not much more than cutting and pasting the chat box code from the Install Livehelp Code tab on the Livehelp dashboard, with no setup fees and no contracts.</p><p>Copy and paste into whichever pages of your website you'd like your chat to appear.</p><p>No extra coding is necessary.</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Controls -->
+                                <div class="right col-sm-1  carouselControl">
+                                    <a class="" href="#carousel02" data-slide="next">
+                                        <span class="rightArrow"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ctaBar first">
+                            @LiveHelp_Public.TryLivehelpFor15Days<button type="button" class="btn btnStyle3 ml10" onclick="window.location='@Url.Action("Plans", "Home")';">@LiveHelp_Public.SignUp.ToUpper()</button>
+                        </div>
+                    </div>
+                    <!-- / #sec-->
+
+
+
+                    <div id="thi">
+
+                        <div id="carousel03" class="carousel slide clearfix" data-ride="carousel" data-interval="false">
+                            <h3 class="tac ">Livehelp Experience</h3>
+                            <!-- Indicators -->
+                            <div class="clearfix tac">
+                                <ul class="carouselSelector carousel-indicators">
+                                    <li data-target="#carousel03" data-slide-to="0" class="active">VISITORS</li>
+                                    <li data-target="#carousel03" data-slide-to="1">CHAT</li>
+									<li data-target="#carousel03" data-slide-to="2">WORKING HOURS</li>									
+									<li data-target="#carousel03" data-slide-to="3">HISTORY</li>
+                                </ul>
+                            </div>
+
+                            <div class="  pr">
+                                <div class="left col-sm-1   carouselControl">
+                                    <a class="" href="#carousel03" data-slide="prev">
+                                        <span class="leftArrow"></span>
+                                    </a>
+                                </div>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner col-sm-10 ">
+                                    <div class="item active">
+                                        <img src="@Url.StaticImage("feature01.png")" alt="" />
+                                        <div class="carouselDes">
+                                            <div class="col-sm-4"><h3>Visitor Information</h3></div>										
+                                            <div class="col-sm-8"><p>Our Livehelp Chat console enables reaching your customers as easy as launching a browser!  Agents see details about the site visitor - location, current page, time spent on site, web path, and more.</p><p>You'll gain information including the location, time, and even what they are looking for.</p><p>Agents can setup the numbers of chats they want to receive and get a notification when a new chat arrives.</p><p>Integrate Livehelp chat with a customer management or your existing help desk system to get more information.</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="item ">
+                                        <img src="@Url.StaticImage("feature02.png")" alt="" />
+                                        <div class="carouselDes">
+                                            <div class="col-sm-4"><h3>Chat with your visitors</h3></div>
+                                            <div class="col-sm-8"><p>Agents can see the visitor typing a chat message in real time which saves extra time to begin typing a response and increases the response speed.</p><p>You can transfer an active chat to a specific group or to a specific angent in a group.  The ability to perform good teamwork is one of our priorities.</p><p>Use canned messages to provide answers to frequently asked questions without digging through all the information.</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="item ">
+                                        <img src="@Url.StaticImage("feature03.png")" alt="" />
+                                        <div class="carouselDes">
+                                            <div class="col-sm-4"><h3>Set working hours for agents</h3></div>
+                                            <div class="col-sm-8"><p>Make sure there is always someone available to answer your visitor's questions by setting the working hours for your group of agents.</p></div>
+                                        </div>
+                                    </div>									
+                                    <div class="item ">
+                                        <img src="@Url.StaticImage("feature04.png")" alt="" />
+                                        <div class="carouselDes">
+                                            <div class="col-sm-4"><h3>Chat and Offline History</h3></div>
+                                            <div class="col-sm-8"><p>All your chat history will automatically be saved and available.  Find the best sales strategies and communication styles or most common questions asked by your visitors.</p><p>Inspect if all agents provide accurate answers to specific questions.</p><p>See the offline messages that came in after hours while you were away.</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Controls -->
+                                <div class="right col-sm-1   carouselControl">
+                                    <a class="" href="#carousel03" data-slide="next">
+                                        <span class="rightArrow"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- / #thi-->
+
+                    <div id="fou">
+
+                        <div id="carousel04" class="carousel slide clearfix" data-ride="carousel" data-interval="false">
+                            <h3 class="tac ">Customize Entire Experience</h3>
+                            <!-- Indicators -->
+                            <div class="clearfix tac">
+                                <ul class="carouselSelector carousel-indicators">
+                                    <li data-target="#carousel04" data-slide-to="0" class="active">CHAT WINDOW</li>
+                                    <li data-target="#carousel04" data-slide-to="1">INVITATION</li>
+									<li data-target="#carousel04" data-slide-to="2">SURVEYS & FORMS</li>
+                                    <li data-target="#carousel04" data-slide-to="3">LANGUAGE</li>
+                                </ul>
+                            </div>
+
+                            <div class="equalHeighter pr">
+                                <div class="left col-sm-1  carouselControl">
+                                    <a class="" href="#carousel04" data-slide="prev">
+                                        <span class="leftArrow"></span>
+                                    </a>
+                                </div>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner col-sm-10  ">
+                                    <div class="item active">
+                                        <img src="@Url.StaticImage("feature01.png")" alt="" />
+                                        <div class="carouselDes">
+                                            <div class="col-sm-4"><h3>Perfect match for your website</h3></div>
+                                            <div class="col-sm-8"><p>Livehelp chat window can be installed in minutes and configured to match your site design perfectly.</p><p>Customize your entire Livehelp experience.  No programming knowledge needed.</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="item ">
+                                        <img src="@Url.StaticImage("feature02.png")" alt="" />
+                                        <div class="carouselDes">
+                                            <div class="col-sm-4"><h3>Greet visitors the way they like</h3></div>
+                                            <div class="col-sm-8"><p>Only you know how your visitors want to be greeted.  Customize invitation to match the feel of your website.</p><p>Sending personalized invitation is an effective way to start a chat with a visitor.  Invitations could appear in your chat window with a your agent's photo.</p><p>Turn visitors into customers and sell more today.</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="item ">
+                                        <img src="@Url.StaticImage("feature03.png")" alt="" />
+                                        <div class="carouselDes">
+                                            <div class="col-sm-4"><h3>Customized Surveys</h3></div>
+                                            <div class="col-sm-8"><p>Customize pre-chat surveys to gain more knowledge about people who visit your site.  You can use this information to provide a more personalized and tailored service to your customers.</p><p>Let your chat work for you 24/7 even while you're offline.  Livehelp collects messages that your visitors left for you so you can review them when you're available.</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="item ">
+                                        <img src="@Url.StaticImage("feature03.png")" alt="" />
+                                        <div class="carouselDes">
+                                            <div class="col-sm-4"><h3>Create custom phrases</h3></div>
+                                            <div class="col-sm-8"><p>You may modify any part of chat window or any notifications that you desire.</p><p>All changes made to any language can be seen in real time on your site.</p></div>
+                                        </div>
+                                    </div>									
+                                </div>
+
+                                <!-- Controls -->
+                                <div class="right col-sm-1  carouselControl">
+                                    <a class="" href="#carousel04" data-slide="next">
+                                        <span class="rightArrow"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- / #fou-->
+
+                    <div id="fiv">
+
+                        <div id="carousel05" class="carousel slide clearfix" data-ride="carousel" data-interval="false">
+                            <h3 class="tac ">Integrate</h3>
+                            <!-- Indicators -->
+                            <div class="clearfix tac">
+                                <ul class="carouselSelector carousel-indicators">
+                                    <li data-target="#carousel05" data-slide-to="0" class="active">CUSTOMER RELATION MANAGEMENT</li>
+                                    <li data-target="#carousel05" data-slide-to="1">CONTENT MANAGEMENT SYSTEM</li>
+                                    <li data-target="#carousel05" data-slide-to="2">HELP DESK</li>
+									<li data-target="#carousel05" data-slide-to="3">E-COMMERCE</li>									
+                                </ul>
+                            </div>
+
+                            <div class="  pr">
+                                <div class="left col-sm-1   carouselControl">
+                                    <a class="" href="#carousel05" data-slide="prev">
+                                        <span class="leftArrow"></span>
+                                    </a>
+                                </div>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner col-sm-10 ">
+                                    <div class="item active">
+                                        <img src="@Url.StaticImage("feature02.png")" alt="" />
+                                        <div class="carouselDes">
+                                            <div class="col-sm-4"><h3>Get Integrated in Minutes</h3></div>
+                                            <div class="col-sm-8"><p>Do you use customer relation management (CRM) system?</p><p>Get set up in minutes with Livehelp and your existing CRM.</p><p>Have any installation questions?  We can help!</p></div>
+                                        </div>
+                                    </div>								
+                                    <div class="item ">
+                                        <img src="@Url.StaticImage("feature02.png")" alt="" />
+                                        <div class="carouselDes">
+                                            <div class="col-sm-4"><h3>Get Integrated in Minutes</h3></div>
+                                            <div class="col-sm-8"><p>Do you use a content management system (CMS)?</p><p>Get set up in minutes with our plugins and integrations.</p><p>If a plugin doesn't work with what you have, simply paste the code in your site.  Have any installation questions?  We can help!</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="item ">
+                                        <img src="@Url.StaticImage("feature02.png")" alt="" />
+                                        <div class="carouselDes">
+                                            <div class="col-sm-4"><h3>Get Integrated in Minutes</h3></div>
+                                            <div class="col-sm-8"><p>Do you use a help desk system?</p><p>Get set up in minutes with Livehelp and your existing help desk system.</p><p>Have any installation questions?  We can help!</p></div>
+                                        </div>
+                                    </div>
+									<div class="item ">
+                                        <img src="@Url.StaticImage("feature02.png")" alt="" />
+                                        <div class="carouselDes">
+                                            <div class="col-sm-4"><h3>Get Integrated in Minutes</h3></div>
+                                            <div class="col-sm-8"><p>Do you use a shopping cart?</p><p>Get set up in minutes with Livehelp and many popular shopping cart systems.</p><p>Have any installation questions?  We can help!</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Controls -->
+                                <div class="right col-sm-1   carouselControl">
+                                    <a class="" href="#carousel05" data-slide="next">
+                                        <span class="rightArrow"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- / #fiv-->
+
+                    <div class="jam clearfix">
+                        <h3 class="tac ">Jam-packed with other features</h3>
+                        <ul>
+                            <li class="col-sm-6">
+                                <i class="fa fa-road col-sm-3 col-md-2"></i>
+                                <div class="col-sm-9 col-md-10">@Html.Raw(LiveHelp_Public.JamPackedFeatures_1)</div>
+                            </li>
+                            <li class="col-sm-6">
+                                <i class="fa fa-gears col-sm-3 col-md-2"></i>
+                                <div class="col-sm-9 col-md-10">@Html.Raw(LiveHelp_Public.JamPackedFeatures_2)</div>
+                            </li>
+                            <li class="col-sm-6">
+                                <i class="fa fa-ban col-sm-3 col-md-2"></i>
+                                <div class="col-sm-9 col-md-10">@Html.Raw(LiveHelp_Public.JamPackedFeatures_3)</div>
+                            </li>
+                            <li class="col-sm-6">
+                                <i class="fa fa-bar-chart-o col-sm-3 col-md-2"></i>
+                                <div class="col-sm-9 col-md-10">@Html.Raw(LiveHelp_Public.JamPackedFeatures_4)</div>
+                            </li>
+                            <li class="clearfix mn"></li>
+                            <li class="col-sm-6">
+                                <i class="fa fa-lock col-sm-3 col-md-2"></i>
+                                <div class="col-sm-9 col-md-10">@Html.Raw(LiveHelp_Public.JamPackedFeatures_5)</div>
+                            </li>
+                            <li class="col-sm-6">
+                                <i class="fa fa-cloud col-sm-3 col-md-2"></i>
+                                <div class="col-sm-9 col-md-10">@Html.Raw(LiveHelp_Public.JamPackedFeatures_6)</div>
+                            </li>
+                            <li class="col-sm-6">
+                                <i class="fa fa-html5 col-sm-3 col-md-2"></i>
+                                <div class="col-sm-9 col-md-10">@Html.Raw(LiveHelp_Public.JamPackedFeatures_7)</div>
+                            </li>
+                            <li class="col-sm-6">
+                                <i class="fa fa-comments col-sm-3 col-md-2"></i>
+                                <div class="col-sm-9 col-md-10">@Html.Raw(LiveHelp_Public.JamPackedFeatures_8)</div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="ctaBar">
+                        @LiveHelp_Public.TryLivehelpFor15Days<button type="button" class="btn btnStyle3 ml10" onclick="window.location='@Url.Action("Plans", "Home")';">@LiveHelp_Public.SignUp.ToUpper()</button>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+    </article>
+</section>
+
+<section class="story">
+    <article class="container">
+        <aside class="col-sm-3 image">
+            <a href="//player.vimeo.com/video/96752162?autoplay=1" class="mr20 video-popup-link">
+                <img src="@Url.StaticImage("story01.png")" alt="" />
+            </a>
+        </aside>
+        <aside class="col-sm-8">
+            <div>Featured Livehelp.com customer story: Warner Hosting</div>
+            <h3>How hosting company uses Livehelp to support their customers</h3>
+            <p>Join us for an inside look at how Livehelp's speed and ease of use enable the Warner Hosting team to spend less time with phone calls and more time with chats to help their customers.</p>
+
+            <!-- Button trigger modal -->
+            <a href="//player.vimeo.com/video/96752162?autoplay=1" class="mr20 video-popup-link"><i class="fa fa-youtube-play"></i>@LiveHelp_Public.PlayVideo</a>
+            <a href="@Url.Action("CaseStudy", "Home")">@LiveHelp_Public.FullStory »</a>
+        </aside>
+    </article>
+</section>

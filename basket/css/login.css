@@ -1,0 +1,71 @@
+.btn {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.column-formatting{
+    padding: 20px;
+    margin-top: 94px;
+}
+
+.col2 {
+    height: 565px;;
+  }
+
+/*----------------- Login Page -----------------*/
+.backgroundimg-login {
+    /* background-image: url('L-sfondo.png'); */
+    background-image: url('../img/L-sfondo.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 20px 0;    
+    /* height: 110vh; */
+    /* width: 100%; */
+    /* z-index: -2; */
+}
+
+/* input image */
+
+.inp-img { position: relative; width:48px; }
+.inp-img input { border:none;  display:block; width: 100%; box-sizing: border-box; background: none }
+.inp-img img { position: absolute; top: 0px; right: 0px; height: 100%; }
+
+
+.input-group>.custom-select:not(:first-child), .input-group>.form-control:not(:first-child) {
+
+    background-color: #D1D1D1;
+    font-size: 12px;
+}
+
+.warning-btn {
+    background-color: #F4971B; border-color: #F4971B; color: white;
+}
+
+.blue-btn {
+    background-color:#0240BC; border-color: #0240BC; color:white;
+}
+
+.red-btn {
+    background-color:#7C2C2C; border-color: #7C2C2C; color:white;
+}
+
+.btnMargin {
+    margin-top: 23px!important;
+    /* margin-bottom: 12px!important; */
+}
+
+.chkBx {
+    margin-top: 39px!important;
+    padding-bottom: 35px!important;
+}
+.chkBx > div > small { font-size: 11px }
+.chkBx > div > label {     
+    /* font-family: montserrat; */
+    font-size: 13px;
+    font-weight: 400;
+    color: #D1D1D1 !important; 
+}
+.chkBx1 {float: left; margin-left: 1.25rem;}
+.chkBx2 {}
+

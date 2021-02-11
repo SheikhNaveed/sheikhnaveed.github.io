@@ -1,0 +1,22 @@
+@media (min-width:768px) {
+    .mt30-xs {margin-top:0}
+
+.mr30-sm {
+    margin-right: 30px;
+}
+
+.mt20-xs {
+    margin-top: 0;
+}
+
+.mb30-xs {
+    margin-bottom: 0;
+}
+
+.mt0-sm {
+    margin-top: 0;
+}
+
+.tar-sm {
+    text-align: right;
+}

@@ -1,0 +1,44 @@
+/* Only for medium devices*/
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+
+} /* Ending Only for medium devices*/
+
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ /* Ending Medium devices (desktops, 992px and up) */
+
+
+
+.certLogo {
+    margin-top: 0;
+}
+ .siteSettings .dropdown {
+     /* width: 50px; */
+}
+
+.whiteBox2 nav li:last-child a {
+    border-right: 1px solid #EFF3F6;
+}
+
+
+.certificate h1 {
+    margin-bottom: 50px;
+}
+
+.whiteBox2 nav li {
+display: inline-block;
+}
+
+header.whiteBox2 nav a {
+    border-left: 1px solid #EFF3F6;
+    border-bottom: 0;
+}
+
+header.whiteBox2 nav a {
+    padding: 20px;
+}

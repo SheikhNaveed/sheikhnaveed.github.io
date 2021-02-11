@@ -1,0 +1,69 @@
+.mr10 {margin-right:10px;}
+
+.tar {
+    text-align: right;
+}
+
+.tac {
+    text-align: center;
+}
+
+.pt30 {padding-top:30px}
+.pb30 {padding-bottom:30px}
+.p30 {padding:30px}
+
+.mr30 {
+    margin-right: 30px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mt30-xs {
+    margin-top: 30px;
+}
+
+.mt20-xs {
+    margin-top: 20px;
+}
+
+.mb30-xs {
+    margin-bottom: 30px;
+}
+
+.pushUp {
+    /* margin-top: 85px; */
+    padding-top: 100px;
+}
+
+.ofh {
+}
+
+.pn {
+    padding: 0;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}

@@ -1,0 +1,113 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-agents {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -5px;
+}
+
+.sprite-alerts {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -5px;
+}
+
+.sprite-bill {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -5px;
+}
+
+.sprite-business {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -5px;
+}
+
+.sprite-checklist {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -47px;
+}
+
+.sprite-dashboard {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -47px;
+}
+
+.sprite-details {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -47px;
+}
+
+.sprite-document {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -47px;
+}
+
+.sprite-forms {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -89px;
+}
+
+.sprite-forms2 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -89px;
+}
+
+.sprite-help {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -89px;
+}
+
+.sprite-lock {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -89px;
+}
+
+.sprite-minutes {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -131px;
+}
+
+.sprite-office {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -131px;
+}
+
+.sprite-opener {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -131px;
+}
+
+.sprite-order {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -131px;
+}
+
+.sprite-profile {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -5px;
+}
+
+.sprite-reseller {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -47px;
+}

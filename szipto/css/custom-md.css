@@ -1,0 +1,17 @@
+@media (min-width:992px) {
+
+footer.short-2 .contact-action {
+padding: 45px 0 15px;
+}
+
+footer.short-2 span {
+margin-right: 67px;
+}
+
+.pass:before {
+margin-top: 20%;
+}
+
+.contact:before {
+    margin-top: 13%;
+}

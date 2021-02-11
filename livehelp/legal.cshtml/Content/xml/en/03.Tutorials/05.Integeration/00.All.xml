@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>
+  <title>All</title>
+  <data>
+    <![CDATA[
+		<hgroup class="headline">
+		  <h3>Integrations</h3>
+		  <h4>Easily integrate Livehelp with third party integrations.</h4>
+	  </hgroup>
+    
+    <div class="integrations">
+	    <div class="integration_container" data-category="cms">
+		    <a class="integration" href="cms/1and1/">
+			    <h3 class="title">1&amp;1<img class="no-retina" src="/Content/xml/en/images/logos/1and1@2x.png" width="160" height="57" alt="1and1">
+			    </h3>
+			    <p>
+				    Place Livehelp on your 1&amp;1 website to engage visitors in real time.			</p>
+		    </a>
+	    </div>
+	   
+	    <div class="integration_container" data-category="email-marketing">
+		    <a class="integration" href="email-marketing/activecampaign/">
+			    <h3 class="title">ActiveCampaign				<img class="no-retina" src="/Content/xml/en/images/logos/activecampaign@2x.png" width="160" height="57" alt="activecampaign">
+			    </h3>
+			    <p>
+				    Gain new subscribers and improve your follow-up activities.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container">
+		    <a class="integration" href="e-commerce/bigcommerce/">
+			    <h3 class="title">BigCommerce				<img class="no-retina" src="/Content/xml/en/images/logos/bigcommerce@2x.png" width="160" height="57" alt="bigcommerce">
+			    </h3>
+			    <p>
+				    Livehelp for BigCommerce will help you turn store visitors into customers.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="email-marketing">
+		    <a class="integration" href="email-marketing/campaign-monitor/">
+			    <h3 class="title">Campaign Monitor				<img class="no-retina" src="/Content/xml/en/images/logos/campaign-monitor@2x.png" width="160" height="57" alt="campaign-monitor">
+			    </h3>
+			    <p>
+				    Gain newsletter subscribers and easily follow up after chats using Campaign Monitor integration.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="help-desk">
+		    <a class="integration" href="help-desk/desk/">
+			    <h3 class="title">Desk.com				<img class="no-retina" src="/Content/xml/en/images/logos/deskcom@2x.png" width="160" height="57" alt="deskcom">
+			    </h3>
+			    <p>
+				    Manage your customer support with ease and increase your helpdesk's visibility with Desk.com integration.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="file-sharing">
+		    <a class="integration" href="file-sharing/dropbox/">
+			    <h3 class="title">Dropbox				<img class="no-retina" src="/Content/xml/en/images/logos/dropbox@2x.png" width="160" height="57" alt="dropbox">
+			    </h3>
+			    <p>
+				    Dropbox integration is a great way to share files with your visitors.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="cms">
+		    <a class="integration" href="cms/drupal-integration/">
+			    <h3 class="title">Drupal				<img class="no-retina" src="/Content/xml/en/images/logos/drupal-integration@2x.png" width="160" height="57" alt="drupal-integration">
+			    </h3>
+			    <p>
+				    Easily place a live chat function on your Drupal website using this integration.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="e-commerce">
+		    <a class="integration" href="e-commerce/ekmpowershop/">
+			    <h3 class="title">ekmPowershop				<img class="no-retina" src="/Content/xml/en/images/logos/ekmpowershop@2x.png" width="160" height="57" alt="ekmpowershop">
+			    </h3>
+			    <p>
+				    Empower your ekmPowershop with Livehelp and increase your sales with pro-active chats.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="social-media">
+		    <a class="integration" href="social-media/facebook/">
+			    <h3 class="title">Facebook				<img class="no-retina" src="/Content/xml/en/images/logos/facebook@2x.png" width="160" height="57" alt="facebook">
+			    </h3>
+			    <p>
+				    Use our powerful Facebook integration to grow your fan base and get more chats.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="email-marketing">
+		    <a class="integration" href="email-marketing/getresponse/">
+			    <h3 class="title">GetResponse				<img class="no-retina" src="/Content/xml/en/images/logos/getresponse@2x.png" width="160" height="57" alt="getresponse">
+			    </h3>
+			    <p>
+				    Increase your newsletter audience and broaden your reach using the GetResponse integration.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="analytics">
+		    <a class="integration" href="analytics/google-analytics/">
+			    <h3 class="title">Google Analytics				<img class="no-retina" src="/Content/xml/en/images/logos/google-analytics@2x.png" width="160" height="57" alt="google-analytics">
+			    </h3>
+			    <p>
+				    Use Google Analytics integration to track impact of website chats on online sales and gather valuable marketing data.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="help-desk">
+		    <a class="integration" href="help-desk/helpiq/">
+			    <h3 class="title">HelpIQ				<img class="no-retina" src="/Content/xml/en/images/logos/helpiq@2x.png?v=2.1" width="160" height="57" alt="helpiq">
+			    </h3>
+			    <p>
+				    Offer direct Livehelp help on your HelpIQ documentation site.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="crm">
+		    <a class="integration" href="crm/highrise/">
+			    <h3 class="title">Highrise				<img class="no-retina" src="/Content/xml/en/images/logos/highrise@2x.png" width="160" height="57" alt="highrise">
+			    </h3>
+			    <p>
+				    Highrise will make your sales efforts easier and more efficient. Centralize your sales information using this CRM solution.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="email-marketing">
+		    <a class="integration" href="email-marketing/icontact/">
+			    <h3 class="title">iContact				<img class="no-retina" src="/Content/xml/en/images/logos/icontact@2x.png" width="160" height="57" alt="icontact">
+			    </h3>
+			    <p>
+				    Gain a larger newsletter audience and simplify your follow-up activities using the iContact app.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container"  data-category="desktop-sharing">
+		    <a class="integration" href="desktop-sharing/joinme/">
+			    <h3 class="title">join.me				<img class="no-retina" src="/Content/xml/en/images/logos/joinme@2x.png" width="160" height="57" alt="joinme">
+			    </h3>
+			    <p>
+				    Use join.me to remotely access your visitor's screen and easily resolve support cases.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="cms">
+		    <a class="integration" href="cms/joomla/">
+			    <h3 class="title">Joomla				<img class="no-retina" src="/Content/xml/en/images/logos/joomla@2x.png" width="160" height="57" alt="joomla">
+			    </h3>
+			    <p>
+				    Place a live chat function on your Joomla!-powered website with a few simple clicks.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container"  data-category="desktop-sharing">
+		    <a class="integration" href="desktop-sharing/logmein/">
+			    <h3 class="title">LogMeIn				<img class="no-retina" src="/Content/xml/en/images/logos/logmein@2x.png" width="160" height="57" alt="logmein">
+			    </h3>
+			    <p>
+				    LogMeIn Rescue is a web-based support tool that can be used to remotely access your visitors' screens.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="e-commerce">
+		    <a class="integration" href="e-commerce/magento/">
+			    <h3 class="title">Magento				<img class="no-retina" src="/Content/xml/en/images/logos/magento@2x.png" width="160" height="57" alt="magento">
+			    </h3>
+			    <p>
+				    Integrate Livehelp with Magento in a few simple clicks to start chatting with online visitors.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="email-marketing">
+		    <a class="integration" href="email-marketing/mailchimp/">
+			    <h3 class="title">MailChimp				<img class="no-retina" src="/Content/xml/en/images/logos/mailchimp@2x.png" width="160" height="57" alt="mailchimp">
+			    </h3>
+			    <p>
+				    MailChimp integration will grow your newsletter subscriber base and make it easy to follow up after a chat.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="e-commerce">
+		    <a class="integration" href="e-commerce/osi-affiliate-software/">
+			    <h3 class="title">OSI Affiliate Software				<img class="no-retina" src="/Content/xml/en/images/logos/osi-affiliate-software@2x.png" width="160" height="57" alt="osi-affiliate-software">
+			    </h3>
+			    <p>
+				    Stay in touch with your affiliate program partners and contact them using chat.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="e-commerce">
+		    <a class="integration" href="e-commerce/prestashop/">
+			    <h3 class="title">PrestaShop				<img class="no-retina" src="/Content/xml/en/images/logos/prestashop@2x.png" width="160" height="57" alt="prestashop">
+			    </h3>
+			    <p>
+				    Integrate PrestaShop with Livehelp to boost your online sales using chats with customers.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="crm">
+		    <a class="integration" href="crm/salesforce/">
+			    <h3 class="title">Salesforce				<img class="no-retina" src="/Content/xml/en/images/logos/salesforce@2x.png" width="160" height="57" alt="salesforce">
+			    </h3>
+			    <p>
+				    Salesforce will help you manage your sales, tasks and follow-up activities. Lookup contact details while chatting with your customers.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="e-commerce">
+		    <a class="integration" href="e-commerce/shopify/">
+			    <h3 class="title">Shopify				<img class="no-retina" src="/Content/xml/en/images/logos/shopify@2x.png" width="160" height="57" alt="shopify">
+			    </h3>
+			    <p>
+				    Place a live chat function in your Shopify store using this integration.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="crm">
+		    <a class="integration" href="crm/sugar-crm/">
+			    <h3 class="title">SugarCRM				<img class="no-retina" src="/Content/xml/en/images/logos/sugarcrm@2x.png" width="160" height="57" alt="sugarcrm">
+			    </h3>
+			    <p>
+				    Use SugarCRM to access your contacts and manage sales tasks directly from your live chat window.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container"  data-category="desktop-sharing">
+		    <a class="integration" href="desktop-sharing/teamviewer/">
+			    <h3 class="title">TeamViewer				<img class="no-retina" src="/Content/xml/en/images/logos/teamviewer@2x.png" width="160" height="57" alt="teamviewer">
+			    </h3>
+			    <p>
+				    Access and control your visitors' desktops remotely using the TeamViewer app.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="e-commerce">
+		    <a class="integration" href="e-commerce/volusion/">
+			    <h3 class="title">Volusion				<img class="no-retina" src="/Content/xml/en/images/logos/volusion@2x.png" width="160" height="57" alt="volusion">
+			    </h3>
+			    <p>
+				    Integrate Volusion with Livehelp to gain a new way of engaging your online visitors and turn them into customers.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="cms">
+		    <a class="integration" href="cms/whmcs/">
+			    <h3 class="title">WHMCS				<img class="no-retina" src="/Content/xml/en/images/logos/whmcs@2x.png?v=2.1" width="160" height="57" alt="whmcs">
+			    </h3>
+			    <p>
+				    Chat with visitors on your WHMCS site and convert them into customers.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="cms">
+		    <a class="integration" href="cms/wordpress/">
+			    <h3 class="title">Wordpress				<img class="no-retina" src="/Content/xml/en/images/logos/wordpress@2x.png?v=2.1" width="160" height="57" alt="wordpress">
+			    </h3>
+			    <p>
+				    Use this integration to place a live chat function on your Wordpress website.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="e-commerce">
+		    <a class="integration" href="e-commerce/x-cart/">
+			    <h3 class="title">X-Cart				<img class="no-retina" src="/Content/xml/en/images/logos/x-cart@2x.png?v=2.1" width="160" height="57" alt="x-cart">
+			    </h3>
+			    <p>
+				    Grow your business with Livehelp for X-Cart. Integrate both tools with just a few clicks to start chatting with prospective customers.			</p>
+		    </a>
+	    </div>
+	    <div class="integration_container" data-category="help-desk">
+		    <a class="integration" href="help-desk/zendesk/">
+			    <h3 class="title">Zendesk				<img class="no-retina" src="/Content/xml/en/images/logos/zendesk@2x.png?v=2.1" width="160" height="57" alt="zendesk">
+			    </h3>
+			    <p>
+				    A customer support help desk that lets you track your support activities while your team is offline at live chat.			</p>
+		    </a>
+	    </div>
+      <div class="integration_container" data-category="help-desk">
+		    <a class="integration" href="cms/wix/">
+			    <h3 class="title">Wix				<img class="no-retina" src="/Content/xml/en/images/logos/wix@2x.png" width="160" height="57" alt="zendesk">
+			    </h3>
+			    <p>Place Livehelp on your Wix website to engage visitors in real time.</p>
+		    </a>
+	    </div>
+      
+      
+    </div>
+    
+    <div class="sidebar">
+	    <div class="categories">
+		    <div class="content">
+					<h3>Categories</h3>
+			    <ul id="categories">
+			      <li class="active" id="integration-li-all">
+				      <a href="javascript:void(0);" data-category="all">All</a>
+			      </li>
+							<li class="" id="integration-li-analytics">
+					    <a href="javascript:void(0);" data-category="analytics">Analytics</a>
+				    </li>	
+					  <li class="" id="integration-li-cms">
+					    <a href="javascript:void(0);" data-category="cms">CMS</a>
+				    </li>	
+						<li class="" id="integration-li-crm">
+					    <a href="javascript:void(0);" data-category="crm">CRM</a>
+				    </li>	
+						<li class="" id="integration-li-desktop-sharing">
+					    <a href="javascript:void(0);" data-category="desktop-sharing">Desktop sharing</a>
+				    </li>	
+						<li class="" id="integration-li-e-commerce">
+					    <a href="javascript:void(0);" data-category="e-commerce">E-commerce</a>
+				    </li>	
+						<li class="" id="integration-li-email-marketing">
+					    <a href="javascript:void(0);" data-category="email-marketing">Email marketing</a>
+				    </li>	
+						<li class="" id="integration-li-file-sharing">
+					    <a href="javascript:void(0);" data-category="file-sharing">Files sharing</a>
+				    </li>	
+						<li class="" id="integration-li-help-desk" >
+					    <a href="javascript:void(0);" data-category="help-desk">Help desk</a>
+				    </li>	
+						<li class="" id="integration-li-social-media">
+					    <a href="javascript:void(0);" data-category="social-media">Social media</a>
+				    </li>	
+				</ul>
+		</div>
+	</div>
+  
+  <script language=>
+  </script>
+	]]>
+  </data>
+</content>

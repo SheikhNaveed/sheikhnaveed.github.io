@@ -1,0 +1,59 @@
+@import url('bootstrap.css');
+@import url('bootstrap-sm.css');
+@import url('bootstrap-md.css');
+@import url('font-awesome.min.css');
+@import url('animate.min.css');
+@import url('video-js.css');
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width:1200px) {
+
+.banner h1 {  margin-bottom: 30px;  font-size: 80px;  letter-spacing: -3px;  line-height: 90%;}
+
+.banner h6 {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.banner a {          
+    margin-bottom: 10px;
+}
+
+footer section.top .contactUs li:nth-child(3) {
+    margin-left: 15px;
+}
+
+.products li {
+width: 16%;
+}
+
+.col-sm-4 ul.products .product {
+padding: 10px 105px;
+}
+
+.download img {
+display: inline-block;
+
+}
+
+.download .button {
+    right: 10px;
+    top: 15px; 
+    position: absolute;
+    left: inherit;
+}
+
+.download {
+padding-bottom: 0;
+}
+
+.control-label {
+    width: 30%;
+}
+.controls {
+    width: 68%;
+}
+
+} /* Ending Large devices (large desktops, 1200px and up) */
+
+

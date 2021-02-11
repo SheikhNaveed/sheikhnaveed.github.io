@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* common css STARTS */
+
+input:focus {
+		outline:0 none;
+} 
+
+
+#home .bn { border:0 none; }
+
+#home .pa { position:absolute;}
+#home .pr { position:relative;}
+
+.br5 {
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+
+.br10 {
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+
+.br5 {
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+}
+
+.fs12 { font-size:12px }
+
+.fs11 { font-size:11px }
+
+.fs10 { font-size:10px }
+
+.b { font-weight:bold }
+
+#home .tar { text-align:right; }
+
+#home .tal { text-align:left }
+
+#home .ofh { overflow:hidden }
+
+#home .fl { float:left; }
+
+#home .fr { float:right }
+.fr { float:right }
+
+#home .fn { float:none }
+
+#home .cl { clear:left }
+
+#home .cr { clear:right }
+
+#home .cb { clear:both; font-size:0; height:0; }
+
+#home .vam { vertical-align:middle }
+
+#home .vat { vertical-align:top }
+
+#home .vab { vertical-align:bottom }
+
+#home .mn {
+	magin:0;
+	margin: 0;
+}
+
+#home .m10 { margin:10px }
+
+#home .mt10 { margin-top:10px }
+
+#home .mr5 { margin-right:5px }
+
+#home .mr10 { margin-right:10px }
+
+#home .mb10 { margin-bottom:10px }
+
+#home .mln { margin-left:0 }
+
+#home .ml10 { margin-left:10px }
+
+#home .m20 { margin:20px }
+
+#home .mt20 { margin-top:20px }
+
+#home .mr20 { margin-right:20px }
+
+#home .mb20 { margin-bottom:20px }
+
+#home .ml20 { margin-left:20px }
+
+#home .m30 { margin:30px }
+
+#home .mt30 { margin-top:30px }
+
+#home .mr30 { margin-right:30px }
+
+#home .mb30 { margin-bottom:30px }
+
+#home .ml30 { margin-left:30px }
+
+#home .m40 { margin:40px }
+
+#home .mt40 { margin-top:40px }
+
+#home .mr40 { margin-right:40px }
+
+#home .mb40 { margin-bottom:40px }
+
+#home .ml40 { margin-left:40px }
+
+#home .pn { padding:0 }
+
+
+#home .p5 { padding:5px }
+
+#home .pt5 { padding-top:5px }
+
+#home .pr5 { padding-right:5px }
+
+#home .pb5 { padding-bottom:5px }
+
+#home .pl5 { padding-left:5px }
+
+#home .p10 { padding:10px }
+
+#home .pt10 { padding-top:10px }
+
+#home .pr10 { padding-right:10px }
+
+#home .pb10 { padding-bottom:10px }
+
+#home .pl10 { padding-left:10px }
+
+#home .p20 { padding:20px }
+
+#home .pt20 { padding-top:20px }
+
+#home .pr20 { padding-right:20px }
+
+#home .pb20 { padding-bottom:20px }
+
+#home .pl20 { padding-left:20px }
+
+#home .p30 { padding:30px }
+
+#home .pt30 { padding-top:30px }
+
+#home .pr30 { padding-right:30px }
+
+#home .pb30 { padding-bottom:30px }
+
+#home .pl30 { padding-left:30px }
+
+#home .p40 { padding:40px }
+
+#home .pt40 { padding-top:40px }
+
+#home .pr40 { padding-right:40px }
+
+#home .pb40 { padding-bottom:40px }
+
+#home .pl40 { padding-left:40px }
+#home a {text-decoration:none;}
+
+a:hover {
+		text-decoration:none;
+		outline:none !important;
+}
+
+.w100 {
+		width:100%;
+} 
+
+body {
+	/*text-align:center;*/
+}
+
+/* common css ENDS */
+#home .pa {position:absolute;}
+#home .pr {position:relative;}
+#home .tac {text-align:center;}
+#home .tal {text-align:left;}
+* :focus{
+	outline:0 none !important;
+}
+
+#home .p10 {padding:10px;}
+
+#home .db {display:block;}
+
+

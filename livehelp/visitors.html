@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="css/img/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="css/img/favicon.ico" type="image/x-icon" />
+	<title>Visitors</title>
+	<link href="css/bootstrap-lg.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<!--[if lt IE 8]>
+	<link href="css/bootstrap-ie7.css" rel="stylesheet">
+	<![endif]-->
+</head>
+
+<body>
+	<!-- Wrap all page content here -->
+	<aside id="wrap">
+
+		<!-- STARTS New Menu ==========================================================================-->
+
+		<section class="smallNav clearfix visible-xs" >
+
+			<div class=" container">
+
+				<!-- STARTS visible-xs on right hand side of smallNav -->
+
+				<div class="dropdown blue admin language dib ml20 pull-right">
+					<a class="" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="#"> <i class="fa fa-globe"></i>
+						English <i class="fa fa-caret-down"></i>
+					</a>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+						<li class="blueTopArrow"></li>
+						<li>
+							<a href="">Deutsch</a>
+						</li>
+						<li>
+							<a href="">Espa&#241;ol</a>
+						</li>
+						<li>
+							<a href="">Fran&#231;ais</a>
+						</li>
+						<li>
+							<a href="">Italiano</a>
+						</li>
+						<li>
+							<a href="">Pусский</a>
+						</li>
+					</ul>
+				</div>
+
+				<!-- STARTS John Doe Drop Down ===================================================-->
+
+				<div class="dropdown blue admin dib johnDoe ml20 pull-right">
+					<a id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="#">
+						<span class="online"></span>
+						Amanda Jacobsons
+						<i class="fa fa-caret-down"></i>
+					</a>
+					<ul class="dropdown-menu">
+						<li class="blueTopArrow"></li>
+						<li>
+							<div class="userImage">
+								<img src="css/img/userImageDefaultBig.png" alt=""></div>
+								<div class="userInfo">
+									<a href="#">Amanda Jacobsons</a> <b>Owner</b>
+									<ul>
+										<li>
+											<button href="" class="active online toolTipHover" data-toggle="tooltip" title="" data-original-title="Online"></button>
+										</li>
+										<li>
+											<button href="" class="toolTipHover away" data-toggle="tooltip" title="" id="example" data-original-title="Away"></button>
+										</li>
+										<li>
+											<button href="" class="toolTipHover offline" data-toggle="tooltip" title="" data-original-title="Offline"></button>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li id="userActions">
+								<ul>
+									<li>
+										<a href="account.html" class="">
+											<i class="fa fa-user"></i>
+											Account
+										</a>
+									</li>
+									<li>
+										<a href="help.html">
+											<i class="fa fa-medkit"></i>
+											Help
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<i class="fa fa-power-off"></i>
+											Logout
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+					<!-- ENDS John Doe Drop Down ===================================================-->
+
+					<a href="settings.html" class="pull-right settings firstRow">
+						<i class="fa fa-cog toolTipHover" data-toggle="tooltip" title="Settings" data-original-title="Settings" data-placement="bottom" ></i>
+
+					</a>
+
+					
+
+					<!-- STARTS Main Sidr -->
+					<div id="sidr" >
+						<ul class="sidrMainMenu visible-xs">
+							<li>
+								<a href="visitors.html" class="active">Visitors</a>
+							</li>
+							<li>
+								<a href="chat.html">Chat</a>
+							</li>
+							<li>
+								<a href="reporting.html">Reporting</a>
+							</li>
+							<li>
+								<a href="history.html">History</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</section>
+
+			<header class="clearfix" id="siteHeader">
+				<aside class=" col-sm-12">
+					<!-- STARTS smallNav sidr Trigger -->
+					<a id="simple-menu" href="#sidr" class="mr10 oc">
+						<button class="btn btnStyle3 visible-xs">
+							<i class="fa fa-align-justify cGreen"></i>
+						</button>
+					</a>
+
+					<h1>
+						<a class="sprites livehelpheader animated bounceIn" href="visitors.html">LiveHelp</a>
+					</h1>
+					<a href="settings.html" class="pull-right settings secondRow">
+						<i class="fa fa-cog toolTipHover" data-toggle="tooltip" title="" data-original-title="Settings" data-placement="bottom" ></i>
+					</a>
+					<nav class="hidden-xsCustom">
+
+						<span>
+							<a href="visitors.html" class="active">
+								Visitors
+								<span class="halfCircle"></span>
+							</a>
+							<a href="chat.html">
+								Chat
+								<span class="halfCircle"></span>
+							</a>
+							<a href="reporting.html">
+								Reporting
+								<span class="halfCircle"></span>
+							</a>
+							<a href="history.html">
+								History
+								<span class="halfCircle"></span>
+							</a>
+						</span>
+					</nav>
+
+					<nav class="tal tac-sm hidden-xs">
+						<span>
+							<a href="visitors.html" class="active">
+								Visitors
+								<span class="halfCircle"></span>
+							</a>
+							<a href="chat.html">
+								Chat
+								<span class="halfCircle"></span>
+							</a>
+							<a href="reporting.html">
+								Reporting
+								<span class="halfCircle"></span>
+							</a>
+							<a href="history.html">
+								History
+								<span class="halfCircle"></span>
+							</a>
+						</span>
+						
+
+						<div class="pull-right">
+
+							<div class="dropdown blue admin language dib ml20">
+								<a id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="#">
+									<i class="fa fa-globe"></i>
+									English
+									<i class="fa fa-caret-down"></i>
+								</a>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+									<li class="blueTopArrow"></li>
+									<li>
+										<a href="">Deutsch</a>
+									</li>
+									<li>
+										<a href="">Espa&#241;ol</a>
+									</li>
+									<li>
+										<a href="">Fran&#231;ais</a>
+									</li>
+									<li>
+										<a href="">Italiano</a>
+									</li>
+									<li>
+										<a href="">Pусский</a>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+
+						<!-- STARTS John Doe Drop Down ===================================================-->
+
+						<div class="pull-right ">
+
+							<div class="dropdown blue admin dib johnDoe">
+								<a id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="#">
+									<span class="online"></span>
+									Amanda Jacobsons
+									<i class="fa fa-caret-down"></i>
+								</a>
+								<ul class="dropdown-menu">
+									<li class="blueTopArrow"></li>
+									<li>
+										<div class="userImage">
+											<img src="css/img/userImageDefaultBig.png" alt=""></div>
+											<div class="userInfo">
+												<a href="#">Amanda Jacobsons</a> <b>Owner</b>
+												<ul>
+													<li>
+														<button href="" class="active online toolTipHover" data-toggle="tooltip" title="" data-original-title="Online"></button>
+													</li>
+											<!-- <li>
+											<button href="" class="toolTipHover away" data-toggle="tooltip" title="" id="example" data-original-title="Away"></button>
+										</li>
+									-->
+									<li>
+										<button href="" class="toolTipHover offline" data-toggle="tooltip" title="" data-original-title="Offline"></button>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li id="userActions">
+							<ul>
+								<li>
+									<a href="account.html" class="">
+										<i class="fa fa-user"></i>
+										Account
+									</a>
+								</li>
+								<li>
+									<a href="help.html">
+										<i class="fa fa-medkit"></i>
+										Help
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-power-off"></i>
+										Logout
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+			<!-- ENDS John Doe Drop Down ===================================================-->
+
+			<a href="settings.html" class="pull-right settings">
+				<i class="fa fa-cog toolTipHover" data-toggle="tooltip" title="" data-original-title="Settings" data-placement="bottom" ></i>
+			</a>
+		</nav>
+
+	</aside>
+	<article></article>
+</header>
+
+<!-- ENDS New Menu ========================================================================== -->
+
+
+<!-- Begin page content -->
+<section class="mt15 mb15">
+	<ul class="nav nav-tabs tabs nav-fixed plr15 mb15" id="floatingNav">
+		<li class="active">
+			<a href="#first" data-toggle="tab" class="sales">
+				Livehelp-Sales
+				<span class="red info no">100</span>
+				<span class="cyan info  no">15</span>
+			</a>
+		</li>
+		<li class="active">
+			<a href="#second" data-toggle="tab" class="support">
+				Acme-Support
+				<span class="red info no">2</span>
+				<span class="cyan info  no">5</span>
+			</a>
+		</li>
+		<li class="active">
+			<a href="#third" data-toggle="tab" class="marketing">
+				MyCompany-Marketing
+				<span class="red info no">15</span>
+				<span class="cyan info  no">3</span>
+			</a>
+		</li>
+		
+	</ul>
+	<div class="tab-content bn nav-stacked">
+		<div class="tab-pane active" id="first">
+					<!-- <ul class=" animated legend plr15 fadeIn">
+							<li>
+								<span class="item1"></span>Sales</li>
+							<li>
+								<span class="item2"></span>Support</li>
+							<li>
+								<span class="item3"></span>Marketing</li>
+							<li>
+								<span class="item4"></span>Finance</li>
+							<li>
+								<span class="item5"></span>Accounts</li>
+							<li>
+								<span class="item6"></span>Management</li>
+							</ul> -->
+
+							<div class="content clearfix mt15">
+								<div class="col-sm-7 col-xs-12 animated bounceInRight">
+									<div class="panel-group" >
+										<!-- Make id="accordion" to the above div to force it to behave like accordion -->
+										<div class="panel panel-default data">
+											<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+												<b class="fa fa-comments circle"></b>
+												CHATTING
+												<i></i>
+											</a>
+											<div id="collapseOne" class="panel-collapse collapse in ">
+												<table class="table table-striped table-hover accordionTable">
+
+													<tbody>
+														<tr class="	">
+
+															<td class="w1 pn pr" >
+																<div class="item1 toolTipHover" data-toggle="tooltip" title="" data-original-title="Sales" data-placement="right"></div>
+															</td>
+															<td class="f32 returning">
+																<b class="flag us"></b><i class="fa fa-reply toolTipHover" data-toggle="tooltip" title="Returning User"></i>
+																<span>Alexandria Richardson</span>
+
+															</td>
+															<td><span>Amanda Jacobsons</span></td>
+
+															<td class="waitsince">
+																<span class="fa fa-clock-o toolTipHover" data-toggle="tooltip" title="Waiting Since"></span>
+																<span>1h 3m</span>
+															</td>
+															<td class="onlineSmall">
+																<span class="toolTipHover  animated shake repeatAnimation" data-toggle="tooltip" title="Online"></span>
+															</td>
+														</tr>
+
+														<tr>
+															<td class="w1 pn pr" >
+																<div class="item2 toolTipHover" data-toggle="tooltip" title="" data-original-title="Support" data-placement="right"></div>
+															</td>
+															<td class="f32 returning">
+																<b class="flag pk"></b><i class="fa fa-reply toolTipHover" data-toggle="tooltip" title="Returning User"></i>
+																<span>Adam Dennis</span>
+
+															</td>
+															<td><span>Amanda Jacobsons</span></td>
+
+															<td class="waitsince">
+																<i class="fa fa-clock-o toolTipHover" data-toggle="tooltip" title="Waiting Since"></i>
+																<span>3m 2s</span>
+															</td>
+															<td class="onlineSmall"></td>
+														</tr>
+
+														<tr>
+															<td class="w1 pn pr" >
+																<div class="item3 toolTipHover" data-toggle="tooltip" title="" data-original-title="Marketing" data-placement="right"></div>
+															</td>
+															<td class="f32 returning">
+																<b class="flag ye"></b><i class="fa fa-reply toolTipHover" data-toggle="tooltip" title="Returning User"></i>
+																<span>Stan Kumar</span>
+
+															</td>
+															<td><span>Amanda Jacobsons</span></td>
+
+															<td class="waitsince">
+																<i class="fa fa-clock-o toolTipHover" data-toggle="tooltip" title="Waiting Since"></i>
+																<span>1h 2m</span>
+															</td>
+															<td class="onlineSmall">
+																<span class="toolTipHover" data-toggle="tooltip" title="Online"></span>
+															</td>
+														</tr>
+
+														<tr class="selectedRow">
+															<td class="w1 pn pr" >
+																<div class="item4 toolTipHover" data-toggle="tooltip" title="" data-original-title="Finance" data-placement="right"></div>
+															</td>
+															<td class="f32 returning">
+																<b class="flag gb"></b><i class="fa fa-reply toolTipHover" data-toggle="tooltip" title="Returning User"></i>
+																<span>Abdullah</span>
+
+															</td>
+															<td><span>Amanda Jacobsons</span></td>
+
+															<td class="waitsince">
+																<i class="fa fa-clock-o toolTipHover" data-toggle="tooltip" title="Waiting Since"></i>
+																<span>5m 30s</span>
+															</td>
+															<td class="onlineSmall">
+																<span class="toolTipHover" data-toggle="tooltip" title="Online"></span>
+															</td>
+														</tr>
+
+														<tr>
+															<td class="w1 pn pr" >
+																<div class="item5 toolTipHover" data-toggle="tooltip" title="" data-original-title="Accounts" data-placement="right"></div>
+															</td>
+															<td class="f32 returning">
+																<b class="flag pl"></b><i class="fa fa-reply toolTipHover" data-toggle="tooltip" title="Returning User"></i>
+																<span>John</span>
+
+															</td>
+															<td><span>Amanda Jacobsons</span></td>
+
+															<td class="waitsince">
+																<i class="fa fa-clock-o toolTipHover" data-toggle="tooltip" title="Waiting Since"></i>
+																<span>1m 2s</span>
+															</td>
+															<td class="onlineSmall"></td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+										<div class="panel panel-default data">
+											<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+												<b class="fa fa-globe circle"></b>
+												BROWSING
+												<i></i>
+											</a>
+											<div id="collapseTwo" class="panel-collapse collapse in">
+
+												<table class="table table-striped table-hover accordionTable">
+													<tbody>
+														<tr>
+															<td class="w1 pn pr" >
+																<div class="item5 toolTipHover" data-toggle="tooltip" title="" data-original-title="Accounts" data-placement="right"></div>
+															</td>
+															<td class="f32 returning">
+																<b class="flag gb"></b><i class="fa fa-reply toolTipHover" data-toggle="tooltip" title="Returning User"></i>
+																<span>Dylan Feltus</span>
+
+															</td>
+															<td></td>
+
+															<td class="waitsince">
+																<i class="fa fa-clock-o toolTipHover" data-toggle="tooltip" title="Waiting Since"></i>
+																<span>3m 3s</span>
+															</td>
+															<td class="onlineSmall">
+																<span class="toolTipHover" data-toggle="tooltip" title="Online"></span>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+											</div>
+										</div>
+
+										<div class="panel panel-default data">
+											<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+												<b class="fa fa-clock-o circle"></b>
+												WAITING
+												<i></i>
+											</a>
+											<div id="collapseThree" class="panel-collapse collapse in">
+
+												<table class="table table-striped table-hover accordionTable">
+													<tbody>
+														<tr>
+															<td class="w1 pn pr" >
+																<div class="item1 toolTipHover" data-toggle="tooltip" title="" data-original-title="Sales" data-placement="right"></div>
+															</td>
+															<td class="f32 returning">
+																<b class="flag ye"></b><i class="fa fa-reply toolTipHover" data-toggle="tooltip" title="Returning User"></i>
+																<span>Muhammad</span>
+
+															</td>
+															<td></td>
+
+															<td class="waitsince">
+																<i class="fa fa-clock-o toolTipHover" data-toggle="tooltip" title="Waiting Since"></i>
+																<span>1h 34m</span>
+															</td>
+															<td class="onlineSmall">
+																<span class="toolTipHover" data-toggle="tooltip" title="Online"></span>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+											</div>
+										</div>
+										<div class="panel panel-default data">
+											<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+												<b class="fa fa-user circle"></b>
+												INVITED
+												<i></i>
+											</a>
+											<div id="collapseFour" class="panel-collapse collapse in">
+
+												<table class="table table-striped table-hover accordionTable">
+													<tbody>
+														<tr>
+															<td class="w1 pn pr" >
+																<div class=" item1 toolTipHover" data-toggle="tooltip" title="" data-original-title="Sales" data-placement="right"></div>
+															</td>
+															<td class="f32 returning">
+																<b class="flag pl"></b><i class="fa fa-reply toolTipHover" data-toggle="tooltip" title="Returning User"></i>
+																<span>Fakhar Jameel</span>
+
+															</td>
+															<td><span>Amanda Jacobsons</span></td>
+
+															<td class="waitsince">
+																<i class="fa fa-clock-o toolTipHover" data-toggle="tooltip" title="Waiting Since"></i>
+																<span>1m 30s</span>
+															</td>
+															<td class="onlineSmall"></td>
+														</tr>
+													</tbody>
+												</table>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<aside class="col-sm-5 col-xs-12 animated bounceInLeft mt15 mt0-sm pl0-sm">
+									<div class="rightSide">
+										<div class="scroll">
+											<div class="mb10">
+												<button type="button" class="btn btn1 btn-md mr10">GO TO CHAT</button>
+												<!-- <button type="button" class="btn btn1 btn-md">SEND INVITATION</button> -->
+
+											</div>
+
+											<div class="whiteBox">
+												<h6>DETAILS</h6>
+												<ul>
+													<li>
+														<i class=" mr10  fa fa-th-large toolTipHover" data-toggle="tooltip" title="Department" data-placement="right"></i>
+														Support
+													</li>
+													<li>
+														<i class=" mr10 f16 toolTipHover" data-toggle="tooltip" title="Flag" data-placement="right"><i class="flag us"></i></i> 
+														USA / Los- Angeles
+													</li>
+													<li>
+														<i class=" mr10  fa fa-laptop toolTipHover" data-toggle="tooltip" title="IP" data-placement="right"></i>
+														192.168.8.1
+													</li>
+													<li>
+														<i class=" mr10  fa fa-search toolTipHover" data-toggle="tooltip" title="Page" data-placement="right"></i>
+														Support Page
+													</li>
+													<li>
+														<i class=" mr10  fa fa-reply toolTipHover" data-toggle="tooltip" title="Returning Visitor" data-placement="right"></i>
+														Returning Visitor (3 visits, last seen yesterday)
+													</li>
+												</ul>
+											</div>
+
+											<div class="whiteBox">
+												<h6>SURVEY</h6>
+												<ul>
+													<li>
+														<i class=" mr10 fa fa-user toolTipHover" data-toggle="tooltip" title="User" data-placement="right"></i>
+														John Adams
+													</li>
+													<li>
+														<i class=" mr10 fa fa-envelope toolTipHover" data-toggle="tooltip" title="Email" data-placement="right"></i>
+														<a href="">john.adams@yahoo.com</a>
+														<a class="pull-right showMore" data-toggle="collapse" data-target="#demo">
+															<i class="fa fa-plus tar colorBlue"></i>
+														</a>
+													</li>
+												</ul>
+
+												<ul id="demo" class="collapse">
+													<li>
+														<i class=" mr10 fa fa-user toolTipHover" data-toggle="tooltip" title="User" data-placement="right"></i>
+														John Adams
+													</li>
+													<li>
+														<i class=" mr10 fa fa-envelope toolTipHover" data-toggle="tooltip" title="Email" data-placement="right"></i>
+														<a href="">john.adams@yahoo.com</a>
+													</li>
+												</ul>
+											</div>
+
+											<div class="whiteBox salesForce">
+												<h6>SALES FORCE</h6>
+												<img src="css/img/salesForce.png">
+
+												<ul>
+													<li>
+														<i class=" mr10 fa fa-user toolTipHover" data-toggle="tooltip" title="User" data-placement="right"></i>
+														John Adams
+													</li>
+												</ul>
+											</div>
+
+											<div class="whiteBox">
+												<h6>VISITED PAGES</h6>
+
+												<ul>
+													<li>
+														<span class="mr10 toolTipHover" data-toggle="tooltip" title="" data-placement="right">
+															<a href="">Support Page</a>
+														</span>
+														21s
+													</li>
+													<li>
+														<span class="mr10 toolTipHover" data-toggle="tooltip" title="" data-placement="right">
+															<a href="">About us</a>
+														</span>
+														2m 34s
+													</li>
+													<li>
+														<span class="mr10 toolTipHover" data-toggle="tooltip" title="" data-placement="right">2 Pages total within 2m 55s</span>
+														<a class="pull-right showMore" data-toggle="collapse" data-target="#demo2">
+															<i class="fa fa-plus tar colorBlue"></i>
+														</a>
+													</li>
+												</ul>
+												<ul id="demo2" class="collapse">
+
+													<li>
+														<span class="mr10 toolTipHover" data-toggle="tooltip" title="" data-placement="right">
+															<a href="">Support Page</a>
+														</span>
+														21s
+													</li>
+													<li>
+														<span class="mr10 toolTipHover" data-toggle="tooltip" title="" data-placement="right">
+															<a href="">About us</a>
+														</span>
+														2m 34s
+													</li>
+												</ul>
+												<hr class="mt15 mb15">
+
+												<ul class="">
+													<li>
+														<span class=" mr10 browser chrome toolTipHover" data-toggle="tooltip" title="Browser" data-placement="right"></span>
+														Came from
+														<a href="">www.google.com</a>
+													</li>
+
+												</ul>
+
+											</div>
+
+										</div>
+									</div>
+
+								</aside>
+							</div>
+		</div>
+
+						<div class="tab-pane" id="second">Acme-Support</div>
+						<div class="tab-pane" id="third">MyCompany-Marketing</div>
+					</div>
+				</section>
+			</aside>
+			<footer>
+				<section class="clearfix">
+
+					<div class="col-xs-12 col-sm-8">
+
+						<h1>
+							<a href="" class="sprites livehelpfooter" >LiveHelp</a>
+						</h1>
+						<p>© 2013 LiveHelp.com LLC. &nbsp; All rights reserved</p>
+					</div>
+					<!-- Footer's right hand side stuff -->
+					<div class="col-xs-12 col-sm-4 tal tar-sm footerLinks">
+						<a href="https://www.facebook.com/livehelpdotcom" class="">
+							<i class="fa fa-facebook facebook"></i>
+						</a>
+						<a href="https://twitter.com/livehelpdotcom" class="	">
+							<i class="fa fa-twitter twitter"></i>
+						</a>
+						<a href="https://www.youtube.com/user/LivehelpDotCom">
+							<i class="fa fa-youtube-play youtube"></i>
+						</a>
+						<a href="https://plus.google.com/u/0/104505034933761553646/posts" class="">
+							<i class="fa fa-google-plus-square googlePlus"></i>
+						</a>
+						
+					</div>
+				</section>
+
+			</footer>
+			<!-- Bootstrap core JavaScript==================================================- -->
+			<script src="js/jquery.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<!-- custom scrollbars plugin -->
+			<!-- <script src="js/jquery.mCustomScrollbar.concat.min.js"></script> -->
+
+			<!-- Sidr Responsive Menu -->
+			<script src="js/jquery.sidr.min.js"></script>
+			<script type="text/javascript">$('#simple-menu').sidr();</script>
+
+			<style>
+			#simple-menu {
+				display: none;
+			}
+			@media only screen and (max-width: 567px){ 
+				/* 568px is iPhone Landscape */
+				#simple-menu {
+					display: block;
+				}
+			}
+			</style>
+
+			<!-- jQuery breakpoint ( used for dropdown hover in big screen ) https://github.com/martinmartinmartin/breakpoint -->
+			<script src="js/jquery.breakpoint-min.js"></script>
+			<script type="text/javascript">
+			$.breakpoint({
+				condition: function () {
+					return window.matchMedia('only screen and (min-width:768px)').matches;
+				},
+				enter: function () {
+					$('.dropdown').hover( function () {
+						$(this).addClass('open');
+					},
+					function () {
+						$(this).removeClass('open');
+					})
+				}
+			});
+			</script>
+
+			<!-- All custom js has been collected here  -->
+			<script src="js/custom.js"></script>
+
+			<script type="text/javascript">
+			$(window).bind('scroll', function() {
+				if ($(window).scrollTop() > 50) {
+					$('#floatingNav').addClass('fixed');
+				}
+				else {
+					$('#floatingNav').removeClass('fixed');
+				}
+			});
+			</script>
+
+			<!-- http://jsliang.com/eqHeight.coffee/demo.html -->
+			<script src="js/jquery.eqheight.js"></script>
+			<script type="text/javascript">
+			$(document).ready(function() {
+				$(".equalHeighter").eqHeight(".equalHeighted");
+			});
+			</script>
+
+			<!-- accordion's minus plus icon's script -->
+			<script type="text/javascript">
+			$('.showMore').click(function(e){
+				e.preventDefault();
+				$(this).find('i').toggleClass('fa-plus fa-minus');
+			});
+			</script>
+
+
+
+
+
+		</body>
+
+		</html>

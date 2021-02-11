@@ -1,0 +1,109 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <div id="mies1" class="select_friends simple_overlay clearfix">
+                                    <div class="heading">
+                                      <p class="lastNode">Add to Guide</p>
+                                
+                                      <div id="searchBox" class="searchBox2 my_request_3">
+                                        <div class="pr">
+                                          <a href="#" class="fr"><img src="../images/search3.png" alt="" /></a>
+                                
+                                          <div class="text">
+                                            SEARCH
+                                          </div><input value="Barcelona Summer" type="text" />
+                                        </div><!-- .pr -->
+                                      </div><!-- end #searchBox -->
+                                    </div><!-- heading -->
+                                
+                                    <div class="second_row_wrapper clearfix">
+                                      <div class="second_row clearfix">
+                                        <table>
+                                          <tr>
+                                            <td>
+                                              <div class="grid_5 friend active">
+                                                <img src="../images/venue_1.jpg" alt="" />Buckingham Palace
+                                
+                                                <div class="progressBar"><span></span></div><!-- end star -->
+                                              </div>
+                                            </td>
+                                
+                                            <td>
+                                              <div class="grid_5 friend">
+                                                <img src="../images/venue_2.jpg" alt="" />Hotel InterContinental<br />
+                                                London Park Lane
+                                
+                                                <div class="progressBar"><span></span></div><!-- end star -->
+                                              </div>
+                                            </td>
+                                
+                                            <td>
+                                              <div class="grid_5 friend">
+                                                <img src="../images/venue_3.jpg" alt="" />Battle Of Britain<br />
+                                                Monument in London
+                                
+                                                <div class="progressBar"><span></span></div><!-- end star -->
+                                              </div>
+                                            </td>
+                                          </tr>
+                                
+                                          <tr>
+                                            <td>
+                                              <div class="grid_5 friend">
+                                                <img src="../images/venue_3.jpg" alt="" />Buckingham Palace
+                                
+                                                <div class="progressBar"><span></span></div><!-- end star -->
+                                              </div>
+                                            </td>
+                                
+                                            <td>
+                                              <div class="grid_5 friend active">
+                                                <img src="../images/venue_5.jpg" alt="" />ITV.com
+                                
+                                                <div class="progressBar"><span></span></div><!-- end star -->
+                                              </div>
+                                            </td>
+                                
+                                            <td>
+                                              <div class="grid_5 friend">
+                                                <img src="../images/venue_6.jpg" alt="" />InFormed London<br />
+                                                (central)
+                                
+                                                <div class="progressBar"><span></span></div><!-- end star -->
+                                              </div>
+                                            </td>
+                                          </tr>
+                                
+                                          <tr>
+                                            <td>
+                                              <div class="grid_5 friend">
+                                                <img src="../images/venue_7.jpg" alt="" />London Inventory<br />
+                                                Company
+                                
+                                                <div class="progressBar"><span></span></div><!-- end star -->
+                                              </div>
+                                            </td>
+                                
+                                            <td>
+                                              <div class="grid_5 friend">
+                                                <img src="../images/venue_8.jpg" alt="" />Premier Inn London<br />
+                                                County Hal
+                                
+                                                <div class="progressBar"><span></span></div><!-- end star -->
+                                              </div>
+                                            </td>
+                                
+                                            <td>
+                                              <div class="grid_5 friend active">
+                                                <img src="../images/venue_1.jpg" alt="" />International House<br />
+                                                London
+                                
+                                                <div class="progressBar"><span></span></div><!-- end star -->
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </div><!-- second_row -->
+                                    </div><!-- second_row_wrapper  -->
+                                
+                                    <div class="third_row clearfix">
+                                      <a href="#" class="btn2 ml10 fr"><span>Add to Guide</span></a> <!--<a href="#" class="btn2" ><span>Cancel</span></a>-->
+                                    </div><!-- third_row -->
+                                  </div><!-- #select_friends -->

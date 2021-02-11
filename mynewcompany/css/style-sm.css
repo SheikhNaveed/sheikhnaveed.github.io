@@ -1,0 +1,71 @@
+/* Only for small devices*/
+@media (min-width: 768px) and (max-width: 991px) { 
+
+} /* Ending Only for small devices*/
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+
+
+.navbar-collapse {
+}
+
+.navbar-nav {
+    color: #00569e;    
+    font-size: 14px;    
+}
+
+.nav > li > a {
+    padding-left: 4px;    
+    padding-right: 6px;
+}
+
+.contact li {
+    padding-right: 7px;    
+    margin-right: 2px;
+}
+
+.btn.blue.lg {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.skin2 {
+    width: 60%;
+}
+
+.sideMenu a {
+    padding-left: 15px;
+}
+
+.sideMenu .fa {
+    margin-right: 22px;
+}
+
+.sideMenu.expanded {
+    width: 33%;
+}
+
+.about {
+    margin-top: 10px;
+}
+
+.share {
+    margin: 0;
+}
+
+li {}
+
+.mt50-xs-only {
+    margin-top: 0;
+}
+
+.mt15-xs-only {
+    margin-top: 0;
+}
+
+.carousel.slide .actions {
+    top: -28px;    width: 35px;
+}
