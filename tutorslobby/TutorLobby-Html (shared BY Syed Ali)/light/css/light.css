@@ -1,0 +1,96 @@
+﻿body {
+    background-color: #f1f1f1 !important;
+}
+
+    body a {
+        color: #000;
+    }
+
+    body p {
+        color: #000;
+    }
+
+    body span {
+        color: #000;
+    }
+
+    body li {
+        color: #000;
+    }
+.bottom-icons{
+	background-color: #dae0e5;
+}
+/*header*/
+.top-info {
+    background: #cfd2d8;
+}
+
+.top-info-mb {
+    background: #cfd2d8;
+}
+
+.box-border {
+    border: 5px solid #f1f1f1;
+}
+
+
+.dropdown .dropdown-menu {
+    color: #212529;
+    background-color: #fff;
+}
+.dropdown-toggle::after{
+	color:#333;
+}
+
+
+.dropdown-menu .dropdown-item.active, .dropdown-menu .dropdown-item:active {
+    color: #fff;
+    background-color: #dc3545;
+}
+.room-bar{
+background-color:#b7b3b3;
+}
+.contact-bar{
+background-color:#b7b3b3;
+}
+.chats-bar {
+background-color:#b7b3b3;
+}
+.room-name, .contact-name, .balon1:before, .balon2:before{
+	color:#333;
+}
+/*Responsive*/
+@media only screen and (max-width: 768px) {
+
+
+    ul.top-info-mb {
+        background-color: #161616;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+
+    ul.top-info-mb {
+        background-color: #cfd2d8;
+    }
+	.dropdown-toggle::after{
+	color:#333;
+}
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .navbar-dark .navbar-brand {
+        color: #fff;
+    }
+	.dropdown-toggle::after{
+	color:#333;
+}
+
+
+    ul.top-info-mb {
+        background-color: #cfd2d8;
+    }
+}

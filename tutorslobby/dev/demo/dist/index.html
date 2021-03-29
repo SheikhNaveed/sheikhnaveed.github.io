@@ -38,23 +38,45 @@
 	
 
 	.list-section-responsive-height {
-		height: -webkit-calc(100vh - 380px);
+		height: -webkit-calc(100vh - 365px);
 		/* google, safari */
 	}
 
 
 	@media screen and (min-width: 992px) {
 		.list-section-responsive-height {
-			height: calc(100vh - 400px);
-			height: -o-calc(100vh - 400px);
+			height: calc(100vh - 350px);
+			/* height: -o-calc(100vh - 400px); */
 			/* opera */
-			height: -webkit-calc(100vh - 400px);
+			/* height: -webkit-calc(100vh - 400px); */
 			/* google, safari */
-			height: -moz-calc(100vh - 400px);
+			/* height: -moz-calc(100vh - 400px); */
 			/* firefox */
 
 		}
 	}
+
+	.filter-responsive-height {
+		/* height: -webkit-calc(100vh - 365px); */
+		/* google, safari */
+	}
+
+
+	@media screen and (min-width: 992px) {
+		.filter-responsive-height {
+			height: calc(100vh - 180px);
+			/* height: -o-calc(100vh - 400px); */
+			/* opera */
+			/* height: -webkit-calc(100vh - 400px); */
+			/* google, safari */
+			/* height: -moz-calc(100vh - 400px); */
+			/* firefox */
+
+		}
+	}
+
+
+	
 </style>
 </head>
 <!--end::Head-->
@@ -1404,7 +1426,8 @@
 				</div>
 				<!--end::Header-->
 				<!--begin::Content-->
-				<div class="content d-sm-flex mt-6 mt-sm-0 " id="kt_content">
+				<div class="container-fluid d-sm-flex mt-6" id="kt_content">
+					<!-- <div class="content d-sm-flex mt-6 mt-sm-0 " id="kt_content"></div> -->
 					<!--begin::Subheader-->
 
 					<!--end::Subheader-->
@@ -1415,16 +1438,17 @@
 					<!--begin::Row-->
 					<!-- <div class="d-flex"> -->
 
-					<div class=" ml-6 bg-white">
+					<div class="" class="" >
+						<!-- bg-white -->
 						<!--begin::Aside-->
-						<div class="aside aside-left aside-fixed d-flex flex-column flex-row-auto" id="kt_aside">
+						<div class="aside aside-left aside-fixed d-flex flex-column flex-row-auto filter-responsive-height scroll rounded " data-scroll="true" id="kt_aside">
 							<!--begin::Brand-->
 
 							<!--end::Brand-->
 							<!--begin::Aside Menu-->
-							<div class="aside-menu-wrapper flex-column-fluid" id="kt_aside_menu_wrapper">
+							<div class="aside-menu-wrapper flex-column-fluid " id="kt_aside_menu_wrapper">
 								<!--begin::Menu Container-->
-								<div id="kt_aside_menu" class="aside-menu">
+								<div id="kt_aside_menu" class="aside-menu border rounded">
 
 									<!--begin::Menu Nav-->
 									<ul class="menu-nav py-5 px-10">
@@ -1566,7 +1590,7 @@
 						</div>
 						<!--end::Aside-->
 					</div>
-					<div class="flex-grow-1 ml-6 mr-6">
+					<div class="flex-grow-1 ml-0 ml-sm-6 ">
 						<!--begin::Advance Table Widget 4-->
 
 						<div class="card card-custom mb-3">
@@ -1644,7 +1668,8 @@
 						<div class="card card-custom card-">
 
 							<!--begin::Body-->
-							<div class="card-body list-section-responsive-height" class="scroll" data-scroll="true" data-height="450" data-mobile-height="350">
+							<div class="card-body list-section-responsive-height" class="scroll" data-scroll="true" >
+								<!-- data-height="450" data-mobile-height="350" -->
 
 
 								<ul class="list-group">
