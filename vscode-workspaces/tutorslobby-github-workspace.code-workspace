@@ -3,5 +3,8 @@
 		{
 			"path": "../tutorslobby/dev/demo/dist"
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
 }
