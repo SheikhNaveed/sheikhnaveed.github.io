@@ -1,146 +1,77 @@
-
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
 
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Designed and developed by UI/UX designer Sheikh Naveed">
+  <title>Document</title>
+  <style>
+    html, body { height: 100% }
+    body {
+      margin: 0;
+      padding: 0;
+    }
 
+    .goBack {
+      font-family: 'HelveticaNeue', 'proxima-nova', 'open-sans', Arial, sans-serif;
+      font-size: 13px;
 
-	<!-- Mobile Metas -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+      display: flex;
+    margin: 0;
+    /* padding: 20px; */
+    height: 6.5%;
+    background: #fdd55d;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    }
 
-	<!-- Web Fonts  -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light"
-		rel="stylesheet" type="text/css">
+    .goBack .input {
+      background: none;
+    font-weight: bold;
+    border: none;
+    color: #6a5926;
+    cursor: pointer;
+    width: 40%;
+    text-align: left;
+    padding: 0 10px;
 
-	<!-- ALL CSS -->
-	<link rel="stylesheet" href="css/all.css">
+    }
 
+    .goBack div {
+    color: #6a592;
+    line-height: 1.5em;
+    /* width: 40%; */
+    text-align: right;
+    padding: 0 10px;
+      
+    }
 
+    .goBack a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #342c15;
+    }
 
-	<!-- Head Libs -->
-	<script src="js/modernizr.min.js"></script>
-
+  </style>
 </head>
 
-<body data-spy="scroll" data-target=".wrapper-spy">
+<body>
 
-	<div class="body">
-		<!-- Modal -->
-		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-			aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
+  <div class="goBack">
+    
+    <a class="input" href="https://www.sheikhnaveed.com/">Go back</a>
 
-					</div>
-					<div class="modal-body">
-						<p>Atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
-							provident, similique sunt in culpa qui, id est laborum et dolorum fuga.</p>
-						<img src="img/photo.jpeg" alt="" style="width:100%">
-					</div>
+    <div style="">Developed by <a href="https://www.sheikhnaveed.com/">SheikhNaveed</a> of <a
+        href="https://www.onepixsell.com/">OnePixSell</a> </div>
+  </div>
 
-				</div>
-			</div>
-		</div>
-		<div id="demo" class="carousel slide carousel-fade" data-ride="carousel"
-			data-interval="false">
-			<ol class="carousel-indicators pt10">
-				<li data-target="#demo" data-slide-to="0" class="active"></li>
-				<li data-target="#demo" data-slide-to="1"></li>
-				<li data-target="#demo" data-slide-to="2"></li>
-				<li data-target="#demo" data-slide-to="3"></li>
-				<li data-target="#demo" data-slide-to="4"></li>
-				<li data-target="#demo" data-slide-to="5"></li>
-				<li data-target="#demo" data-slide-to="6"></li>
-				<li data-target="#demo" data-slide-to="7"></li>
-
-			</ol>
-			<div class="stickyHeader">
-				<div class="container">
-
-					<a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a href="index.html"><img src="img/logo_newsletter.png" /></a>
-					<a class="carousel-control-next" href="#demo" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
-
-
-				</div>
-			</div>
-			<!-- <div id="header"></div> -->
-
-
-			<div class="carousel-inner">
-				<div class="carousel-item active" data-interval="100000">
-					<div id="toc"></div>
-				</div>
-				<div class="carousel-item" data-interval="100000">
-					<div id="a"></div>
-				</div>
-				<div class="carousel-item" data-interval="1000000000000">
-					<div id="b"></div>
-				</div>
-				<div class="carousel-item" data-interval="1000000000000">
-					<div id="c"></div>
-				</div>
-				<div class="carousel-item" data-interval="1000000000000">
-					<div id="d"></div>
-				</div>
-				<div class="carousel-item" data-interval="1000000000000">
-					<div id="e"></div>
-				</div>
-				<div class="carousel-item" data-interval="1000000000000">
-					<div id="f"></div>
-				</div>
-				<div class="carousel-item" data-interval="1000000000000">
-					<div id="g"></div>
-				</div>
-			</div>
-
-		</div>
-	</div> <!--   BODY DIV   -->
-
-	</div>
-
-	<!-- Vendor -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script>
-		$(function () {
-			// $("#header").load("header.html");
-			$("#toc").load("toc.html");
-			$("#a").load("a.html");
-			$("#b").load("b.html");
-			$("#c").load("c.html");
-			$("#d").load("d.html");
-			$("#e").load("e.html");
-			$("#f").load("f.html");
-			$("#g").load("g.html");
-			
-		});
-
-	
-
-		$(".test").click(function () {
-			$(this).closest('div.active').removeClass('active');
-
-			var value = $(this).attr('href');
-			alert(value);
-
-			$([id=value]).closest('div.carousel-item').addClass('active');
-
-		});
-
-		
-	</script>
-
+  <iframe name='alzome' height='93%' width='100%' scrolling='yes' src='index2.html' marginwidth='0px'
+    marginheight='0px' frameborder='0' id='myFrame' allowfullscreen> </iframe>
 </body>
 
 </html>

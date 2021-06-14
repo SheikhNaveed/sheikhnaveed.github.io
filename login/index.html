@@ -1,95 +1,77 @@
-﻿
 <!DOCTYPE html>
+
 <html lang="en">
 
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="css/img/favicon.ico">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Designed and developed by UI/UX designer Sheikh Naveed">
+  <title>Document</title>
+  <style>
+    html, body { height: 100% }
+    body {
+      margin: 0;
+      padding: 0;
+    }
 
-    <title></title>
+    .goBack {
+      font-family: 'HelveticaNeue', 'proxima-nova', 'open-sans', Arial, sans-serif;
+      font-size: 13px;
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/style-lg.css" rel="stylesheet">
+      display: flex;
+    margin: 0;
+    /* padding: 20px; */
+    height: 6.5%;
+    background: #fdd55d;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    }
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-      <![endif]-->
-  </head>
+    .goBack .input {
+      background: none;
+    font-weight: bold;
+    border: none;
+    color: #6a5926;
+    cursor: pointer;
+    width: 40%;
+    text-align: left;
+    padding: 0 10px;
 
-  <body>
-      <div class="wrapper">
-      <div class="loginBox clearfix animated bounceIn">
-            <div id="login-alert" class="alert alert-error" style="display:none;">
-            </div>
-            <div>
+    }
 
-                <a href="#" id="login-linkedIn" class="mb10 linkedInLogin wow zoomInDown" data-wow-delay="3s"><img src="css/img/linkedin_login.png" /></a>
-                <div><a href="#" id="register-linkedIn">Register with LinkedIn</a></div>
-            </div>
-            <div>
-                <form class="form-horizontal loginForm">
-                    <h6 class="mt40">Or use your account</h6>
-                    <div class="control-group">
-                        <div class="controls">
-                            <input type="text" id="username" placeholder="Username" class="wow fadeInDown" data-wow-delay="0.5s">
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <div class="controls">
-                            <input type="password" id="password" placeholder="Password" class="wow fadeInDown" data-wow-delay="1s">
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <div class="controls">
-                            <button type="submit" class="btn style1 wow fadeInDown" id="loginButton" data-wow-delay="1.5s">Sign in</button>
-                        </div>
-                    </div>
+    .goBack div {
+    color: #6a592;
+    line-height: 1.5em;
+    /* width: 40%; */
+    text-align: right;
+    padding: 0 10px;
+      
+    }
 
-                </form>
-                <div class="col-xs-4 tal pn wow fadeInLeft" data-wow-delay="2s"><a href="#" id="register">Register</a></div>
-                <div class="col-xs-8 tar pn wow fadeInRight" data-wow-delay="2.5s"><a href="#" id="resetPassword">Reset Password</a></div>
-            </div>
-        </div>
-    </div>
+    .goBack a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #342c15;
+    }
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script type="text/javascript">
-//     $('a,button').hover(
-//         function(){ $(this).toggleClass('fadeIn');},
-//         function(){$(this).toggleClass('fadeOut');}
-// );
+  </style>
+</head>
 
-// $('a,button').hover(
-//         function(){ $(this).addClass('fadeIn').removeClass('fadeOut');},
-//         function(){$(this).addClass('fadeOut').removeClass('fadeIn');}
-// );
-$('button, a').hover(
-    function () {$(this).fadeTo('fast', 0.5);},
-    function () {$(this).fadeTo('slow', 1);}
-    );
-new WOW().init();
+<body>
 
-$('<div class="loaderWrap"><div class="loader"><article class="spinnerLogo two">LOGO</article><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div></div>').prependTo('body');
+  <div class="goBack">
+    
+    <a class="input" href="https://www.sheikhnaveed.com/">Go back</a>
 
-$(window).load(function() {
-    $('.loaderWrap').fadeOut(1000);
-    $('body').fadeIn(1000);
-});
+    <div style="">Designed and developed by <a href="https://www.sheikhnaveed.com/">SheikhNaveed</a> of <a
+        href="https://www.onepixsell.com/">OnePixSell</a> </div>
+  </div>
 
-</script>
-
-
+  <iframe name='alzome' height='93%' width='100%' scrolling='yes' src='index2.html' marginwidth='0px'
+    marginheight='0px' frameborder='0' id='myFrame' allowfullscreen> </iframe>
 </body>
 
 </html>

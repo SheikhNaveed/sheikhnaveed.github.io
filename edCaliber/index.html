@@ -1,500 +1,77 @@
-
 <!DOCTYPE html>
+
 <html lang="en">
+
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<link rel="shortcut icon" href="css/img/favicon.ico">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Designed and developed by UI/UX designer Sheikh Naveed">
+  <title>Document</title>
+  <style>
+    html, body { height: 100% }
+    body {
+      margin: 0;
+      padding: 0;
+    }
 
-	<title>EdCaliber-An online currculum database</title>
+    .goBack {
+      font-family: 'HelveticaNeue', 'proxima-nova', 'open-sans', Arial, sans-serif;
+      font-size: 13px;
 
-	<!-- Bootstrap core CSS -->
-	<link href="css/style-lg.css" rel="stylesheet">
+      display: flex;
+    margin: 0;
+    /* padding: 20px; */
+    height: 6.5%;
+    background: #fdd55d;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    }
 
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!--[if lt IE 9]>
-<script src="js/html5shiv.js"></script>
-<script src="js/respond.min.js"></script>
-<![endif]-->
+    .goBack .input {
+      background: none;
+    font-weight: bold;
+    border: none;
+    color: #6a5926;
+    cursor: pointer;
+    width: 40%;
+    text-align: left;
+    padding: 0 10px;
 
-<!-- Script for Simple Line Icons < IE7 -->
-<!--[if lte IE 7]><script src="icons-lte-ie7.js"></script><![endif]-->
+    }
+
+    .goBack div {
+    color: #6a592;
+    line-height: 1.5em;
+    /* width: 40%; */
+    text-align: right;
+    padding: 0 10px;
+      
+    }
+
+    .goBack a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #342c15;
+    }
+
+  </style>
 </head>
 
 <body>
-	<!-- Fixed navbar -->
-	<div id="primary-nav" class="navbar navbar-default primary-nav wow fadeInDown " role="navigation">
-		<!--      navbar-fixed-top-->
-		<div class="container">
-			<div class="row">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a href="#" class="icon icon-arrow-left return" type="button"></a>
-					<h1 class="visible-xs col-xs-10 col-xs-push-1 tac">Curriculum Browser</h1>
-				</div>
-				<div class="collapse navbar-collapse ">
-					<h1 class=" col-sm-12 visible-sm  tac">Curriculum Browser.</h1>
 
-					<div class="col-xs-12 col-sm-6 col-md-5 dd">
-						<!-- pl0-sm -->
-						<ul class="nav navbar-nav mr10-sm">
-							<!-- ml20-md-o -->
-							<li class="dropdown white">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">ENGAGENY<b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">ENGAGENY</a></li>
-									<li><a href="#">GOMATH</a></li>
-								</ul>
-							</li>
-						</ul>
+  <div class="goBack">
+    
+    <a class="input" href="https://www.sheikhnaveed.com/">Go back</a>
 
-						<ul class="nav navbar-nav mr10-sm">
-							<li class="dropdown white">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">ELA<b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">ELA</a></li>
-									<li><a href="#">MATH</a></li>
-								</ul>
-							</li>
-						</ul>
+    <div style="">Developed by <a href="https://www.sheikhnaveed.com/">SheikhNaveed</a> of <a
+        href="https://www.onepixsell.com/">OnePixSell</a> </div>
+  </div>
 
-						<ul class="nav navbar-nav">
-							<li class="dropdown white">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">5TH <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">6TH</a></li>
-									<li><a href="#">7TH</a></li>
-									<li><a href="#">8TH</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-					<h1 class="visible-md visible-lg col-md-4 tac">Curriculum Browser..</h1>
+  <iframe name='alzome' height='93%' width='100%' scrolling='yes' src='index2.html' marginwidth='0px'
+    marginheight='0px' frameborder='0' id='myFrame' allowfullscreen> </iframe>
+</body>
 
-
-					<div class="col-xs-12 col-sm-6 col-md-3">
-						<!-- pr0-sm -->
-						<ul class="user nav navbar-nav">
-							<li class="dropdown white">
-								<a href="#" class="dropdown-toggle pr0" data-toggle="dropdown">Natasha Longname <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">Preferences</a></li>
-									<li><a href="#">Settings</a></li>
-									<li><a href="#">Logout</a></li>
-
-								</ul>
-							</li>
-						</ul>
-					</div>
-				</div><!--/.nav-collapse -->
-			</div><!--/.row -->
-		</div>
-	</div><!--/ #primary-nav -->
-
-	<!-- Begin page content -->
-	<div class="content firstLoad">
-		<div class="container">
-
-			<!-- ================================  Lesson level navigation ============================ -->            
-			<nav id="last-navigation" class="d">
-				<aside class="clearfix">
-					<section class="lesson-nav">
-
-						<nav class="mod clearfix">
-							<ul class="expandable">
-								<li><bdi>Sample text for module Sample text for module</bdi></li>
-								<li><bdi>Sample text for module Sample text for module</bdi></li>
-								<li><bdi>Sample text for module Sample text for module</bdi></li>
-								<li><bdi>Sample text for module Sample text for module</bdi></li>
-								<li><bdi>Sample text for module Sample text for module</bdi></li>
-								<li><bdi>Sample text for module Sample text for module Sample text for module Sample text for module Sample text for module Sample text for module</bdi></li>
-							</ul>
-							<article class="expander"><div class="inner"></div></article>
-						</nav>
-
-						<nav class="unit mod clearfix">
-							<ul class="expandable ">
-								<li class="assess"><bdi>Sample text for unit Sample text for unit</bdi></li>
-								<li><bdi>Sample text for unit Sample text for unit</bdi></li>
-								<li><bdi>Sample text for unit Sample text for unit</bdi></li>
-								<li><bdi>Sample text for unit Sample text for unit</bdi></li>
-								<li><bdi>Sample text for unit </bdi></li>
-								<li><bdi>Sample text</bdi></li>
-								<li><bdi>Sample text for unit Sample text for unit</bdi></li>
-								<li><bdi>Sample text for unit Sample text for unitSample text for unit Sample text for unit </bdi></li> 
-							</ul>
-							<article class="expander"><div class="inner"></div></article>
-						</nav>
-
-						<nav class="unit mod less clearfix">
-							<ul class="expandable  ">
-								<li class="assess"> <bdi>Recognize a digit represents 10 times the value</bdi></li>
-								<li> <bdi>Recognize a digit represents 10 times the value</bdi></li>
-								<li> <bdi>Recognize a digit represents 10 times the value</bdi></li>
-								<li> <bdi>Recognize a digit represents 10 times the value</bdi></li>
-								<li> <bdi>Recognize a digit represents 10 times the value</bdi></li>
-								<li class="assess"> <bdi>Recognize a digit represents 10 times the value</bdi></li>
-								<li class="assess"> <bdi>Recognize a digit represents 10 times the value</bdi></li>
-								<li> <bdi>Recognize a digit represents 10 times the value</bdi></li>
-								<li class="assess"> <bdi>Recognize a digit represents 10 times the value</bdi></li>
-								<li> <bdi>Recognize a digit represents 10 times the value</bdi></li>
-								<li> <bdi>Recognize a digit represents 10 times the value</bdi></li>
-								<li> <bdi>Recognize a digit represents 10 times the value</bdi></li>
-								<li> <bdi>Recognize a digit represents 10 times the value</bdi></li>
-								<li> <bdi>Recognize a digit represents 10 times the value</bdi></li>
-								<li> <bdi>Recognize a digit represents 10 times the value</bdi></li>
-								<li> <bdi>Recognize a digit represents 10 times the value</bdi></li>
-								<li> <bdi>Recognize a digit represents 10 times the value</bdi></li>
-								<li class="assess"> <bdi>Recognize a digit represents 10 times the value Recognize a digit represents 10 times the value</bdi></li>
-
-							</ul>
-							<article class="expander"><div class="inner"></div></article>
-						</nav>
-
-					</section>
-				</aside>
-			</nav>
-
-			<div class="clearfix mb20"></div>
-
-			<!--=========================== starts body content ===========================-->
-
-		</div> <!--/ container -->
-		<div class="container spinner">
-
-			<div class="level">Unit 1</div>
-			<h1 class="level-name">Building Background Knowledge about the Haudenosaunee: The Great Peacemakers</h1>
-			<div class="duration"><i class="icon icon-clock"></i>9 Days</div>
-			<div class="row">
-				
-				<aside class="col-sm-9 left-column">
-					
-					<article class="clearfix london">
-						<header class="clearfix"><h1 class="col-sm-9">Agenda</h1></header>
-						<section class="clearfix eqHeighter">
-							<aside class="col-sm-8 agenda" >
-								<ol class="row">
-									<li class="clearfix">
-										<div class="col-sm-9"><b>1. Opening</b> <span>Engaging the Reader: Mystery Activity</span></div>
-										<div class="col-sm-3 time"><i class="icon icon-clock"></i><bdi>10 min</bdi></div>
-									</li>
-									<li class="clearfix">
-										<div class="col-sm-9"><b>2. Work Time</b> <span>Getting Started: Reading about the 
-											Iroquois</span></div>
-											<div class="col-sm-3 time"><i class="icon icon-clock"></i><bdi>25 min</bdi> </div>
-										</li>
-										<li class="clearfix">
-											<div class="col-sm-9"><b>3. Closing and Assessment</b> <span>Debrief</span></div>
-											<div class="col-sm-3 time"><i class="icon icon-clock"></i><bdi>10 min</bdi> </div>
-										</li>
-										<li class="clearfix">
-											<div class="col-sm-9"><b>4. Homework</b> <span>Engaging the Reader: Mystery Activity</span></div>
-											<div class="col-sm-3 time"><i class="icon icon-clock"></i><bdi>5 min</bdi> </div>
-										</li>
-									</ol>
-								</aside>
-								<aside class="col-sm-4 over-view-image" >
-									<div class="material" onclick="window.location='css/img/G5M.pdf';">
-										<img src="css/img/over-view-image.png" alt="Over View Image">
-										<div class="options animated">
-											<a href=""><i class="fa-print fa"></i></a>
-											<!--										<a href=""><i class="icon icon-share"></i></a>-->
-											<a href=""><i class="fa-download fa"></i></a>
-											<!--										<a href=""><i class="icon icon-share-alt"></i></a>-->
-
-										</div>
-										<div class="info animated">
-											<p class="col-xs-10">Source: Engage NY<br>10 pages</p>
-											<i class="col-xs-2">
-												<svg xmlns:xlink="http://www.w3.org/1999/xlink" id="doc-pdf" xml:space="preserve" height="105" viewBox="0 0 105 105" width="105" version="1.1" y="630" x="0px" enable-background="new 0 0 105 105">	<path d="m90.676 39.912h-76.352v-26.146c0-5.348 4.334-9.684 9.684-9.684h39.492l27.176 27.598v8.232z" fill="#E7282B"/>	<polygon points="90.676 31.68 63.5 31.68 63.5 4.082" fill="#921E24"/>	<rect y="36.369" x="14.324" height="3.543" width="76.352" fill="#921E24"/>	<path d="m76.203 76.922c-1.137-1.791-5.082-2.166-8.191-2.166-1.672 0-3.6 0.115-5.693 0.357-1.465-0.836-2.889-1.777-4.178-2.803-3.246-2.662-5.66-7.191-7.176-11.738 1.359-4.938 2.188-12.646 0.51-14.42-0.938-0.992-3.062-1.311-4.117 1.045-1.318 2.953-0.416 8.387 1.189 13.648-1.012 3.516-2.564 7.775-5.059 12.803-1.652 3.318-3.186 6.189-4.613 8.637-6.172 1.793-10.25 7.154-10.674 9.273-0.127 0.619-0.061 1.107 0.189 1.412l0.16 0.088-0.016 0.031 1.189 0.609c0.355 0.184 0.746 0.275 1.158 0.275 2.711 0 6.516-4.195 11.332-12.49 5.287-1.885 12.562-3.402 19.16-4.074 4.18 2.227 8.754 3.518 11.672 3.518 2.287 0 3.203-1.877 3.203-1.877 0.459-0.974 0.229-1.695-0.045-2.128zm-46.058 15.435c0.303-1.652 3.865-5.844 8.107-9.018-3.354 5.577-6.057 8.61-8.107 9.018zm19.751-45.572c0.9-0.02 0.857 5.651-0.164 9.223-0.748-3.62-1.003-9.201 0.164-9.223zm-6.873 33.277c0.855-1.52 1.738-3.15 2.658-4.918 2.09-4.029 3.43-7.4 4.303-10.381 1.547 3.605 3.674 6.949 6.377 9.279 0.666 0.568 1.381 1.109 2.127 1.621-4.912 0.843-10.365 2.286-15.465 4.399zm31.104-0.916c-1.877 0-4.781-0.766-7.854-2.076 0.625-0.02 1.244-0.035 1.838-0.035 3.723 0 6.457 0.26 6.834 1.086 0.192 0.418-0.259 1.025-0.818 1.025z" fill="#C62129"/>	<path stroke-linejoin="round" d="m90.676 31.68l-27.176-27.598h-39.492c-5.35 0-9.684 4.336-9.684 9.684v77.469c0 5.35 4.334 9.684 9.684 9.684h56.984c5.348 0 9.684-4.334 9.684-9.684v-59.556" stroke="#921E24" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" fill="none"/></svg>
-											</i>
-										</div>
-									</div>
-									<a href="css/img/G5M.pdf">Unit Overview Packet</a></aside>
-								</section>
-							</article>
-
-							<article class="clearfix london">
-								<header class="clearfix"><h1 class="col-sm-9">Unit Overview</h1></header>
-								<section class="clearfix eqHeighter">
-									<aside class="col-sm-8 ptb10"><p>In this first unit, students read, write, listen, and speak to begin to understand the founding and structure of the Haudenosaunee, or Iroquois, Confederacy. </p><p> The unit begins with students discovering that a character in a video about the Iroquois Confederacy fails to explain the symbol on his T−shirt. </p><p>This leads students to discover an honored symbol of the  Iroquois Nation.  </p><p>
-										Students will read about the creation of the Iroquois Confederacy through the actions of the Great Peacemaker.  </p><p>Students then will tackle challenging text as they hear and read short selections from a recounting of the Haudenosaunee Great Law of Peace, or...</p>
-									</aside>
-									<aside class="col-sm-4 over-view-image"><img src="css/img/over-view-image.png" alt="Over View Image"><a href="">Unit Overview Packet</a></aside>
-								</section>
-							</article>
-
-							<article class="clearfix london">
-								<header class="clearfix"><h1 class="col-sm-9">Guiding Questions</h1></header>
-								<aside class="col-sm-12 ptb10 clearfix">
-									<ul class="disc">
-										<li>How can our school community benefit from the beliefs and agreements of the Iroquois?</li>
-										<li>Peace can be created and sustained through agreements and actions.</li>
-										<li>Clear communication improves communities.</li>
-									</ul>
-								</aside>
-							</article>
-
-							<article class="clearfix london">
-								<header class="clearfix"><h1 class="col-sm-9">Big Ideas</h1></header>
-								<aside class="col-sm-12 ptb10 clearfix">
-									<ul class="disc">
-										<li>Big Idea 01</li>
-										<li>Big Idea 02</li>
-										<li>Big Idea 03</li>
-									</ul>
-								</aside>
-							</article>
-
-							<article class="clearfix london">
-								<header class="clearfix"><h1 class="col-sm-9">Objectives</h1></header>
-								<aside class="col-sm-12 ptb10 clearfix objectives">
-									<ol class="">
-
-										<li>Long−Term Targets Addressed (Based on NYSP12 ELA CCLS)
-											<ul class="">
-												<li><i>I can explain what a text says using specific details from the text.</i> <a href="">(RI.4.1)</a></li>
-												<li><i>I can engage effectively in a collaborative discussion. </i><a href="">(SL.4.4)</a></li>
-											</ul>
-										</li>
-
-										<li>
-											Supporting Learning Targets
-											<ul>
-												<li><i>I can notice new ideas and wonder about the lives of people long ago.</i></li>
-												<li>I can answer questions using specific details from a text.</li>
-												<li>I can demonstrate what I know by contributing to discussions.</li>
-											</ul>
-										</li>
-
-									</ol>
-								</aside>
-							</article>
-
-							<article class="clearfix london">
-								<header class="clearfix"><h1 class="col-sm-9">Key Vocabulary</h1></header>
-								<aside class="col-sm-12 ptb10 objectives">
-									<h4>Key Vocabulary</h4>
-									<ul>
-										<li>Details
-
-											<ul>
-												<li>Details</li>
-												<li>Contribute</li>
-												<li>Discussion</li>
-												<li>Notice</li>
-											</ul>
-
-
-										</li>
-										<li>Contribute</li>
-										<li>Discussion</li>
-										<li>Notice</li>
-									</ul>
-								</aside>
-							</article>
-
-							<article class="clearfix london">
-								<header class="clearfix"><h1 class="col-sm-8 col-md-9">Materials</h1><div class="col-sm-4 col-md-3 action"><a href=""><i class="icon icon-plus"></i>Add new</a></div></header>
-								<section class="clearfix">
-
-									<header class="materials clearfix">
-										<!-- Nav tabs -->
-										<ul class="main col-sm-9 col-md-10">
-											<li class="active"><a href="#required" data-toggle="tab">Required <span>(7)</span></a></li>
-											<li><a href="#supplemental" data-toggle="tab">Supplemental <span>(3)</span></a></li>
-										</ul>
-
-
-										<ul class="view-styles col-sm-3  col-md-2">
-											<li class="disabled"><a href="#"><i class="icon icon-grid"></i></a></li>
-											<li class=""><a href="#"><i class="icon icon-list"></i></a></li>
-										</ul>
-									</header>
-									<aside class="col-sm-12 ptb10 clearfix">
-										<!-- Tab panes -->
-										<div class="tab-content">
-											<div class="tab-pane active" id="required">
-
-												<div class="materials clearfix row">
-													<h4 class="col-sm-12">Teacher Materials</h4>
-													<div class="col-sm-4">
-														<img src="css/img/over-view-image.png" alt="Over View Image">
-														<a href="">Answer Sheet for XYZ</a>
-													</div>
-													<div class="col-sm-4">
-														<img src="css/img/over-view-image.png" alt="Over View Image">
-														<a href="">Answer Sheet for XYZ</a>
-													</div>
-													<div class="col-sm-4">
-														<img src="css/img/over-view-image.png" alt="Over View Image">
-														<a href="">Answer Sheet for XYZ</a>
-													</div>
-												</div>
-
-												<div class="materials clearfix row">
-													<h4 class="col-sm-12">Student Materials</h4>
-													<div class="col-sm-4">
-														<img src="css/img/over-view-image.png" alt="Over View Image">
-														<a href="">I Notice/I Wonder note−catcher</a>
-													</div>
-													<div class="col-sm-4">
-														<img src="css/img/over-view-image.png" alt="Over View Image">
-														<a href="">Here is a Student Worksheet Title</a>
-													</div>
-													<div class="col-sm-4">
-														<img src="css/img/over-view-image.png" alt="Over View Image">
-														<a href="">I Notice/I Wonder graphic organizer</a>
-													</div>
-												</div>
-
-												<div class="books clearfix row">
-													<h4 class="col-sm-12">Books</h4>
-													<div class="col-sm-2">
-														<img src="css/img/book01.png" alt="Book">
-													</div>
-													<div class="col-sm-10">
-														<a href="">Rain School</a> by James Rumford
-														<br>Publisher: New York: Houghton Mifflin Harcourt, 2010
-														<br>ISBN-13: 978-0 547-24307-8, ISBN-10: 0-547-24307-3. 
-													</div>
-													<div class="clearfix mb20"></div>
-
-													<div class="col-sm-2">
-														<img src="css/img/book02.png" alt="Book">
-													</div>
-													<div class="col-sm-10">
-														<a href="">Rain School</a> by James Rumford
-														<br>Publisher: New York: Houghton Mifflin Harcourt, 2010
-														<br>ISBN-13: 978-0 547-24307-8, ISBN-10: 0-547-24307-3. 
-													</div>
-													<div class="clearfix mb20"></div>
-
-													<div class="col-sm-2">
-														<img src="css/img/book03.png" alt="Book">
-													</div>
-													<div class="col-sm-10">
-														<a href="">Rain School</a> by James Rumford
-														<br>Publisher: New York: Houghton Mifflin Harcourt, 2010
-														<br>ISBN-13: 978-0 547-24307-8, ISBN-10: 0-547-24307-3. 
-													</div>
-													<div class="clearfix mb20"></div>
-
-													<div class="col-sm-2">
-														<img src="css/img/book04.png" alt="Book">
-													</div>
-													<div class="col-sm-10">
-														<a href="">Rain School</a> by James Rumford
-														<br>Publisher: New York: Houghton Mifflin Harcourt, 2010
-														<br>ISBN-13: 978-0 547-24307-8, ISBN-10: 0-547-24307-3. 
-													</div>
-												</div>
-
-											</div><!-- / required -->
-
-
-											<div class="tab-pane" id="supplemental">Supplemental (3)</div>
-										</div>
-									</aside>
-								</section>
-
-							</article>
-
-
-
-						</aside><!--/ leftColumn-->
-
-						<aside class="col-sm-3 side-bar">
-							<article class="standards">
-								<h4>Standards Covered</h4>
-								<ul>
-									<li><a href="">L.5.4</a></li>
-									<li><a href="">RI.5.1</a></li>
-									<li><a href="">L.5.4</a></li>
-									<li><a href="">RI.5.1</a></li>
-									<li><a href="">L.5.4</a></li>
-									<li><a href="">RI.5.1</a></li>
-									<li><a href="">L.5.4</a></li>
-									<li><a href="">RI.5.1</a></li>
-								</ul>
-							</article>
-
-							<article class="">
-								<h4>Assessments</h4>
-								<ul>
-									<li><a href="">Mid−Unit 1 Assessment: Answering Questions with Evidence from Text</a></li>
-									<li><a href="">End of unit 1 Assessment: Paragraph to Explain the Symbols on My Flag</a></li>
-									<li><a href="">End of unit 1 Assessment: Paragraph to Explain the Symbols on My Flag</a></li>
-								</ul>
-							</article>
-
-
-
-						</aside><!--/ sideBar-->
-					</div>
-
-					<!--=========================== ends body content ===========================-->
-				</div> <!--/ container -->
-			</div> <!--/ content -->
-
-			<!--=========================== starts footer ===========================-->
-			<footer>
-				<div id="footer" class="wow fadeInDown">
-					<aside class="container">
-						<article class="row">
-							<div class="col-xs-5 col-sm-2">
-								<a href="">
-									<h1><img src="css/img/school-logo.png" alt=""></h1>
-								</a>
-							</div>
-							<div class="col-xs-7 col-sm-3 col-sm-push-7 tar">
-								<a href="">
-									<h1><img src="css/img/logo-edCaliber.png" alt=""></h1>
-								</a>
-							</div>
-							<div class="col-xs-12 col-sm-7 col-sm-pull-3">
-								<ul>
-									<li class="feedback"><a>Feedback</a></li>
-									<li><a>Privacy</a></li>
-									<li><a>DMCA</a></li>
-									<li><a >Terms</a></li>
-									<li class="copyright"><a >2009-2014 All rights reserved.</a></li>
-								</ul>
-							</div>
-						</article>
-					</aside>
-				</div>
-				<div id="bottom-footer">
-					<aside class="container">
-						<div class="row">
-							<div class="col-sm-6 mb10-xs">From <a href="EngageNY.org">EngageNY.org</a> of the New York State Education Department. Licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">CC BY-NC-SA 3.0</a>
-							</div>
-
-							<div class="col-sm-6 tar-sm">
-								Available from <a href="http://www.engageny.org/resource/grade-1-english-language-arts">http://www.engageny.org/resource/grade-1-english-language-arts</a>
-							</div>
-						</div>
-					</aside>
-				</div>
-			</footer>
-			<!--========================== scripts ==========================-->
-			<script src="js/jquery.min.js"></script>
-			<script src="js/bootstrap.min.js"></script>
-			<script src="js/wow.min.js"></script>
-			<script src="js/jquery.matchHeight-min.js"></script>
-			<script src="js/custom.js"></script>
-
-			// <script type="text/javascript">
-			// 	$('<div class="loaderWrap"><div class="loader"><article class="spinnerLogo two"></article><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div></div>').prependTo('.spinner');
-			// </script>
-
-		</body>
-		</html>
+</html>

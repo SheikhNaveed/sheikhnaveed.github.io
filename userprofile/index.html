@@ -1,207 +1,77 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
 
 <head>
-	<title>Permitted</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Bootstrap -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Designed and developed by UI/UX designer Sheikh Naveed">
+  <title>Document</title>
+  <style>
+    html, body { height: 100% }
+    body {
+      margin: 0;
+      padding: 0;
+    }
 
-	<link href="css/font-awesome.min.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
+    .goBack {
+      font-family: 'HelveticaNeue', 'proxima-nova', 'open-sans', Arial, sans-serif;
+      font-size: 13px;
 
-	<link href="css/bootstrap-editable.css" rel="stylesheet">
-	<link href="css/bootstrap.css" rel="stylesheet">
+      display: flex;
+    margin: 0;
+    /* padding: 20px; */
+    height: 6.5%;
+    background: #fdd55d;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    }
 
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-	<!--[if lt IE 8]>
-	<link href="css/bootstrap-ie7.css" rel="stylesheet">
-	<![endif]-->
+    .goBack .input {
+      background: none;
+    font-weight: bold;
+    border: none;
+    color: #6a5926;
+    cursor: pointer;
+    width: 40%;
+    text-align: left;
+    padding: 0 10px;
 
+    }
+
+    .goBack div {
+    color: #6a592;
+    line-height: 1.5em;
+    /* width: 40%; */
+    text-align: right;
+    padding: 0 10px;
+      
+    }
+
+    .goBack a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #342c15;
+    }
+
+  </style>
 </head>
 
 <body>
-	<section class="equalHeighter">
 
-		<header class="col-sm-2 equalHeighted header">
+  <div class="goBack">
+    
+    <a class="input" href="https://www.sheikhnaveed.com/">Go back</a>
 
-			<article class="profilePic">
+    <div style="">Designed and developed by <a href="https://www.sheikhnaveed.com/">SheikhNaveed</a> of <a
+        href="https://www.onepixsell.com/">OnePixSell</a> </div>
+  </div>
 
-				<img src="css/img/profilePic.jpg" alt="">
-				<br>
-				<a href="">ADAM JOHN</a>
-				<br>
-				<p>Public Profile</p>
-
-
-
-			</article>
-			<!-- Nav tabs -->
-			<ul class="nav nav-pills nav-stacked profileNav">
-				<li class="active">
-					<a href="#contactInformation" data-toggle="tab">
-						<i class="fa fa-th-list"></i>
-						<span>Contact Information</span>
-					</a>
-				</li>
-				<li>
-					<a href="#profile" data-toggle="tab">
-						<i class="fa fa-user"></i>
-						<span>Introductions</span>
-					</a>
-				</li>
-				<li>
-					<a href="#messages" data-toggle="tab">
-						<i class="fa fa-pencil"></i>
-						<span>Qualifications</span>
-					</a>
-				</li>
-				<li>
-					<a href="#settings" data-toggle="tab">
-						<i class="fa fa-globe"></i>
-						<span>My Company</span>
-					</a>
-				</li>
-			</ul>
-
-		</header>
-		<aside class="col-sm-10 equalHeighted profileDetail">
-			<!-- Tab panes -->
-			<div class="tab-content">
-
-				<!--				================================================== Contact Information ===========================-->
-				<div class="tab-pane active fade in" id="contactInformation">
-
-					<header class="informationHeader clearfix">
-						<div class="col-xs-9"><h6>CONTACT INFORMATION</h6></div>
-						<div class="col-xs-3 tar"><a class="btn btn-success  " href="#" id="enable">
-  <i class="fa fa-pencil"></i> Edit</a></div>
-						
-						
-						
-					</header>
-
-					<ul class="information">
-						<li>
-							<span>Login Email:</span>
-							<a href="#" id="username" data-type="email" data-pk="1" data-placeholder="Required" class="editable">abc@gmail.com</a>
-						</li>
-						<li>
-							<span>Company:</span>
-							<a href="#" id="company" data-type="text" data-pk="1">Google.com</a>
-						</li>
-						<li>
-							<span>Team:</span>
-							<a href="#" id="team" data-type="text" data-pk="1">Adam Jean</a>
-						</li>
-						<li>
-							<span>First Name:</span>
-							<a href="#" id="firstName" data-type="text" data-pk="1">Willem Gous</a>
-						</li>
-						<li>
-							<span>Surname:</span>
-							<a href="#" id="surName" data-type="text" data-pk="1">Saqi</a>
-						</li>
-						<li>
-							<span>Street Line 1:</span>
-							<a href="#" id="stree1" data-type="text" data-pk="1">Schtick</a>
-						</li>
-						<li>
-							<span>Street Line 2:</span>
-							<a href="#" id="street2" data-type="text" data-pk="1">123 Main</a>
-						</li>
-						<li>
-							<span>City:</span>
-							<a href="#" id="city" data-type="text" data-pk="1">Karachi</a>
-						</li>
-						<li>
-							<span>State:</span>
-							<a href="#" id="state" data-type="text" data-pk="1">NY</a>
-						</li>
-						<li>
-							<span>Postcode:</span>
-							<a href="#" id="postCode" data-type="number" data-pk="1">74200</a>
-						</li>
-						<li>
-							<span>Contact Number:</span>
-							<a href="#" id="contact" data-type="number" data-pk="1">0400123123</a>
-						</li>
-						<li>
-							<span>SMS Number:</span>
-							<a href="#" id="sms" data-type="number" data-pk="1">0400123123</a>
-						</li>
-						<li>
-							<span>Emergency Contact Name:</span>
-							<a href="#" id="eContact1" data-type="text" data-pk="1">My Boss</a>
-						</li>
-						<li>
-							<span>Emergency Contact Number:</span>
-							<a href="#" id="eContact2" data-type="number" data-pk="1">0400123123</a>
-						</li>
-					</ul>
-
-
-				</div>
-				<!--				/ #contactInformation-->
-				<div class="tab-pane fade" id="profile">Introductions</div>
-				<div class="tab-pane fade" id="messages">Qualifications</div>
-				<div class="tab-pane fade" id="settings">My Company</div>
-			</div>
-		</aside>
-	</section>
-
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="js/jquery.js"></script>
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/bootstrap-editable.min.js"></script>
-
-
-	<!-- Responsive equal height that automatically take care of responsiveness i.e. it don't work <768 	http://jsliang.com/eqHeight.coffee/demo.html -->
-	<script src="js/jquery.eqheight.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$(".equalHeighter").eqHeight();
-		});
-	</script>
-
-	<script>
-		$(document).ready(function() {
-			//toggle `popup` / `inline` mode
-			$.fn.editable.defaults.mode = 'popup';
-
-			//make username editable
-			$('#username').editable({
-        validate: function(value) {
-           if($.trim(value) == '') return 'This field is required';
-        }
-    });
-			$('#company').editable();
-			$('#team').editable();
-			$('#firstName').editable();
-			$('#surName').editable();
-			$('#stree1').editable();
-			$('#street2').editable();
-			$('#city').editable();
-			$('#state').editable();
-			$('#postCode').editable();
-			$('#contact').editable();
-			$('#sms').editable();
-			$('#eContact1').editable();
-			$('#eContact2').editable();
- //enable / disable
-   $('#enable').click(function() {
-       
-       $('.editable').editable('toggleDisabled');
-   });
-
-		});
-	</script>
-
+  <iframe name='alzome' height='93%' width='100%' scrolling='yes' src='index2.html' marginwidth='0px'
+    marginheight='0px' frameborder='0' id='myFrame' allowfullscreen> </iframe>
 </body>
 
 </html>
